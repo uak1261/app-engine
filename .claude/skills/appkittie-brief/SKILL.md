@@ -11,7 +11,15 @@ No database. Pull fresh data from AppKittie every run (the `appkittie` MCP tools
 
 AppKittie `minRevenue` / `maxRevenue` / `minDownloads` are **monthly estimates in USD**. Compute Unix timestamps for date filters from today's date.
 
-## Credit budget: hard cap 300 per run
+## Run mode: pick by weekday (America/Chicago)
+
+- **Monday = FULL run** (cap 275 credits): follow Steps 1-6 below and output the full Top 5 brief.
+- **Tuesday-Friday = DAILY PULSE** (hard cap 60 credits): follow the "Daily pulse" section at the end. Do not run the full steps.
+- A run explicitly labeled TEST or FULL by the person always uses the full run.
+
+Monthly budget this targets: ~275 + 4 × 60 ≈ 515 credits/week ≈ 2,200/month.
+
+## Credit budget (full run): hard cap 275
 
 | Step | Tool | Credits |
 |---|---|---|
@@ -21,7 +29,7 @@ AppKittie `minRevenue` / `maxRevenue` / `minDownloads` are **monthly estimates i
 | Niche depth check, 5 niches × 8 apps | `search_apps` with `search` = niche keyword | ~40 |
 | Reviews, 5 niche leaders × 15 | `get_app_reviews` (`maxReviews: 15`, country US) | ~75 |
 
-Track credits as you go. Stop expanding when you near 300.
+Track credits as you go. Stop expanding when you near 275 (cut reviews to 10 per app first).
 
 ## Step 1: Sweeps (exact filters)
 
@@ -121,3 +129,33 @@ Credits used: ~N · Apps scanned: N · Niches evaluated: N · Data: AppKittie es
 ```
 
 Tone: lead with the decision, no filler, no em dashes.
+
+## Daily pulse (Tuesday-Friday): hard cap 60 credits
+
+Purpose: catch new entrants and fast movers between Monday briefs, and go deep on one idea. No stored state, so do not claim to know Monday's Top 5.
+
+1. **New entrants (20 credits):** `search_apps`, common filters, `releasedAfter` = 45 days ago, `minRevenue: 20000`, `sortBy: revenue`, `limit: 20`.
+2. **Movers (20 credits):** `search_apps`, common filters, `releasedAfter` = 24 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `sortBy: revenue_growth`, `limit: 20`. Ignore growth above 1,000%.
+3. Apply the Step 2 hard screen to both lists.
+4. **Spotlight (≤ 20 credits):** pick the single strongest survivor. `get_app_detail` on it (1), a niche depth check with `search_apps` (`search` = niche keyword, `limit: 8`), and `get_app_reviews` with `maxReviews: 10`.
+
+Output (final message is the email):
+
+```
+# AppKittie Daily Pulse: <Weekday, Mon D, YYYY>
+
+## Today's signal
+<2 sentences: the most important new entrant or mover and why it matters for a $30-50K/mo build>
+
+## New entrants worth watching (max 5)
+| App | Niche | Monthly rev · dl | Released | Why it matters |
+
+## Fast movers (max 5)
+| App | Niche | Monthly rev | 30d rev growth | Read |
+
+## Spotlight: <Niche>
+- Evidence, publishers ≥ $30K/mo in niche, pricing, top review complaints (quotes), wedge, $500 smoke test, kill risk.
+
+## Run stats
+Credits used: ~N of 60
+```
