@@ -1,0 +1,3 @@
+[mcp_servers.appkittie]
+url = "https://mcp.appkittie.com/mcp"
+bearer_token_env_var = "APPKITTIE_API_KEY"

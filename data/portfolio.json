@@ -1,0 +1,8 @@
+{
+  "policy_version": "1.0",
+  "target": {"metric": "gross_subscription_mrr_usd", "low": 30000, "high": 50000, "months": 6, "start_date": null},
+  "limits": {"active_ideas": 20, "finalists": 5, "experiments": 2, "builds": 1},
+  "founder_assumptions": {"hours_per_week": 8, "mvp_hours_max": 40, "test_budget_per_idea_usd": 500, "monthly_acquisition_budget_usd": null, "total_risk_budget_usd": null, "apple_fee_rate": null},
+  "ideas": [],
+  "decisions": []
+}
