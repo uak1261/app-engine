@@ -1,161 +1,175 @@
 ---
 name: appkittie-brief
-description: Produce the recurring Top 5 app opportunity brief from live AppKittie data. Use when asked to run the AppKittie brief, the idea incubation brief, or to find apps with $30-50K/month potential.
+description: Produce the recurring AppKittie opportunity brief (Monday full run, Tue-Fri daily pulse) that finds app ideas a small team can take to $30-50K MRR. Use when asked to run the AppKittie brief, the idea incubation brief, or to vet app opportunities.
 ---
 
-# AppKittie Top 5 Opportunity Brief
+# AppKittie Opportunity Engine
 
-Goal: from live AppKittie data, pick the 5 app opportunities a 1-2 person team could realistically take to **$30K-$50K revenue per month** within 6-9 months, and explain why in a brief an executive reads in 3 minutes.
+**Job:** find app opportunities that deserve a **test**, not a build. A high score earns a $500 test. Only a passed test earns a build. Treat each app as an experiment in a portfolio that targets **$30-50K MRR in total**.
 
-No database. Pull fresh data from AppKittie every run (the `appkittie` MCP tools, or the MCP server over HTTP at `https://mcp.appkittie.com` with `Authorization: Bearer $APPKITTIE_API_KEY`). Never print the key. Every number in the brief must come from an AppKittie result in this run. If AppKittie fails (401, network, MCP error), stop and output `AppKittie Brief FAILED` with the exact error; never fabricate.
+**Rules that override everything else**
+- No database. Pull fresh data every run from the `appkittie` MCP tools, or from the MCP server over HTTP at `https://mcp.appkittie.com` with `Authorization: Bearer $APPKITTIE_API_KEY`. Never print the key.
+- **AppKittie figures are estimates.** Label them "est." and say "unknown" when a field is missing. Never turn a missing field into zero.
+- Every number must come from AppKittie in this run, or be a labeled **assumption** from the founder profile.
+- If AppKittie fails (401, network or MCP error), stop and output `AppKittie Brief FAILED` with the exact error.
+- **Recommending fewer than 5 is fine.** If nothing passes the gates, say so and show the closest misses.
+- `minRevenue` / `maxRevenue` / `minDownloads` are monthly USD estimates. `countries` filters by language, not storefront. Work out Unix timestamps from today's date.
+- Oversized results are saved to a file. Read them with `jq` and pull only the fields you need; never page through the raw JSON.
 
-AppKittie `minRevenue` / `maxRevenue` / `minDownloads` are **monthly estimates in USD**. Compute Unix timestamps for date filters from today's date.
+## Founder profile (assumptions: edit here, cite them in the brief)
 
-## Run mode: pick by weekday (America/Chicago)
+| Parameter | Value |
+|---|---|
+| Build budget for a useful first version | **40 focused dev hours** (30-50 range) on a shared stack: Next.js/Supabase back end, Expo or Swift app, RevenueCat, a hosted LLM API |
+| Launch cadence the engine feeds | 1 launch every 3-4 weeks, plus 2-3 positioning or creative tests a week |
+| Test budget per idea | $500 |
+| Channels the founder can actually work | Meta ads, TikTok/IG creators (paid seeding), ASO/keyword search, LinkedIn and professional networks, niche communities (Reddit, Facebook groups) |
+| Store fee | 15% (Apple Small Business Program; assume enrolled) |
+| Economics scenarios: conservative / base / upside | Monthly churn 15% / 10% / 6% · install-to-paid 2% / 3% / 5% · US iOS cost per install $5 / $3.50 / $2 · refunds 3% |
+| Variable cost | Estimate the LLM/API cost per active payer per month from the features (e.g. vision or transcription ≈ $0.50-2) |
 
-- **Monday = FULL run** (cap 275 credits): follow Steps 1-6 below and output the full Top 5 brief.
-- **Tuesday-Friday = DAILY PULSE** (hard cap 60 credits): follow the "Daily pulse" section at the end. Do not run the full steps.
-- A run explicitly labeled TEST or FULL by the person always uses the full run.
+## Run mode (weekday in America/Chicago)
 
-Monthly budget this targets: ~275 + 4 × 60 ≈ 515 credits/week ≈ 2,200/month.
+- **Monday: FULL run, hard cap 300 credits.** Stages 1-4 below.
+- **Tuesday to Friday: DAILY PULSE, hard cap 60 credits.** See the section at the end.
+- A run the person labels TEST or FULL always uses the full run.
+- Budget: about 540 credits a week, about 2,350 a month. The plan refills monthly with about 4,700, leaving room for ad-hoc deep dives.
 
-## Credit budget (full run): hard cap 275
+---
 
-| Step | Tool | Credits |
-|---|---|---|
-| 4 sweeps × 35 apps | `search_apps` | ~140 |
-| Detail on 15 finalists | `get_app_detail` | 15 |
-| 90d revenue trend on 8 | `get_app_historicals` (metrics: revenue, downloads; period 90d) | 8 |
-| Niche depth check, 5 niches × 8 apps | `search_apps` with `search` = niche keyword | ~40 |
-| Reviews, 5 niche leaders × 15 | `get_app_reviews` (`maxReviews: 15`, country US) | ~75 |
+## Stage 1: Discovery (about 160 credits)
 
-Track credits as you go. Stop expanding when you near 275 (cut reviews to 10 per app first).
+Shared filters: `excludedCategories: ["games"]`, `countries: ["US"]`. Research each store on its own; never mix iOS and Android figures in one number.
 
-## Step 1: Sweeps (exact filters)
+| Lane | Store | Filters | Limit | Why |
+|---|---|---|---|---|
+| A. Recent breakouts | apple_mobile | `releasedAfter` 18 months ago, `minRevenue` 20000, `sortBy: revenue` | 35 | New apps already monetizing, whatever their channel. No ads filter. |
+| B. Established, underserved | apple_mobile | `releasedBefore` 24 months ago, `minRevenue` 30000, `maxRevenue` 300000, `maxRating` 4.4, `minReviews` 500 | 35 | Demand that lasts, with leaders users are unhappy with |
+| C. Sustained growers | apple_mobile | `releasedAfter` 36 months ago, `minRevenue` 30000, `sortBy: revenue_growth` | 30 | Momentum. Throw out growth above 1,000% (small-base or data artifacts) |
+| D. Android breakouts | google_mobile | `releasedAfter` 18 months ago, `minRevenue` 15000, `sortBy: revenue` | 30 | Android-first demand and cross-store confirmation |
+| E. Organic engines | apple_mobile | `releasedAfter` 24 months ago, `minRevenue` 20000, `organicSources: ["tiktok","instagram","youtube"]`, `hasMetaAdSpend: false` | 30 | Apps growing without paid ads |
 
-Common to all sweeps: `source: apple_mobile`, `countries: ["US"]`, `excludedCategories: ["games"]`, `limit: 35`.
+## Stage 2: Exclusions, then group into niches
 
-| Sweep | Extra filters | Purpose |
-|---|---|---|
-| A. Paid-proven newcomers | `releasedAfter` = 18 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `hasMetaAdSpend: true`, `sortBy: revenue` | New apps already earning in our band with ads that pay back |
-| B. Revenue accelerators | `releasedAfter` = 24 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `sortBy: revenue_growth` | Rising niches right now. Ignore any `revenue_growth_30d` above 1,000%: those are data artifacts from old or non-US apps |
-| C. Lean high-ARPU | `releasedAfter` = 24 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `maxDownloads: 50000`, `sortBy: revenue` | Earns well per user: small teams win here |
-| D. TikTok-proven | `releasedAfter` = 18 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `hasTikTokAds: true`, `sortBy: revenue` | Second paid channel with proven economics |
+**Always exclude:**
+- Big Tech or household-brand publishers, and studios with 10 or more hits.
+- Licensed or pirated content (IPTV, streaming aggregators, downloaders, VPN).
+- Regulated categories: diagnosis, prescribing, lending, gambling, crypto trading.
+- Adult or dating apps.
+- Two-sided marketplaces and social networks.
+- Apps that need hardware or proprietary data.
+- Apps that infringe platform terms (e.g. Instagram follower scrapers).
 
-Dedupe by app slug.
+Group the survivors into narrowly named niches. **Flags to investigate, never automatic rejects:**
+- Revenue down more than 25% over 90 days. Reject only if downloads, MAU and rating confirm it. Mention seasonality.
+- Meta spend above 60% of revenue. Ad spend and subscription revenue come from different cohorts, so this only means "paid-dependent". Record it as distribution risk.
+- Revenue per download is **directional only**. It is not LTV. Compare it only between similar apps.
+- A single publisher in the niche weakens demand evidence. It is not disqualifying if the audience is clearly defined.
 
-**Large results:** `search_apps` with 35 results and `get_app_detail` can exceed the tool output limit and be saved to a file. Extract fields with `jq` (title, developer, revenue, downloads, `historical_counts.revenue_growth_30d/90d`, `meta_ads_estimated_spend_30d_usd`, `tiktok_ads_total_count`, `in_app_purchases`) instead of reading the whole file. Note `countries: ["US"]` filters by language, not storefront, so non-US apps can still appear.
+## Stage 3: Shortlist (about 35 credits)
 
-## Step 2: Hard screen (reject before spending more credits)
+Take the 10-12 best niches and run `get_app_detail` on the strongest independent app in each. Collect:
+- Price points from in-app purchases, and whether it is monthly, weekly, annual or lifetime.
+- `revenue_growth_90d`, `downloads_growth_90d` and `mau_growth_90d`.
+- Rating trend.
+- Meta and TikTok spend for 30 and 90 days.
+- Organic sources.
+- Release date and publisher.
 
-Reject an app if any is true:
+For up to 3 niches, run a depth check: `search_apps` with the niche keyword, `limit: 8`, on the store that matters. Use it to count independent publishers earning $30K or more.
 
-- **Revenue band:** monthly revenue < $30K or > $400K (above that, the leader's brand or budget is the moat).
-- **Monetization efficiency:** monthly revenue / monthly downloads < $0.75.
-- **Publisher:** Big Tech or a household brand (Meta, Google, Microsoft, Amazon, ByteDance, Apple, Adobe, Spotify, Disney, etc.) or a known studio with 10+ hit apps.
-- **Content or legal risk:** IPTV, streaming aggregators, media downloaders, VPN, anything relying on licensed or pirated content.
-- **Regulated:** medical diagnosis, prescription, lending or credit, gambling, sports betting, crypto trading.
-- **Not buildable by 1-2 people in ≤ 6 weeks:** two-sided marketplaces, social networks, hardware dependence, proprietary datasets, heavy ops (delivery, human services).
-- **Copycat risk:** a clone of a single famous app with no niche (generic "AI chat", generic "photo editor").
-- **Adult, dating or 17+ content.**
+Check every finalist against the **hard gates**. One fail drops the niche:
 
-## Step 3: Group survivors into niches
+1. **Specific paying audience and problem.** Name them in one sentence ("separated parents who must document custody for court").
+2. **Spending evidence.** Someone is paying for this problem, ideally 2 or more independent publishers.
+3. **Achievable advantage.** One concrete edge over the reference apps: a workflow they handle badly, a result delivered much faster, or a sub-audience they ignore. "Same app, nicer UI, cheaper" fails. It must be original enough to clear Apple 4.3 and Google Play repetitive-content rules.
+4. **Reachable channel.** At least one channel from the founder profile with evidence it works here (competitor ads, organic content, keyword demand, an addressable community).
+5. **Buildable.** A useful first version in about 40 dev hours on the shared stack.
+6. **Manageable operations.** Support, content, moderation and API costs fit a one-person operation.
+7. **Plausible economics.** Base-case LTV is at least 3x CAC, or payback is 6 months or less. If paid ads fail this, an organic channel must carry the plan.
 
-Name each niche narrowly (for example "sermon note-taking", "AI receipt scanner for contractors", "heritage-language learning"). A niche qualifies only if **≥ 2 distinct publishers** earn ≥ $30K/month in it. One app alone is a fluke, not a market. Use the niche depth check (`search_apps` with the niche keyword, `limit: 8`, same common filters) to confirm.
+## Stage 4: Deep dive on the best 2-3 only (about 100 credits)
 
-## Step 4: Verify finalists
+**Reviews.** Pull 20 from the leader and 15 from a second competitor with `get_app_reviews` (country US; use `offset` to reach older reviews). Each review costs 1 credit. Pull out:
+- What users **value enough to pay for**, with quotes.
+- What **fails**, with quotes.
+- **Switching triggers**: price, a missing feature, a bad update.
 
-For the 15 best apps: `get_app_detail` (IAPs and price points, Meta/TikTok ad spend `summary.periods.last_30d`, rating, publisher). For the top 8: `get_app_historicals` 90d.
+**Economics, for each finalist, in conservative, base and upside scenarios.** Show the math.
+- Monthly-equivalent price: annual ÷ 12, weekly × 4.33.
+- Net monthly per payer = price × (1 − store fee) × (1 − refunds) − variable cost.
+- Contribution LTV = net monthly ÷ churn.
+- CAC = cost per install ÷ install-to-paid.
+- Payback months = CAC ÷ net monthly.
+- **Active payers needed for $40K MRR**, plus **new payers a month to hold it** (payers × churn) and the **installs a month** that implies.
+- Time to reach $40K MRR at the $500 test's spend rate, then at a scaled spend.
+- **Annual plans:** count them as annual ÷ 12 toward MRR. Cash collected is not MRR.
 
-Use `historical_counts.revenue_growth_90d` from `get_app_detail` (cheaper than historicals). Reject if revenue fell > 25% over the last 90 days (fading trend), or if ad spend in the last 30 days is more than 60% of revenue (buying revenue at a loss).
+**Score the finalists that passed the gates (0-100).** A starting judgment, not a prediction.
 
-## Step 5: Score niches (0-100)
+| Dimension | Weight |
+|---|---|
+| Reachable distribution | 25 |
+| Monetization and contribution economics | 20 |
+| Demand evidence | 15 |
+| Retention / repeat-use potential | 15 |
+| Differentiation | 15 |
+| Build and operating simplicity | 10 |
 
-| Factor | Weight | Full marks when |
-|---|---|---|
-| Proven band | 25 | 3+ publishers earn $30-400K/mo in the niche |
-| Momentum | 20 | Median 30d revenue growth > +10%; 90d trend up |
-| Monetization efficiency | 15 | Revenue/download ≥ $3; subscription with weekly or annual plan |
-| Paid acquisition proof | 15 | Meta or TikTok spend sustained over 30 and 90 days, spend well under revenue |
-| Quality gap | 15 | Leader rated < 4.5, or recurring complaints in reviews (cite them) |
-| Build feasibility | 10 | MVP in ≤ 4 weeks by 1-2 engineers with off-the-shelf AI APIs |
-
-Pick the top 5 niches. Ties go to the niche with the clearer wedge.
-
-## Step 6: Reviews
-
-For the top app in each of the 5 niches, pull 15 US reviews. Extract the 2-3 most repeated complaints with short quotes. These define the wedge.
-
-## Revenue path math (show it per pick)
-
-Net per paying user per month, after Apple's 15% small-business rate:
-- $9.99/month → ~$8.50
-- $4.99/week → ~$18
-- $49.99/year → ~$3.55
-
-Paying users needed for $30K / $50K: monthly ~3,500 / ~5,900; weekly ~1,700 / ~2,800; annual ~8,500 / ~14,100. State which model each pick should use, based on what its reference apps charge (from IAPs).
-
-## Output format
-
-Final message (and the email) is the brief only, in this format:
+## Output: full run (the final message is the email)
 
 ```
 # AppKittie Opportunity Brief: <Weekday, Mon D, YYYY>
 
 ## Bottom line
-<3 sentences: strongest pick and why, the common pattern across picks, one action for this week>
+<3 sentences: what earns a test this week, why, and the one action. If nothing qualifies, say so.>
 
-## Top 5 at a glance
-| # | Niche | Score | Reference apps (monthly rev · monthly dl · 30d growth) | Pricing to copy | Paying users for $40K/mo |
-|---|---|---|---|---|---|
+## Recommended tests (up to 5, ranked)
+| # | Niche · store | Score | Who switches and why | Channel | Base-case payback | Payers for $40K MRR |
 
 ## 1. <Niche> (score N/100)
-- **Evidence:** <AppKittie figures, app names and publishers>
-- **Why a newcomer can win:** <fragmentation, quality gap, review complaints with quotes>
-- **Wedge:** <the one differentiated angle>
-- **MVP in 4 weeks:** <3-5 core features>
-- **Monetization:** <model + price + users needed>
-- **Acquisition:** <channel proven by reference apps' ad spend>
-- **Kill risks:** <top 2>
-- **$500 smoke test:** <landing page promise + ad angle>
+- **Audience and problem:** <one sentence>
+- **Evidence (est., <store>, <date>):** <apps, publishers, revenue, downloads, 90d trends, pricing; confidence H/M/L; unknowns listed>
+- **What users pay for / what fails:** <quotes>
+- **Our advantage:** <one concrete edge>
+- **Channel:** <how we reach them, and the evidence it works>
+- **Economics:** <conservative / base / upside table: price, net, LTV, CAC, payback, payers, installs a month>
+- **First version (~40 h):** <in scope> · **Not in v1:** <explicit exclusions>
+- **$500 test:** question → funnel → metric → **stop if** <X> / **revise if** <Y> / **expand if** <Z>
+- **Strongest reason this fails:** <one line>
 
-<repeat for 2-5>
-
-## Rejected this run
-<4-6 high-revenue apps that failed the screen, one line each with the rule they failed>
+## Watchlist (passed discovery, failed a gate)
+<one line each: niche, gate failed, what would change the call>
 
 ## Run stats
-Credits used: ~N · Apps scanned: N · Niches evaluated: N · Data: AppKittie estimates (US, App Store)
+Credits ~N/300 · Apps scanned N (iOS N / Android N) · Niches N · Detail N · Reviews N · Data: AppKittie estimates
 ```
 
-Tone: lead with the decision, no filler, no em dashes.
+Lead with the decision. No filler. No em dashes.
 
-## Daily pulse (Tuesday-Friday): hard cap 60 credits
+---
 
-Purpose: catch new entrants and fast movers between Monday briefs, and go deep on one idea. No stored state, so do not claim to know Monday's Top 5.
+## Daily pulse (Tuesday to Friday): hard cap 60 credits
 
-1. **New entrants (20 credits):** `search_apps`, common filters, `releasedAfter` = 45 days ago, `minRevenue: 20000`, `sortBy: revenue`, `limit: 20`.
-2. **Movers (20 credits):** `search_apps`, common filters, `releasedAfter` = 24 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `sortBy: revenue_growth`, `limit: 20`. Ignore growth above 1,000%.
-3. Apply the Step 2 hard screen to both lists.
-4. **Spotlight (≤ 20 credits):** pick the single strongest survivor. `get_app_detail` on it (1), a niche depth check with `search_apps` (`search` = niche keyword, `limit: 8`), and `get_app_reviews` with `maxReviews: 10`.
+Catch new signals between Monday briefs. No stored state, so never claim to know Monday's list.
 
-Output (final message is the email):
+1. **New entrants (20):** apple_mobile, `releasedAfter` 45 days ago, `minRevenue` 15000, `sortBy: revenue`, `limit: 20`.
+2. **Organic or Android signal (20):** alternate by day. Tue/Thu use Lane E with `limit: 20`; Wed/Fri use Lane D with `limit: 20`.
+3. Apply the Stage 2 exclusions.
+4. **Spotlight (≤ 20):** the single strongest survivor. Run `get_app_detail` (1), a niche depth check (`limit: 8`), and `get_app_reviews` with `maxReviews: 10`. Run it through the 7 gates and a base-case-only economics line.
 
 ```
 # AppKittie Daily Pulse: <Weekday, Mon D, YYYY>
 
 ## Today's signal
-<2 sentences: the most important new entrant or mover and why it matters for a $30-50K/mo build>
+<2 sentences>
 
-## New entrants worth watching (max 5)
-| App | Niche | Monthly rev · dl | Released | Why it matters |
-
-## Fast movers (max 5)
-| App | Niche | Monthly rev | 30d rev growth | Read |
+## New entrants (max 5)
+| App · store | Niche | Rev est. · dl est. | Released | Channel signal | Why it matters |
 
 ## Spotlight: <Niche>
-- Evidence, publishers ≥ $30K/mo in niche, pricing, top review complaints (quotes), wedge, $500 smoke test, kill risk.
+Gates passed/failed · audience · advantage · channel · base-case payback · $500 test with stop/expand thresholds · strongest failure reason
 
 ## Run stats
-Credits used: ~N of 60
+Credits ~N/60
 ```
