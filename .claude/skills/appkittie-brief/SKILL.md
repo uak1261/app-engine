@@ -30,11 +30,13 @@ Common to all sweeps: `source: apple_mobile`, `countries: ["US"]`, `excludedCate
 | Sweep | Extra filters | Purpose |
 |---|---|---|
 | A. Paid-proven newcomers | `releasedAfter` = 18 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `hasMetaAdSpend: true`, `sortBy: revenue` | New apps already earning in our band with ads that pay back |
-| B. Revenue accelerators | `minRevenue: 30000`, `maxRevenue: 400000`, `sortBy: revenue_growth` | Rising niches right now |
+| B. Revenue accelerators | `releasedAfter` = 24 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `sortBy: revenue_growth` | Rising niches right now. Ignore any `revenue_growth_30d` above 1,000%: those are data artifacts from old or non-US apps |
 | C. Lean high-ARPU | `releasedAfter` = 24 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `maxDownloads: 50000`, `sortBy: revenue` | Earns well per user: small teams win here |
 | D. TikTok-proven | `releasedAfter` = 18 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `hasTikTokAds: true`, `sortBy: revenue` | Second paid channel with proven economics |
 
 Dedupe by app slug.
+
+**Large results:** `search_apps` with 35 results and `get_app_detail` can exceed the tool output limit and be saved to a file. Extract fields with `jq` (title, developer, revenue, downloads, `historical_counts.revenue_growth_30d/90d`, `meta_ads_estimated_spend_30d_usd`, `tiktok_ads_total_count`, `in_app_purchases`) instead of reading the whole file. Note `countries: ["US"]` filters by language, not storefront, so non-US apps can still appear.
 
 ## Step 2: Hard screen (reject before spending more credits)
 
@@ -57,7 +59,7 @@ Name each niche narrowly (for example "sermon note-taking", "AI receipt scanner 
 
 For the 15 best apps: `get_app_detail` (IAPs and price points, Meta/TikTok ad spend `summary.periods.last_30d`, rating, publisher). For the top 8: `get_app_historicals` 90d.
 
-Reject if revenue fell > 25% over the last 90 days (fading trend), or if ad spend in the last 30 days is more than 60% of revenue (buying revenue at a loss).
+Use `historical_counts.revenue_growth_90d` from `get_app_detail` (cheaper than historicals). Reject if revenue fell > 25% over the last 90 days (fading trend), or if ad spend in the last 30 days is more than 60% of revenue (buying revenue at a loss).
 
 ## Step 5: Score niches (0-100)
 
