@@ -5,77 +5,117 @@ description: Produce the recurring Top 5 app opportunity brief from live AppKitt
 
 # AppKittie Top 5 Opportunity Brief
 
-Goal: from live AppKittie data, pick the 5 app opportunities a small team could realistically take to **$30K-$50K revenue per month**, and explain why in a brief an executive can read in 3 minutes.
+Goal: from live AppKittie data, pick the 5 app opportunities a 1-2 person team could realistically take to **$30K-$50K revenue per month** within 6-9 months, and explain why in a brief an executive reads in 3 minutes.
 
-No database. Pull fresh data through the `appkittie` MCP server every run, reason over it, write the brief. Never invent numbers: every figure in the brief must come from an AppKittie tool result in this run. If the MCP server is unavailable, stop and report that instead of producing a brief.
+No database. Pull fresh data from AppKittie every run (the `appkittie` MCP tools, or the MCP server over HTTP at `https://mcp.appkittie.com` with `Authorization: Bearer $APPKITTIE_API_KEY`). Never print the key. Every number in the brief must come from an AppKittie result in this run. If AppKittie fails (401, network, MCP error), stop and output `AppKittie Brief FAILED` with the exact error; never fabricate.
 
-## Credit budget (hard cap: 300 credits per run)
+AppKittie `minRevenue` / `maxRevenue` / `minDownloads` are **monthly estimates in USD**. Compute Unix timestamps for date filters from today's date.
 
-AppKittie charges ~1 credit per app returned by search and 1 per detail lookup; keyword tools ~10.
+## Credit budget: hard cap 300 per run
 
-1. **Sweep (~150-200 credits):** `search_apps` across 3-4 queries, each limited to ~50 results:
-   - Released in the last 180 days, excluding Games, primary language English, sorted by revenue.
-   - Same, with "has Meta ads" on (proof that paid acquisition works).
-   - Growth 30d > 10%, any release date, revenue ≥ $50K/mo, excluding Games.
-   Dedupe across queries.
-2. **Detail (~25 credits):** `get_app_detail` on the ~25 strongest candidates after the screen below.
-3. **Optional (≤50 credits):** keyword tools for the final 5 niches only, to gauge search demand.
-
-Check the tool schemas at the start of each run; filter names may differ from the wording above.
-
-## Screen (auto-reject)
-
-- Publisher is Big Tech or a household brand (Meta, Google, Microsoft, Amazon, ByteDance, Apple, etc.).
-- Depends on licensed or pirated content (IPTV, streaming aggregators, music downloaders).
-- Regulated: medical diagnosis, lending or credit, gambling, prescription drugs.
-- Games.
-- Revenue driven by a celebrity, IP license, or network effect a new entrant cannot copy.
-
-## Group into niches, then score
-
-Group the surviving apps into niches (for example "sermon note-taking", "AI short-video editor"). Score each **niche**, not each app, 0-100:
-
-| Factor | Weight | How to judge |
+| Step | Tool | Credits |
 |---|---|---|
-| Revenue headroom | 25 | Leader earns ≥ 3× $50K/mo, and #2-#5 still earn ≥ $20K/mo |
-| Momentum | 20 | 30d growth positive; apps released in the last 6 months already earning |
-| Monetization efficiency | 15 | High revenue per download; subscription or weekly paywall present |
-| Paid acquisition proof | 15 | Meta/TikTok ads running steadily (sustained, not one burst) |
-| Fragmentation | 10 | No single app takes > 60% of niche revenue |
-| Quality gap | 10 | Leaders rated < 4.5, or repeated complaints in reviews |
-| Build feasibility | 5 | MVP shippable in ≤ 4 weeks by 1-2 engineers |
+| 4 sweeps × 35 apps | `search_apps` | ~140 |
+| Detail on 15 finalists | `get_app_detail` | 15 |
+| 90d revenue trend on 8 | `get_app_historicals` (metrics: revenue, downloads; period 90d) | 8 |
+| Niche depth check, 5 niches × 8 apps | `search_apps` with `search` = niche keyword | ~40 |
+| Reviews, 5 niche leaders × 15 | `get_app_reviews` (`maxReviews: 15`, country US) | ~75 |
 
-Revenue sanity check for the $30-50K/mo target: at $9.99/month (~$8.50 net) that is ~3,500-5,900 paying users; at $4.99/week (~$18/month net) ~1,700-2,800. Say which pricing model each pick assumes.
+Track credits as you go. Stop expanding when you near 300.
 
-If it is unclear whether AppKittie revenue is monthly or lifetime, say so in the brief and use relative ranking.
+## Step 1: Sweeps (exact filters)
+
+Common to all sweeps: `source: apple_mobile`, `countries: ["US"]`, `excludedCategories: ["games"]`, `limit: 35`.
+
+| Sweep | Extra filters | Purpose |
+|---|---|---|
+| A. Paid-proven newcomers | `releasedAfter` = 18 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `hasMetaAdSpend: true`, `sortBy: revenue` | New apps already earning in our band with ads that pay back |
+| B. Revenue accelerators | `minRevenue: 30000`, `maxRevenue: 400000`, `sortBy: revenue_growth` | Rising niches right now |
+| C. Lean high-ARPU | `releasedAfter` = 24 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `maxDownloads: 50000`, `sortBy: revenue` | Earns well per user: small teams win here |
+| D. TikTok-proven | `releasedAfter` = 18 months ago, `minRevenue: 30000`, `maxRevenue: 400000`, `hasTikTokAds: true`, `sortBy: revenue` | Second paid channel with proven economics |
+
+Dedupe by app slug.
+
+## Step 2: Hard screen (reject before spending more credits)
+
+Reject an app if any is true:
+
+- **Revenue band:** monthly revenue < $30K or > $400K (above that, the leader's brand or budget is the moat).
+- **Monetization efficiency:** monthly revenue / monthly downloads < $0.75.
+- **Publisher:** Big Tech or a household brand (Meta, Google, Microsoft, Amazon, ByteDance, Apple, Adobe, Spotify, Disney, etc.) or a known studio with 10+ hit apps.
+- **Content or legal risk:** IPTV, streaming aggregators, media downloaders, VPN, anything relying on licensed or pirated content.
+- **Regulated:** medical diagnosis, prescription, lending or credit, gambling, sports betting, crypto trading.
+- **Not buildable by 1-2 people in ≤ 6 weeks:** two-sided marketplaces, social networks, hardware dependence, proprietary datasets, heavy ops (delivery, human services).
+- **Copycat risk:** a clone of a single famous app with no niche (generic "AI chat", generic "photo editor").
+- **Adult, dating or 17+ content.**
+
+## Step 3: Group survivors into niches
+
+Name each niche narrowly (for example "sermon note-taking", "AI receipt scanner for contractors", "heritage-language learning"). A niche qualifies only if **≥ 2 distinct publishers** earn ≥ $30K/month in it. One app alone is a fluke, not a market. Use the niche depth check (`search_apps` with the niche keyword, `limit: 8`, same common filters) to confirm.
+
+## Step 4: Verify finalists
+
+For the 15 best apps: `get_app_detail` (IAPs and price points, Meta/TikTok ad spend `summary.periods.last_30d`, rating, publisher). For the top 8: `get_app_historicals` 90d.
+
+Reject if revenue fell > 25% over the last 90 days (fading trend), or if ad spend in the last 30 days is more than 60% of revenue (buying revenue at a loss).
+
+## Step 5: Score niches (0-100)
+
+| Factor | Weight | Full marks when |
+|---|---|---|
+| Proven band | 25 | 3+ publishers earn $30-400K/mo in the niche |
+| Momentum | 20 | Median 30d revenue growth > +10%; 90d trend up |
+| Monetization efficiency | 15 | Revenue/download ≥ $3; subscription with weekly or annual plan |
+| Paid acquisition proof | 15 | Meta or TikTok spend sustained over 30 and 90 days, spend well under revenue |
+| Quality gap | 15 | Leader rated < 4.5, or recurring complaints in reviews (cite them) |
+| Build feasibility | 10 | MVP in ≤ 4 weeks by 1-2 engineers with off-the-shelf AI APIs |
+
+Pick the top 5 niches. Ties go to the niche with the clearer wedge.
+
+## Step 6: Reviews
+
+For the top app in each of the 5 niches, pull 15 US reviews. Extract the 2-3 most repeated complaints with short quotes. These define the wedge.
+
+## Revenue path math (show it per pick)
+
+Net per paying user per month, after Apple's 15% small-business rate:
+- $9.99/month → ~$8.50
+- $4.99/week → ~$18
+- $49.99/year → ~$3.55
+
+Paying users needed for $30K / $50K: monthly ~3,500 / ~5,900; weekly ~1,700 / ~2,800; annual ~8,500 / ~14,100. State which model each pick should use, based on what its reference apps charge (from IAPs).
 
 ## Output format
 
+Final message (and the email) is the brief only, in this format:
+
 ```
-# AppKittie Opportunity Brief — <date>
+# AppKittie Opportunity Brief: <Weekday, Mon D, YYYY>
 
 ## Bottom line
-<3 sentences: the strongest pick, the pattern across this week's picks, what changed since the last brief if known>
+<3 sentences: strongest pick and why, the common pattern across picks, one action for this week>
 
-## Top 5
-| # | Niche | Score | Reference apps (rev / dl / growth) | Path to $30-50K/mo | Wedge |
+## Top 5 at a glance
+| # | Niche | Score | Reference apps (monthly rev · monthly dl · 30d growth) | Pricing to copy | Paying users for $40K/mo |
 |---|---|---|---|---|---|
 
-### 1. <Niche>
-- **Evidence:** <figures from AppKittie, with app names>
-- **Why a new entrant can win:** <quality gap, fragmentation, user complaints>
-- **MVP (≤4 weeks):** <core feature set>
-- **Monetization:** <price model, paying users needed>
+## 1. <Niche> (score N/100)
+- **Evidence:** <AppKittie figures, app names and publishers>
+- **Why a newcomer can win:** <fragmentation, quality gap, review complaints with quotes>
+- **Wedge:** <the one differentiated angle>
+- **MVP in 4 weeks:** <3-5 core features>
+- **Monetization:** <model + price + users needed>
+- **Acquisition:** <channel proven by reference apps' ad spend>
 - **Kill risks:** <top 2>
-- **$500 smoke test:** <landing page + Meta ad angle to test demand>
+- **$500 smoke test:** <landing page promise + ad angle>
 
-...repeat for 2-5...
+<repeat for 2-5>
 
 ## Rejected this run
-<3-5 high-revenue apps that failed the screen, one line each on why>
+<4-6 high-revenue apps that failed the screen, one line each with the rule they failed>
 
 ## Run stats
-Credits used: ~N · Apps scanned: N · Detail lookups: N
+Credits used: ~N · Apps scanned: N · Niches evaluated: N · Data: AppKittie estimates (US, App Store)
 ```
 
-Keep it tight. Lead with the decision. No filler.
+Tone: lead with the decision, no filler, no em dashes.
