@@ -144,11 +144,21 @@ Check every finalist against the **hard gates**. One fail drops the niche:
 ## Watchlist (passed discovery, failed a gate)
 <one line each: niche, gate failed, what would change the call>
 
+## Expert recommendation
+**Verdict:** <one of: BUILD (a test already passed) / TEST NOW / KEEP WATCHING / NOTHING THIS WEEK>, naming the single idea.
+- **Why this one:** <2-3 sentences that tie the evidence, the economics and the founder profile together. Say why it beats the runner-up.>
+- **What I'd do in the next 7 days:** <3 concrete steps with owners and hours, e.g. "Mon: landing page (3h)", "Tue: 10 attorney DMs on LinkedIn">
+- **What would change my mind:** <the one signal that would demote this pick, and the one that would promote the runner-up>
+- **Portfolio view:** <how this fits the path to $30-50K MRR in total: what is live or in test, and what slot it fills>
+- **Contrarian check:** <the strongest argument against the recommendation, in one line, and why you still hold or don't>
+
+Write it as an operator with a point of view, not a summary. Pick one. No hedging. If the data is weak, say "NOTHING THIS WEEK" and name what to watch.
+
 ## Run stats
 Credits ~N/300 · Apps scanned N (iOS N / Android N) · Niches N · Detail N · Reviews N · Data: AppKittie estimates
 ```
 
-Lead with the decision. No filler. No em dashes.
+Lead with the decision. Always end with the Expert recommendation section. No filler. No em dashes.
 
 ---
 
@@ -172,6 +182,12 @@ Catch new signals between Monday briefs. No stored state, so never claim to know
 
 ## Spotlight: <Niche>
 Gates passed/failed · audience · advantage · channel · base-case payback · $500 test with stop/expand thresholds · strongest failure reason
+
+## Expert recommendation
+**Verdict:** <TEST NOW / ADD TO MONDAY SHORTLIST / IGNORE> on today's spotlight, in one line.
+- **Why:** <2 sentences>
+- **Next step:** <one concrete action for today or this week>
+- **Watch for:** <the signal that would change the call>
 
 ## Run stats
 Credits ~N/60
