@@ -14,6 +14,9 @@ description: Produce the recurring AppKittie opportunity brief (Monday full run,
 - If AppKittie fails (401, network or MCP error), stop and output `AppKittie Brief FAILED` with the exact error.
 - **Recommending fewer than 5 is fine.** If nothing passes the gates, say so and show the closest misses.
 - `minRevenue` / `maxRevenue` / `minDownloads` are monthly USD estimates. `countries` filters by language, not storefront. Work out Unix timestamps from today's date.
+- Google Play uses game genres (Action, Puzzle, Casual, Strategy, Role Playing, Simulation, Casino, Arcade, Card, Board, Word, Racing, Sports games), so `excludedCategories: ["games"]` does not remove them. Drop those genres after the search.
+- For niche depth checks, add `textSearchFields: ["title","description"]` and the niche's App Store category. Plain keyword search returns games and unrelated apps.
+- `get_app_detail` can return 1 MB or more. Never read it directly; pull fields with `jq`. A 404 on a guessed slug costs nothing, but always take slugs from search results.
 - Oversized results are saved to a file. Read them with `jq` and pull only the fields you need; never page through the raw JSON.
 
 ## Founder profile (assumptions: edit here, cite them in the brief)
@@ -43,10 +46,10 @@ Shared filters: `excludedCategories: ["games"]`, `countries: ["US"]`. Research e
 
 | Lane | Store | Filters | Limit | Why |
 |---|---|---|---|---|
-| A. Recent breakouts | apple_mobile | `releasedAfter` 18 months ago, `minRevenue` 20000, `sortBy: revenue` | 35 | New apps already monetizing, whatever their channel. No ads filter. |
+| A. Recent breakouts | apple_mobile | `releasedAfter` 18 months ago, `minRevenue` 20000, `maxRevenue` 400000, `sortBy: revenue` | 35 | New apps already monetizing, whatever their channel. No ads filter. |
 | B. Established, underserved | apple_mobile | `releasedBefore` 24 months ago, `minRevenue` 30000, `maxRevenue` 300000, `maxRating` 4.4, `minReviews` 500 | 35 | Demand that lasts, with leaders users are unhappy with |
 | C. Sustained growers | apple_mobile | `releasedAfter` 36 months ago, `minRevenue` 30000, `sortBy: revenue_growth` | 30 | Momentum. Throw out growth above 1,000% (small-base or data artifacts) |
-| D. Android breakouts | google_mobile | `releasedAfter` 18 months ago, `minRevenue` 15000, `sortBy: revenue` | 30 | Android-first demand and cross-store confirmation |
+| D. Android breakouts | google_mobile | `releasedAfter` 18 months ago, `minRevenue` 15000, `maxRevenue` 400000, `sortBy: revenue` | 30 | Android-first demand and cross-store confirmation |
 | E. Organic engines | apple_mobile | `releasedAfter` 24 months ago, `minRevenue` 20000, `organicSources: ["tiktok","instagram","youtube"]`, `hasMetaAdSpend: false` | 30 | Apps growing without paid ads |
 
 ## Stage 2: Exclusions, then group into niches
