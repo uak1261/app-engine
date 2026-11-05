@@ -1,0 +1,19 @@
+{
+  "evidence_type": "founder_assumption",
+  "description": "Entirely hypothetical. No live AppKittie data or measured cohorts.",
+  "billing": "monthly",
+  "monthly_price": 14.99,
+  "store_fee": 0.15,
+  "refund_rate": 0.03,
+  "variable_cost_per_payer": 1.0,
+  "monthly_payer_churn": 0.10,
+  "cpi": 3.50,
+  "install_to_paid": 0.03,
+  "target_mrr": 40000,
+  "horizon_months": 6,
+  "launch_month": 2,
+  "monthly_fixed_cost": 100,
+  "upfront_build_cost": 0,
+  "monthly_acquisition_budget": null,
+  "total_risk_budget": null
+}
