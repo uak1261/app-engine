@@ -1,0 +1,1761 @@
+{
+  "data": {
+    "appId": "app-getpaid-find-claim-money-id6770756969",
+    "app_slug": "app-getpaid-find-claim-money-id6770756969",
+    "source": "apple_mobile",
+    "store": "appstore",
+    "title": "GetPaid: Find & Claim Money",
+    "period": "all",
+    "days": null,
+    "historical_counts": {
+      "reviews": [
+        {
+          "date_created": 1780444800,
+          "date_created_timestamp": 1780444800,
+          "value": 0
+        },
+        {
+          "date_created": 1780963200,
+          "date_created_timestamp": 1780963200,
+          "value": 4
+        },
+        {
+          "date_created": 1781049600,
+          "date_created_timestamp": 1781049600,
+          "value": 5
+        },
+        {
+          "date_created": 1781136000,
+          "date_created_timestamp": 1781136000,
+          "value": 21
+        },
+        {
+          "date_created": 1781222400,
+          "date_created_timestamp": 1781222400,
+          "value": 26
+        },
+        {
+          "date_created": 1781308800,
+          "date_created_timestamp": 1781308800,
+          "value": 30
+        },
+        {
+          "date_created": 1781395200,
+          "date_created_timestamp": 1781395200,
+          "value": 36
+        },
+        {
+          "date_created": 1781481600,
+          "date_created_timestamp": 1781481600,
+          "value": 34
+        },
+        {
+          "date_created": 1781568000,
+          "date_created_timestamp": 1781568000,
+          "value": 38
+        },
+        {
+          "date_created": 1781654400,
+          "date_created_timestamp": 1781654400,
+          "value": 38
+        },
+        {
+          "date_created": 1781740800,
+          "date_created_timestamp": 1781740800,
+          "value": 39
+        },
+        {
+          "date_created": 1781827200,
+          "date_created_timestamp": 1781827200,
+          "value": 41
+        },
+        {
+          "date_created": 1782000000,
+          "date_created_timestamp": 1782000000,
+          "value": 43
+        },
+        {
+          "date_created": 1782086400,
+          "date_created_timestamp": 1782086400,
+          "value": 49
+        },
+        {
+          "date_created": 1782172800,
+          "date_created_timestamp": 1782172800,
+          "value": 50
+        },
+        {
+          "date_created": 1782259200,
+          "date_created_timestamp": 1782259200,
+          "value": 50
+        },
+        {
+          "date_created": 1782345600,
+          "date_created_timestamp": 1782345600,
+          "value": 51
+        },
+        {
+          "date_created": 1782432000,
+          "date_created_timestamp": 1782432000,
+          "value": 53
+        },
+        {
+          "date_created": 1782518400,
+          "date_created_timestamp": 1782518400,
+          "value": 54
+        },
+        {
+          "date_created": 1782604800,
+          "date_created_timestamp": 1782604800,
+          "value": 91
+        },
+        {
+          "date_created": 1782691200,
+          "date_created_timestamp": 1782691200,
+          "value": 101
+        },
+        {
+          "date_created": 1782777600,
+          "date_created_timestamp": 1782777600,
+          "value": 121
+        },
+        {
+          "date_created": 1783036800,
+          "date_created_timestamp": 1783036800,
+          "value": 109
+        },
+        {
+          "date_created": 1783123200,
+          "date_created_timestamp": 1783123200,
+          "value": 128
+        },
+        {
+          "date_created": 1783209600,
+          "date_created_timestamp": 1783209600,
+          "value": 120
+        },
+        {
+          "date_created": 1783296000,
+          "date_created_timestamp": 1783296000,
+          "value": 124
+        },
+        {
+          "date_created": 1783382400,
+          "date_created_timestamp": 1783382400,
+          "value": 127
+        },
+        {
+          "date_created": 1783468800,
+          "date_created_timestamp": 1783468800,
+          "value": 132
+        },
+        {
+          "date_created": 1783555200,
+          "date_created_timestamp": 1783555200,
+          "value": 151
+        },
+        {
+          "date_created": 1783641600,
+          "date_created_timestamp": 1783641600,
+          "value": 185
+        },
+        {
+          "date_created": 1783728000,
+          "date_created_timestamp": 1783728000,
+          "value": 194
+        },
+        {
+          "date_created": 1783814400,
+          "date_created_timestamp": 1783814400,
+          "value": 213
+        },
+        {
+          "date_created": 1783900800,
+          "date_created_timestamp": 1783900800,
+          "value": 229
+        },
+        {
+          "date_created": 1783987200,
+          "date_created_timestamp": 1783987200,
+          "value": 260
+        },
+        {
+          "date_created": 1784073600,
+          "date_created_timestamp": 1784073600,
+          "value": 268
+        },
+        {
+          "date_created": 1784160000,
+          "date_created_timestamp": 1784160000,
+          "value": 279
+        },
+        {
+          "date_created": 1784246400,
+          "date_created_timestamp": 1784246400,
+          "value": 294
+        },
+        {
+          "date_created": 1784332800,
+          "date_created_timestamp": 1784332800,
+          "value": 333
+        },
+        {
+          "date_created": 1784419200,
+          "date_created_timestamp": 1784419200,
+          "value": 333
+        },
+        {
+          "date_created": 1784505600,
+          "date_created_timestamp": 1784505600,
+          "value": 362
+        },
+        {
+          "date_created": 1784592000,
+          "date_created_timestamp": 1784592000,
+          "value": 368
+        },
+        {
+          "date_created": 1784678400,
+          "date_created_timestamp": 1784678400,
+          "value": 449
+        },
+        {
+          "date_created": 1784764800,
+          "date_created_timestamp": 1784764800,
+          "value": 512
+        },
+        {
+          "date_created": 1784851200,
+          "date_created_timestamp": 1784851200,
+          "value": 559
+        },
+        {
+          "date_created": 1784937600,
+          "date_created_timestamp": 1784937600,
+          "value": 597
+        },
+        {
+          "date_created": 1785024000,
+          "date_created_timestamp": 1785024000,
+          "value": 599
+        },
+        {
+          "date_created": 1785110400,
+          "date_created_timestamp": 1785110400,
+          "value": 617
+        },
+        {
+          "date_created": 1785196800,
+          "date_created_timestamp": 1785196800,
+          "value": 763
+        },
+        {
+          "date_created": 1785283200,
+          "date_created_timestamp": 1785283200,
+          "value": 702
+        },
+        {
+          "date_created": 1785369600,
+          "date_created_timestamp": 1785369600,
+          "value": 712
+        },
+        {
+          "date_created": 1785456000,
+          "date_created_timestamp": 1785456000,
+          "value": 718
+        },
+        {
+          "date_created": 1785542400,
+          "date_created_timestamp": 1785542400,
+          "value": 721
+        },
+        {
+          "date_created": 1785628800,
+          "date_created_timestamp": 1785628800,
+          "value": 724
+        },
+        {
+          "date_created": 1785801600,
+          "date_created_timestamp": 1785801600,
+          "value": 732
+        },
+        {
+          "date_created": 1785888000,
+          "date_created_timestamp": 1785888000,
+          "value": 732
+        },
+        {
+          "date_created": 1785974400,
+          "date_created_timestamp": 1785974400,
+          "value": 741
+        },
+        {
+          "date_created": 1790726400,
+          "date_created_timestamp": 1790726400,
+          "value": 786
+        },
+        {
+          "date_created": 1790812800,
+          "date_created_timestamp": 1790812800,
+          "value": 786
+        },
+        {
+          "date_created": 1790899200,
+          "date_created_timestamp": 1790899200,
+          "value": 787
+        },
+        {
+          "date_created": 1791158400,
+          "date_created_timestamp": 1791158400,
+          "value": 793
+        },
+        {
+          "date_created": 1791331200,
+          "date_created_timestamp": 1791331200,
+          "value": 796
+        },
+        {
+          "date_created": 1791417600,
+          "date_created_timestamp": 1791417600,
+          "value": 797
+        },
+        {
+          "date_created": 1791504000,
+          "date_created_timestamp": 1791504000,
+          "value": 798
+        },
+        {
+          "date_created": 1791676800,
+          "date_created_timestamp": 1791676800,
+          "value": 804
+        },
+        {
+          "date_created": 1791849600,
+          "date_created_timestamp": 1791849600,
+          "value": 807
+        },
+        {
+          "date_created": 1792022400,
+          "date_created_timestamp": 1792022400,
+          "value": 812
+        },
+        {
+          "date_created": 1792108800,
+          "date_created_timestamp": 1792108800,
+          "value": 812
+        },
+        {
+          "date_created": 1792195200,
+          "date_created_timestamp": 1792195200,
+          "value": 857
+        },
+        {
+          "date_created": 1792281600,
+          "date_created_timestamp": 1792281600,
+          "value": 871
+        },
+        {
+          "date_created": 1792368000,
+          "date_created_timestamp": 1792368000,
+          "value": 872
+        },
+        {
+          "date_created": 1792454400,
+          "date_created_timestamp": 1792454400,
+          "value": 870
+        },
+        {
+          "date_created": 1792540800,
+          "date_created_timestamp": 1792540800,
+          "value": 874
+        },
+        {
+          "date_created": 1792627200,
+          "date_created_timestamp": 1792627200,
+          "value": 875
+        },
+        {
+          "date_created": 1792713600,
+          "date_created_timestamp": 1792713600,
+          "value": 876
+        },
+        {
+          "date_created": 1792800000,
+          "date_created_timestamp": 1792800000,
+          "value": 882
+        },
+        {
+          "date_created": 1792886400,
+          "date_created_timestamp": 1792886400,
+          "value": 890
+        },
+        {
+          "date_created": 1792972800,
+          "date_created_timestamp": 1792972800,
+          "value": 901
+        },
+        {
+          "date_created": 1793059200,
+          "date_created_timestamp": 1793059200,
+          "value": 906
+        },
+        {
+          "date_created": 1793145600,
+          "date_created_timestamp": 1793145600,
+          "value": 911
+        },
+        {
+          "date_created": 1793232000,
+          "date_created_timestamp": 1793232000,
+          "value": 917
+        },
+        {
+          "date_created": 1793318400,
+          "date_created_timestamp": 1793318400,
+          "value": 919
+        },
+        {
+          "date_created": 1793404800,
+          "date_created_timestamp": 1793404800,
+          "value": 920
+        },
+        {
+          "date_created": 1793577600,
+          "date_created_timestamp": 1793577600,
+          "value": 930
+        },
+        {
+          "date_created": 1793664000,
+          "date_created_timestamp": 1793664000,
+          "value": 933
+        },
+        {
+          "date_created": 1793750400,
+          "date_created_timestamp": 1793750400,
+          "value": 951
+        },
+        {
+          "date_created": 1793836800,
+          "date_created_timestamp": 1793836800,
+          "value": 966
+        },
+        {
+          "date_created": 1793923200,
+          "date_created_timestamp": 1793923200,
+          "value": 966
+        }
+      ],
+      "score": [
+        {
+          "date_created": 1780444800,
+          "date_created_timestamp": 1780444800,
+          "value": 0
+        },
+        {
+          "date_created": 1780963200,
+          "date_created_timestamp": 1780963200,
+          "value": 5
+        },
+        {
+          "date_created": 1781049600,
+          "date_created_timestamp": 1781049600,
+          "value": 5
+        },
+        {
+          "date_created": 1781136000,
+          "date_created_timestamp": 1781136000,
+          "value": 4.80952
+        },
+        {
+          "date_created": 1781222400,
+          "date_created_timestamp": 1781222400,
+          "value": 4.84615
+        },
+        {
+          "date_created": 1781308800,
+          "date_created_timestamp": 1781308800,
+          "value": 4.86667
+        },
+        {
+          "date_created": 1781395200,
+          "date_created_timestamp": 1781395200,
+          "value": 4.86111
+        },
+        {
+          "date_created": 1781481600,
+          "date_created_timestamp": 1781481600,
+          "value": 4.85294
+        },
+        {
+          "date_created": 1781568000,
+          "date_created_timestamp": 1781568000,
+          "value": 4.84211
+        },
+        {
+          "date_created": 1781654400,
+          "date_created_timestamp": 1781654400,
+          "value": 4.84211
+        },
+        {
+          "date_created": 1781740800,
+          "date_created_timestamp": 1781740800,
+          "value": 4.84615
+        },
+        {
+          "date_created": 1781827200,
+          "date_created_timestamp": 1781827200,
+          "value": 4.82927
+        },
+        {
+          "date_created": 1782000000,
+          "date_created_timestamp": 1782000000,
+          "value": 4.86047
+        },
+        {
+          "date_created": 1782086400,
+          "date_created_timestamp": 1782086400,
+          "value": 4.79592
+        },
+        {
+          "date_created": 1782172800,
+          "date_created_timestamp": 1782172800,
+          "value": 4.78
+        },
+        {
+          "date_created": 1782259200,
+          "date_created_timestamp": 1782259200,
+          "value": 4.78
+        },
+        {
+          "date_created": 1782345600,
+          "date_created_timestamp": 1782345600,
+          "value": 4.76471
+        },
+        {
+          "date_created": 1782432000,
+          "date_created_timestamp": 1782432000,
+          "value": 4.84905
+        },
+        {
+          "date_created": 1782518400,
+          "date_created_timestamp": 1782518400,
+          "value": 4.85185
+        },
+        {
+          "date_created": 1782604800,
+          "date_created_timestamp": 1782604800,
+          "value": 4.68132
+        },
+        {
+          "date_created": 1782691200,
+          "date_created_timestamp": 1782691200,
+          "value": 4.70296
+        },
+        {
+          "date_created": 1782777600,
+          "date_created_timestamp": 1782777600,
+          "value": 4.70248
+        },
+        {
+          "date_created": 1783036800,
+          "date_created_timestamp": 1783036800,
+          "value": 4.65137
+        },
+        {
+          "date_created": 1783123200,
+          "date_created_timestamp": 1783123200,
+          "value": 4.67188
+        },
+        {
+          "date_created": 1783209600,
+          "date_created_timestamp": 1783209600,
+          "value": 4.65833
+        },
+        {
+          "date_created": 1783296000,
+          "date_created_timestamp": 1783296000,
+          "value": 4.64516
+        },
+        {
+          "date_created": 1783382400,
+          "date_created_timestamp": 1783382400,
+          "value": 4.64567
+        },
+        {
+          "date_created": 1783468800,
+          "date_created_timestamp": 1783468800,
+          "value": 4.65909
+        },
+        {
+          "date_created": 1783555200,
+          "date_created_timestamp": 1783555200,
+          "value": 4.68212
+        },
+        {
+          "date_created": 1783641600,
+          "date_created_timestamp": 1783641600,
+          "value": 4.66486
+        },
+        {
+          "date_created": 1783728000,
+          "date_created_timestamp": 1783728000,
+          "value": 4.64947
+        },
+        {
+          "date_created": 1783814400,
+          "date_created_timestamp": 1783814400,
+          "value": 4.66667
+        },
+        {
+          "date_created": 1783900800,
+          "date_created_timestamp": 1783900800,
+          "value": 4.65502
+        },
+        {
+          "date_created": 1783987200,
+          "date_created_timestamp": 1783987200,
+          "value": 4.63462
+        },
+        {
+          "date_created": 1784073600,
+          "date_created_timestamp": 1784073600,
+          "value": 4.6306
+        },
+        {
+          "date_created": 1784160000,
+          "date_created_timestamp": 1784160000,
+          "value": 4.63441
+        },
+        {
+          "date_created": 1784246400,
+          "date_created_timestamp": 1784246400,
+          "value": 4.63265
+        },
+        {
+          "date_created": 1784332800,
+          "date_created_timestamp": 1784332800,
+          "value": 4.63363
+        },
+        {
+          "date_created": 1784419200,
+          "date_created_timestamp": 1784419200,
+          "value": 4.63363
+        },
+        {
+          "date_created": 1784505600,
+          "date_created_timestamp": 1784505600,
+          "value": 4.61878
+        },
+        {
+          "date_created": 1784592000,
+          "date_created_timestamp": 1784592000,
+          "value": 4.61685
+        },
+        {
+          "date_created": 1784678400,
+          "date_created_timestamp": 1784678400,
+          "value": 4.60579
+        },
+        {
+          "date_created": 1784764800,
+          "date_created_timestamp": 1784764800,
+          "value": 4.58983
+        },
+        {
+          "date_created": 1784851200,
+          "date_created_timestamp": 1784851200,
+          "value": 4.58676
+        },
+        {
+          "date_created": 1784937600,
+          "date_created_timestamp": 1784937600,
+          "value": 4.58961
+        },
+        {
+          "date_created": 1785024000,
+          "date_created_timestamp": 1785024000,
+          "value": 4.58932
+        },
+        {
+          "date_created": 1785110400,
+          "date_created_timestamp": 1785110400,
+          "value": 4.58509
+        },
+        {
+          "date_created": 1785196800,
+          "date_created_timestamp": 1785196800,
+          "value": 4.60025
+        },
+        {
+          "date_created": 1785283200,
+          "date_created_timestamp": 1785283200,
+          "value": 4.5641
+        },
+        {
+          "date_created": 1785369600,
+          "date_created_timestamp": 1785369600,
+          "value": 4.56601
+        },
+        {
+          "date_created": 1785456000,
+          "date_created_timestamp": 1785456000,
+          "value": 4.56963
+        },
+        {
+          "date_created": 1785542400,
+          "date_created_timestamp": 1785542400,
+          "value": 4.56865
+        },
+        {
+          "date_created": 1785628800,
+          "date_created_timestamp": 1785628800,
+          "value": 4.56906
+        },
+        {
+          "date_created": 1785801600,
+          "date_created_timestamp": 1785801600,
+          "value": 4.56557
+        },
+        {
+          "date_created": 1785888000,
+          "date_created_timestamp": 1785888000,
+          "value": 4.56557
+        },
+        {
+          "date_created": 1785974400,
+          "date_created_timestamp": 1785974400,
+          "value": 4.56275
+        },
+        {
+          "date_created": 1790726400,
+          "date_created_timestamp": 1790726400,
+          "value": 4.56489
+        },
+        {
+          "date_created": 1790812800,
+          "date_created_timestamp": 1790812800,
+          "value": 4.56489
+        },
+        {
+          "date_created": 1790899200,
+          "date_created_timestamp": 1790899200,
+          "value": 4.56544
+        },
+        {
+          "date_created": 1791158400,
+          "date_created_timestamp": 1791158400,
+          "value": 4.56116
+        },
+        {
+          "date_created": 1791331200,
+          "date_created_timestamp": 1791331200,
+          "value": 4.56281
+        },
+        {
+          "date_created": 1791417600,
+          "date_created_timestamp": 1791417600,
+          "value": 4.56336
+        },
+        {
+          "date_created": 1791504000,
+          "date_created_timestamp": 1791504000,
+          "value": 4.56266
+        },
+        {
+          "date_created": 1791676800,
+          "date_created_timestamp": 1791676800,
+          "value": 4.56592
+        },
+        {
+          "date_created": 1791849600,
+          "date_created_timestamp": 1791849600,
+          "value": 4.56382
+        },
+        {
+          "date_created": 1792022400,
+          "date_created_timestamp": 1792022400,
+          "value": 4.56404
+        },
+        {
+          "date_created": 1792108800,
+          "date_created_timestamp": 1792108800,
+          "value": 4.56404
+        },
+        {
+          "date_created": 1792195200,
+          "date_created_timestamp": 1792195200,
+          "value": 4.56126
+        },
+        {
+          "date_created": 1792281600,
+          "date_created_timestamp": 1792281600,
+          "value": 4.56257
+        },
+        {
+          "date_created": 1792368000,
+          "date_created_timestamp": 1792368000,
+          "value": 4.56422
+        },
+        {
+          "date_created": 1792454400,
+          "date_created_timestamp": 1792454400,
+          "value": 4.56322
+        },
+        {
+          "date_created": 1792540800,
+          "date_created_timestamp": 1792540800,
+          "value": 4.56522
+        },
+        {
+          "date_created": 1792627200,
+          "date_created_timestamp": 1792627200,
+          "value": 4.56343
+        },
+        {
+          "date_created": 1792713600,
+          "date_created_timestamp": 1792713600,
+          "value": 4.56393
+        },
+        {
+          "date_created": 1792800000,
+          "date_created_timestamp": 1792800000,
+          "value": 4.56236
+        },
+        {
+          "date_created": 1792886400,
+          "date_created_timestamp": 1792886400,
+          "value": 4.5618
+        },
+        {
+          "date_created": 1792972800,
+          "date_created_timestamp": 1792972800,
+          "value": 4.56715
+        },
+        {
+          "date_created": 1793059200,
+          "date_created_timestamp": 1793059200,
+          "value": 4.56733
+        },
+        {
+          "date_created": 1793145600,
+          "date_created_timestamp": 1793145600,
+          "value": 4.56751
+        },
+        {
+          "date_created": 1793232000,
+          "date_created_timestamp": 1793232000,
+          "value": 4.56597
+        },
+        {
+          "date_created": 1793318400,
+          "date_created_timestamp": 1793318400,
+          "value": 4.5691
+        },
+        {
+          "date_created": 1793404800,
+          "date_created_timestamp": 1793404800,
+          "value": 4.56956
+        },
+        {
+          "date_created": 1793577600,
+          "date_created_timestamp": 1793577600,
+          "value": 4.57204
+        },
+        {
+          "date_created": 1793664000,
+          "date_created_timestamp": 1793664000,
+          "value": 4.57235
+        },
+        {
+          "date_created": 1793750400,
+          "date_created_timestamp": 1793750400,
+          "value": 4.57728
+        },
+        {
+          "date_created": 1793836800,
+          "date_created_timestamp": 1793836800,
+          "value": 4.57557
+        },
+        {
+          "date_created": 1793923200,
+          "date_created_timestamp": 1793923200,
+          "value": 4.57557
+        }
+      ],
+      "downloads": [
+        {
+          "date_created": 1780444800,
+          "date_created_timestamp": 1780444800,
+          "value": 0
+        },
+        {
+          "date_created": 1780963200,
+          "date_created_timestamp": 1780963200,
+          "value": 108
+        },
+        {
+          "date_created": 1781049600,
+          "date_created_timestamp": 1781049600,
+          "value": 135
+        },
+        {
+          "date_created": 1781136000,
+          "date_created_timestamp": 1781136000,
+          "value": 567
+        },
+        {
+          "date_created": 1781222400,
+          "date_created_timestamp": 1781222400,
+          "value": 702
+        },
+        {
+          "date_created": 1781308800,
+          "date_created_timestamp": 1781308800,
+          "value": 810
+        },
+        {
+          "date_created": 1781395200,
+          "date_created_timestamp": 1781395200,
+          "value": 972
+        },
+        {
+          "date_created": 1781481600,
+          "date_created_timestamp": 1781481600,
+          "value": 918
+        },
+        {
+          "date_created": 1781568000,
+          "date_created_timestamp": 1781568000,
+          "value": 1026
+        },
+        {
+          "date_created": 1781654400,
+          "date_created_timestamp": 1781654400,
+          "value": 1026
+        },
+        {
+          "date_created": 1781740800,
+          "date_created_timestamp": 1781740800,
+          "value": 1053
+        },
+        {
+          "date_created": 1781827200,
+          "date_created_timestamp": 1781827200,
+          "value": 1107
+        },
+        {
+          "date_created": 1782000000,
+          "date_created_timestamp": 1782000000,
+          "value": 1161
+        },
+        {
+          "date_created": 1782086400,
+          "date_created_timestamp": 1782086400,
+          "value": 1323
+        },
+        {
+          "date_created": 1782172800,
+          "date_created_timestamp": 1782172800,
+          "value": 1350
+        },
+        {
+          "date_created": 1782259200,
+          "date_created_timestamp": 1782259200,
+          "value": 1350
+        },
+        {
+          "date_created": 1782345600,
+          "date_created_timestamp": 1782345600,
+          "value": 1377
+        },
+        {
+          "date_created": 1782432000,
+          "date_created_timestamp": 1782432000,
+          "value": 1430
+        },
+        {
+          "date_created": 1782518400,
+          "date_created_timestamp": 1782518400,
+          "value": 1457
+        },
+        {
+          "date_created": 1782604800,
+          "date_created_timestamp": 1782604800,
+          "value": 2456
+        },
+        {
+          "date_created": 1782691200,
+          "date_created_timestamp": 1782691200,
+          "value": 2726
+        },
+        {
+          "date_created": 1782777600,
+          "date_created_timestamp": 1782777600,
+          "value": 3266
+        },
+        {
+          "date_created": 1783036800,
+          "date_created_timestamp": 1783036800,
+          "value": 2942
+        },
+        {
+          "date_created": 1783123200,
+          "date_created_timestamp": 1783123200,
+          "value": 3455
+        },
+        {
+          "date_created": 1783209600,
+          "date_created_timestamp": 1783209600,
+          "value": 3239
+        },
+        {
+          "date_created": 1783296000,
+          "date_created_timestamp": 1783296000,
+          "value": 3347
+        },
+        {
+          "date_created": 1783382400,
+          "date_created_timestamp": 1783382400,
+          "value": 3428
+        },
+        {
+          "date_created": 1783468800,
+          "date_created_timestamp": 1783468800,
+          "value": 3563
+        },
+        {
+          "date_created": 1783555200,
+          "date_created_timestamp": 1783555200,
+          "value": 4076
+        },
+        {
+          "date_created": 1783641600,
+          "date_created_timestamp": 1783641600,
+          "value": 4993
+        },
+        {
+          "date_created": 1783728000,
+          "date_created_timestamp": 1783728000,
+          "value": 5236
+        },
+        {
+          "date_created": 1783814400,
+          "date_created_timestamp": 1783814400,
+          "value": 5749
+        },
+        {
+          "date_created": 1783900800,
+          "date_created_timestamp": 1783900800,
+          "value": 6181
+        },
+        {
+          "date_created": 1783987200,
+          "date_created_timestamp": 1783987200,
+          "value": 7018
+        },
+        {
+          "date_created": 1784073600,
+          "date_created_timestamp": 1784073600,
+          "value": 7233
+        },
+        {
+          "date_created": 1784160000,
+          "date_created_timestamp": 1784160000,
+          "value": 7530
+        },
+        {
+          "date_created": 1784246400,
+          "date_created_timestamp": 1784246400,
+          "value": 7935
+        },
+        {
+          "date_created": 1784332800,
+          "date_created_timestamp": 1784332800,
+          "value": 8988
+        },
+        {
+          "date_created": 1784419200,
+          "date_created_timestamp": 1784419200,
+          "value": 8988
+        },
+        {
+          "date_created": 1784505600,
+          "date_created_timestamp": 1784505600,
+          "value": 9771
+        },
+        {
+          "date_created": 1784592000,
+          "date_created_timestamp": 1784592000,
+          "value": 9933
+        },
+        {
+          "date_created": 1784678400,
+          "date_created_timestamp": 1784678400,
+          "value": 12119
+        },
+        {
+          "date_created": 1784764800,
+          "date_created_timestamp": 1784764800,
+          "value": 13819
+        },
+        {
+          "date_created": 1784851200,
+          "date_created_timestamp": 1784851200,
+          "value": 15088
+        },
+        {
+          "date_created": 1784937600,
+          "date_created_timestamp": 1784937600,
+          "value": 16113
+        },
+        {
+          "date_created": 1785024000,
+          "date_created_timestamp": 1785024000,
+          "value": 16167
+        },
+        {
+          "date_created": 1785110400,
+          "date_created_timestamp": 1785110400,
+          "value": 16653
+        },
+        {
+          "date_created": 1785196800,
+          "date_created_timestamp": 1785196800,
+          "value": 20594
+        },
+        {
+          "date_created": 1785283200,
+          "date_created_timestamp": 1785283200,
+          "value": 18947
+        },
+        {
+          "date_created": 1785369600,
+          "date_created_timestamp": 1785369600,
+          "value": 19217
+        },
+        {
+          "date_created": 1785456000,
+          "date_created_timestamp": 1785456000,
+          "value": 19379
+        },
+        {
+          "date_created": 1785542400,
+          "date_created_timestamp": 1785542400,
+          "value": 19460
+        },
+        {
+          "date_created": 1785628800,
+          "date_created_timestamp": 1785628800,
+          "value": 19541
+        },
+        {
+          "date_created": 1785801600,
+          "date_created_timestamp": 1785801600,
+          "value": 19757
+        },
+        {
+          "date_created": 1785888000,
+          "date_created_timestamp": 1785888000,
+          "value": 19757
+        },
+        {
+          "date_created": 1785974400,
+          "date_created_timestamp": 1785974400,
+          "value": 20000
+        },
+        {
+          "date_created": 1790726400,
+          "date_created_timestamp": 1790726400,
+          "value": 21215
+        },
+        {
+          "date_created": 1790812800,
+          "date_created_timestamp": 1790812800,
+          "value": 21215
+        },
+        {
+          "date_created": 1790899200,
+          "date_created_timestamp": 1790899200,
+          "value": 21240
+        },
+        {
+          "date_created": 1791158400,
+          "date_created_timestamp": 1791158400,
+          "value": 21392
+        },
+        {
+          "date_created": 1791331200,
+          "date_created_timestamp": 1791331200,
+          "value": 21468
+        },
+        {
+          "date_created": 1791417600,
+          "date_created_timestamp": 1791417600,
+          "value": 21493
+        },
+        {
+          "date_created": 1791504000,
+          "date_created_timestamp": 1791504000,
+          "value": 21518
+        },
+        {
+          "date_created": 1791676800,
+          "date_created_timestamp": 1791676800,
+          "value": 21668
+        },
+        {
+          "date_created": 1791849600,
+          "date_created_timestamp": 1791849600,
+          "value": 21743
+        },
+        {
+          "date_created": 1792022400,
+          "date_created_timestamp": 1792022400,
+          "value": 21867
+        },
+        {
+          "date_created": 1792108800,
+          "date_created_timestamp": 1792108800,
+          "value": 21867
+        },
+        {
+          "date_created": 1792195200,
+          "date_created_timestamp": 1792195200,
+          "value": 23197
+        },
+        {
+          "date_created": 1792281600,
+          "date_created_timestamp": 1792281600,
+          "value": 23524
+        },
+        {
+          "date_created": 1792368000,
+          "date_created_timestamp": 1792368000,
+          "value": 23593
+        },
+        {
+          "date_created": 1792454400,
+          "date_created_timestamp": 1792454400,
+          "value": 23593
+        },
+        {
+          "date_created": 1792540800,
+          "date_created_timestamp": 1792540800,
+          "value": 23685
+        },
+        {
+          "date_created": 1792627200,
+          "date_created_timestamp": 1792627200,
+          "value": 23708
+        },
+        {
+          "date_created": 1792713600,
+          "date_created_timestamp": 1792713600,
+          "value": 23731
+        },
+        {
+          "date_created": 1792800000,
+          "date_created_timestamp": 1792800000,
+          "value": 23868
+        },
+        {
+          "date_created": 1792886400,
+          "date_created_timestamp": 1792886400,
+          "value": 24049
+        },
+        {
+          "date_created": 1792972800,
+          "date_created_timestamp": 1792972800,
+          "value": 24295
+        },
+        {
+          "date_created": 1793059200,
+          "date_created_timestamp": 1793059200,
+          "value": 24406
+        },
+        {
+          "date_created": 1793145600,
+          "date_created_timestamp": 1793145600,
+          "value": 24516
+        },
+        {
+          "date_created": 1793232000,
+          "date_created_timestamp": 1793232000,
+          "value": 24648
+        },
+        {
+          "date_created": 1793318400,
+          "date_created_timestamp": 1793318400,
+          "value": 24692
+        },
+        {
+          "date_created": 1793404800,
+          "date_created_timestamp": 1793404800,
+          "value": 24714
+        },
+        {
+          "date_created": 1793577600,
+          "date_created_timestamp": 1793577600,
+          "value": 24931
+        },
+        {
+          "date_created": 1793664000,
+          "date_created_timestamp": 1793664000,
+          "value": 24996
+        },
+        {
+          "date_created": 1793750400,
+          "date_created_timestamp": 1793750400,
+          "value": 25379
+        },
+        {
+          "date_created": 1793836800,
+          "date_created_timestamp": 1793836800,
+          "value": 25693
+        },
+        {
+          "date_created": 1793923200,
+          "date_created_timestamp": 1793923200,
+          "value": 25693
+        }
+      ],
+      "revenue": [
+        {
+          "date_created": 1780444800,
+          "date_created_timestamp": 1780444800,
+          "value": 0
+        },
+        {
+          "date_created": 1780963200,
+          "date_created_timestamp": 1780963200,
+          "value": 161.94
+        },
+        {
+          "date_created": 1781049600,
+          "date_created_timestamp": 1781049600,
+          "value": 202.43
+        },
+        {
+          "date_created": 1781136000,
+          "date_created_timestamp": 1781136000,
+          "value": 850.2
+        },
+        {
+          "date_created": 1781222400,
+          "date_created_timestamp": 1781222400,
+          "value": 1052.63
+        },
+        {
+          "date_created": 1781308800,
+          "date_created_timestamp": 1781308800,
+          "value": 1214.57
+        },
+        {
+          "date_created": 1781395200,
+          "date_created_timestamp": 1781395200,
+          "value": 1457.49
+        },
+        {
+          "date_created": 1781481600,
+          "date_created_timestamp": 1781481600,
+          "value": 1376.52
+        },
+        {
+          "date_created": 1781568000,
+          "date_created_timestamp": 1781568000,
+          "value": 1538.46
+        },
+        {
+          "date_created": 1781654400,
+          "date_created_timestamp": 1781654400,
+          "value": 1538.46
+        },
+        {
+          "date_created": 1781740800,
+          "date_created_timestamp": 1781740800,
+          "value": 1578.95
+        },
+        {
+          "date_created": 1781827200,
+          "date_created_timestamp": 1781827200,
+          "value": 1659.92
+        },
+        {
+          "date_created": 1782000000,
+          "date_created_timestamp": 1782000000,
+          "value": 1740.89
+        },
+        {
+          "date_created": 1782086400,
+          "date_created_timestamp": 1782086400,
+          "value": 1983.81
+        },
+        {
+          "date_created": 1782172800,
+          "date_created_timestamp": 1782172800,
+          "value": 2024.29
+        },
+        {
+          "date_created": 1782259200,
+          "date_created_timestamp": 1782259200,
+          "value": 2024.29
+        },
+        {
+          "date_created": 1782345600,
+          "date_created_timestamp": 1782345600,
+          "value": 2064.78
+        },
+        {
+          "date_created": 1782432000,
+          "date_created_timestamp": 1782432000,
+          "value": 2145.75
+        },
+        {
+          "date_created": 1782518400,
+          "date_created_timestamp": 1782518400,
+          "value": 2186.23
+        },
+        {
+          "date_created": 1782604800,
+          "date_created_timestamp": 1782604800,
+          "value": 3684.21
+        },
+        {
+          "date_created": 1782691200,
+          "date_created_timestamp": 1782691200,
+          "value": 4089.07
+        },
+        {
+          "date_created": 1782777600,
+          "date_created_timestamp": 1782777600,
+          "value": 4898.79
+        },
+        {
+          "date_created": 1783036800,
+          "date_created_timestamp": 1783036800,
+          "value": 4412.96
+        },
+        {
+          "date_created": 1783123200,
+          "date_created_timestamp": 1783123200,
+          "value": 5182.19
+        },
+        {
+          "date_created": 1783209600,
+          "date_created_timestamp": 1783209600,
+          "value": 4858.3
+        },
+        {
+          "date_created": 1783296000,
+          "date_created_timestamp": 1783296000,
+          "value": 5020.24
+        },
+        {
+          "date_created": 1783382400,
+          "date_created_timestamp": 1783382400,
+          "value": 5141.7
+        },
+        {
+          "date_created": 1783468800,
+          "date_created_timestamp": 1783468800,
+          "value": 5344.13
+        },
+        {
+          "date_created": 1783555200,
+          "date_created_timestamp": 1783555200,
+          "value": 6113.36
+        },
+        {
+          "date_created": 1783641600,
+          "date_created_timestamp": 1783641600,
+          "value": 7489.88
+        },
+        {
+          "date_created": 1783728000,
+          "date_created_timestamp": 1783728000,
+          "value": 7854.25
+        },
+        {
+          "date_created": 1783814400,
+          "date_created_timestamp": 1783814400,
+          "value": 8623.48
+        },
+        {
+          "date_created": 1783900800,
+          "date_created_timestamp": 1783900800,
+          "value": 9271.26
+        },
+        {
+          "date_created": 1783987200,
+          "date_created_timestamp": 1783987200,
+          "value": 10526.32
+        },
+        {
+          "date_created": 1784073600,
+          "date_created_timestamp": 1784073600,
+          "value": 10850.2
+        },
+        {
+          "date_created": 1784160000,
+          "date_created_timestamp": 1784160000,
+          "value": 11295.55
+        },
+        {
+          "date_created": 1784246400,
+          "date_created_timestamp": 1784246400,
+          "value": 11902.83
+        },
+        {
+          "date_created": 1784332800,
+          "date_created_timestamp": 1784332800,
+          "value": 13481.78
+        },
+        {
+          "date_created": 1784419200,
+          "date_created_timestamp": 1784419200,
+          "value": 13481.78
+        },
+        {
+          "date_created": 1784505600,
+          "date_created_timestamp": 1784505600,
+          "value": 14655.87
+        },
+        {
+          "date_created": 1784592000,
+          "date_created_timestamp": 1784592000,
+          "value": 14898.79
+        },
+        {
+          "date_created": 1784678400,
+          "date_created_timestamp": 1784678400,
+          "value": 18178.14
+        },
+        {
+          "date_created": 1784764800,
+          "date_created_timestamp": 1784764800,
+          "value": 20728.74
+        },
+        {
+          "date_created": 1784851200,
+          "date_created_timestamp": 1784851200,
+          "value": 22631.58
+        },
+        {
+          "date_created": 1784937600,
+          "date_created_timestamp": 1784937600,
+          "value": 24170.04
+        },
+        {
+          "date_created": 1785024000,
+          "date_created_timestamp": 1785024000,
+          "value": 24251.01
+        },
+        {
+          "date_created": 1785110400,
+          "date_created_timestamp": 1785110400,
+          "value": 24979.76
+        },
+        {
+          "date_created": 1785196800,
+          "date_created_timestamp": 1785196800,
+          "value": 30890.69
+        },
+        {
+          "date_created": 1785283200,
+          "date_created_timestamp": 1785283200,
+          "value": 28421.05
+        },
+        {
+          "date_created": 1785369600,
+          "date_created_timestamp": 1785369600,
+          "value": 28825.91
+        },
+        {
+          "date_created": 1785456000,
+          "date_created_timestamp": 1785456000,
+          "value": 29068.83
+        },
+        {
+          "date_created": 1785542400,
+          "date_created_timestamp": 1785542400,
+          "value": 29190.28
+        },
+        {
+          "date_created": 1785628800,
+          "date_created_timestamp": 1785628800,
+          "value": 29311.74
+        },
+        {
+          "date_created": 1785801600,
+          "date_created_timestamp": 1785801600,
+          "value": 29635.63
+        },
+        {
+          "date_created": 1785888000,
+          "date_created_timestamp": 1785888000,
+          "value": 29635.63
+        },
+        {
+          "date_created": 1785974400,
+          "date_created_timestamp": 1785974400,
+          "value": 30000
+        },
+        {
+          "date_created": 1790726400,
+          "date_created_timestamp": 1790726400,
+          "value": 31821.86
+        },
+        {
+          "date_created": 1790812800,
+          "date_created_timestamp": 1790812800,
+          "value": 31821.86
+        },
+        {
+          "date_created": 1790899200,
+          "date_created_timestamp": 1790899200,
+          "value": 31862.35
+        },
+        {
+          "date_created": 1791158400,
+          "date_created_timestamp": 1791158400,
+          "value": 32105.27
+        },
+        {
+          "date_created": 1791331200,
+          "date_created_timestamp": 1791331200,
+          "value": 32226.73
+        },
+        {
+          "date_created": 1791417600,
+          "date_created_timestamp": 1791417600,
+          "value": 32267.22
+        },
+        {
+          "date_created": 1791504000,
+          "date_created_timestamp": 1791504000,
+          "value": 32307.71
+        },
+        {
+          "date_created": 1791676800,
+          "date_created_timestamp": 1791676800,
+          "value": 32550.63
+        },
+        {
+          "date_created": 1791849600,
+          "date_created_timestamp": 1791849600,
+          "value": 32672.09
+        },
+        {
+          "date_created": 1792022400,
+          "date_created_timestamp": 1792022400,
+          "value": 32874.52
+        },
+        {
+          "date_created": 1792108800,
+          "date_created_timestamp": 1792108800,
+          "value": 32874.52
+        },
+        {
+          "date_created": 1792195200,
+          "date_created_timestamp": 1792195200,
+          "value": 35060.76
+        },
+        {
+          "date_created": 1792281600,
+          "date_created_timestamp": 1792281600,
+          "value": 35633.51
+        },
+        {
+          "date_created": 1792368000,
+          "date_created_timestamp": 1792368000,
+          "value": 35756.53
+        },
+        {
+          "date_created": 1792454400,
+          "date_created_timestamp": 1792454400,
+          "value": 35756.53
+        },
+        {
+          "date_created": 1792540800,
+          "date_created_timestamp": 1792540800,
+          "value": 35920.93
+        },
+        {
+          "date_created": 1792627200,
+          "date_created_timestamp": 1792627200,
+          "value": 35962.03
+        },
+        {
+          "date_created": 1792713600,
+          "date_created_timestamp": 1792713600,
+          "value": 36003.13
+        },
+        {
+          "date_created": 1792800000,
+          "date_created_timestamp": 1792800000,
+          "value": 36249.73
+        },
+        {
+          "date_created": 1792886400,
+          "date_created_timestamp": 1792886400,
+          "value": 36578.53
+        },
+        {
+          "date_created": 1792972800,
+          "date_created_timestamp": 1792972800,
+          "value": 37030.63
+        },
+        {
+          "date_created": 1793059200,
+          "date_created_timestamp": 1793059200,
+          "value": 37236.13
+        },
+        {
+          "date_created": 1793145600,
+          "date_created_timestamp": 1793145600,
+          "value": 37441.63
+        },
+        {
+          "date_created": 1793232000,
+          "date_created_timestamp": 1793232000,
+          "value": 37688.23
+        },
+        {
+          "date_created": 1793318400,
+          "date_created_timestamp": 1793318400,
+          "value": 37770.43
+        },
+        {
+          "date_created": 1793404800,
+          "date_created_timestamp": 1793404800,
+          "value": 37811.53
+        },
+        {
+          "date_created": 1793577600,
+          "date_created_timestamp": 1793577600,
+          "value": 38222.53
+        },
+        {
+          "date_created": 1793664000,
+          "date_created_timestamp": 1793664000,
+          "value": 38345.83
+        },
+        {
+          "date_created": 1793750400,
+          "date_created_timestamp": 1793750400,
+          "value": 39085.63
+        },
+        {
+          "date_created": 1793836800,
+          "date_created_timestamp": 1793836800,
+          "value": 39702.13
+        },
+        {
+          "date_created": 1793923200,
+          "date_created_timestamp": 1793923200,
+          "value": 39702.13
+        }
+      ]
+    }
+  }
+}

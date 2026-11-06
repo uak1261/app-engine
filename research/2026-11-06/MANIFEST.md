@@ -28,3 +28,28 @@
 | 05:37:25 | search_apps | `{"source":"apple_mobile","countries":["US"],"minRevenue":5000,"sortBy":"revenue","limit":10,"textSearchFields":["title","description"],"search":"fishing hunting boating map","categories":["Navigation","Sports","Travel"]}` | 10 / 64 | depth_outdoor_maps.json | 4df3450993a7fe68 |
 | 05:37:26 | search_apps | `{"source":"apple_mobile","countries":["US"],"minRevenue":5000,"sortBy":"revenue","limit":10,"textSearchFields":["title","description"],"search":"home bakery business orders pricing recipes cost","categories":["Business","Food & Drink","Productivity"]}` | 10 / 514 | depth_home_bakery.json | 7f16c84035cf2238 |
 | 05:37:27 | search_apps | `{"source":"apple_mobile","countries":["US"],"minRevenue":5000,"sortBy":"revenue","limit":10,"textSearchFields":["title","description"],"search":"self tape audition actor"}` | 10 / 1886 | depth_actor_selftape.json | 2e8f5df1db445ce3 |
+| 06:19:27 | get_app_historicals | Settlemate, period all, metrics revenue/downloads/score/reviews | 1 | hist_settlemate.json | ebaa73e8c9829256 |
+| 06:19:29 | get_app_historicals | app-bakesy-home-bakery-biz-app-id1515139393, period all | 1 | hist_bakesy.json | a30097b98cb46f1e |
+| 06:19:32 | get_app_historicals | app-parrot-learn-spanish-fast-id6736955121, period all | 1 | hist_parrot.json | 2092d1cae6cb4311 |
+| 06:19:33 | get_app_historicals | app-collect-settlement-finder-id6752740187, period all | 1 | hist_collect.json | 7520cbe9b6dae6e7 |
+| 06:19:35 | get_app_historicals | app-heyrua-irish-learning-app-id6796777994, period all | 1 | hist_heyrua.json | cb536a7940da5ebc |
+| 06:19:36 | get_app_historicals | app-everlance-mileage-tracker-id985378916, period all | 1 | hist_everlance.json | f2245189a02d2ae7 |
+| 06:19:38 | get_app_historicals | app-brickify-id6758356210, period all | 1 | hist_brickify.json | 0bdb6ecd57010ff8 |
+| 06:19:40 | get_app_historicals | app-core-of-the-heart-daily-id6757750161, period all | 1 | hist_coreheart.json | 36be692a9ea27297 |
+| 06:19:43 | get_app_historicals | app-hurdlr-mileage-expenses-tax-id951737201, period all | 1 | hist_hurdlr.json | 83f799e315a7e9bf |
+| 06:19:45 | get_app_historicals | app-getpaid-find-claim-money-id6770756969, period all | 1 | hist_getpaid.json | ceb3703a5b027c1c |
+| 06:19:46 | get_app_historicals | app-biblescroll-screen-time-faith-id6755406222, period all | 1 | hist_biblescroll.json | 7bc68cc1cfcf2ae6 |
+| 06:19:48 | get_app_historicals | app-linus-learn-lines-self-tape-id6742599484, period all | 1 | hist_linus.json | a4eca1f3afcba8d0 |
+| 06:19:50 | get_app_historicals | app-cardora-sports-card-scanner-id6762001564, period all | 1 | hist_cardora.json | 8a2aea32d806661a |
+| 06:19:52 | get_app_historicals | app-claimhunt-claim-settlement-id6755202426, period all | 1 | hist_claimhunt.json | 301029dad76e186c |
+| 06:19:53 | get_app_historicals | app-bible-shorts-daily-devotion-id6795921981, period all | 1 | hist_bibleshorts.json | 7a170c60d874c37f |
+| 06:19:55 | get_app_historicals | app-coldread-id1264354117, period all | 1 | hist_coldread.json | e93a517523c2d30f |
+| 06:19:57 | get_app_historicals | app-solo-your-gig-business-app-id1586902173, period all | 1 | hist_solo.json | 5b103cb0acc58e1f |
+| 06:19:59 | get_app_historicals | app-creed-bible-chat-companion-id6747326744, period all | 1 | hist_creed.json | a60b840b436374c3 |
+| 06:20:01 | get_app_historicals | app-simplywise-receipts-expenses-id1538521095, period all | 1 | hist_simplywise.json | e936f60ba80713d8 |
+| 06:20:30 | get_app_historicals | app-curio-antique-identifier-id6520380757, period all | 1 | hist_curio.json | af3afa1df9cbcfc8 |
+| 06:20:32 | get_app_historicals | app-faithe-bible-study-videos-id6736618823, period all | 1 | hist_faithe.json | 5bb1e069fef4f9ea |
+| 06:20:34 | get_app_historicals | app-payout-claim-class-actions-id6748968935, period all | 1 | hist_payout.json | 839f8427896bbe4c |
+| 06:20:37 | get_app_historicals | app-skillcat-epa-608-hvac-more-id1588071312, period all | 1 | hist_skillcat.json | 1c79239dd8dc814a |
+| 06:20:39 | get_app_historicals | app-documented-parenting-record-id6791808503, period all | 1 | hist_documented.json | 2cf27b800a7be6bc |
+| 06:20:40 | get_app_historicals | app-ourfamilywizard-co-parent-app-id497405393, period all | 1 | hist_ourfamilywizard.json | 53cfd8f7f933b09d |
