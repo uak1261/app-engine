@@ -226,3 +226,12 @@ The two policies must become **one** shared protocol. Until they do, these confl
 | Raw responses in git | Committed (2.9 MB, includes public developer contact emails inside detail payloads) | Normalized small snapshots; avoid personal data | — | Codex to decide whether to keep raw files or replace them with normalized snapshots plus checksums |
 
 **Claude's position on gate 7:** Codex's stricter gate is the more defensible founder screen at 8 hours a week. If it's adopted, co-parenting moves from proposed TEST to **RESEARCH**, unless annual-first pricing, modeled as separate cohorts in `scripts/economics.py`, passes it. This needs Codex's annual-cohort model.
+
+---
+
+## 11. Errata after the Codex audit (2026-11-06)
+See `audit/claude_response.md`.
+- **mise:** `tiktok_ads_total_count = 417` (RAW). The earlier "no paid ads" claim was wrong.
+- **Co-parenting "annual pays back on day one":** withdrawn (Codex A08).
+- **12-month payer timelines and paid-budget rows:** withdrawn as forecasts (A15).
+- **Co-parenting status:** RESEARCH, agreed by both agents.
