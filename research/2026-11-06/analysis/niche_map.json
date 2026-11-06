@@ -1,0 +1,14 @@
+{
+ "class_action_finders": {"files":["depth_class_action.json"], "include":"Settlemate|ClaimHunt|Collect - Settlement|Payout|GetPaid|MoneyPilot|ClaimWise|OweYou|PayMe|Claim: Class"},
+ "faith_tech_christian": {"files":["sweep_reference.json","sweep_health_fitness.json","sweep_lifestyle.json"], "include":"BibleScroll|Bible Shorts|Creed|Duomo|Faithe|Core of the Heart|Pray.com"},
+ "collectibles_id_trackers": {"files":["depth_collectibles_id.json","sweep_reference.json","sweep_sports.json"], "include":"AntiqSnap|Curio|Coin Value|Antique Coin|Brickify|Cardora|StarSnap"},
+ "selfemployed_mileage_receipts": {"files":["depth_selfemployed_receipts.json","sweep_finance.json"], "include":"Everlance|Hurdlr|Receipt Scanner|SparkReceipt|Shoeboxed|GigReal|Foreceipt|Tofu|Solo: Your Gig|SimplyWise"},
+ "recipe_import_social": {"files":["depth_recipe_import.json"], "include":"ReciMe|Osta|CookGo|Herbi|Recipe Keeper|RecipeBox|Clove|All My Meals|Daily Bite|Inspo"},
+ "actor_tools": {"files":["depth_actor_selftape.json"], "include":"Actors Access|coldRead|Scriptation|Linus|WeAudition"},
+ "trades_exam_prep": {"files":["depth_trade_exam.json"], "include":"SkillCat|EPA 608|CSCS"},
+ "home_food_business": {"files":["depth_home_bakery.json"], "include":"Bakesy|Love, Manuela|Gluten Morgen"},
+ "rec_sports_organizers": {"files":["depth_pickleball.json"], "include":"Scoreholio|SwingVision|TeamReach|Super Scoreboard|Scoreboard: Keep|Padel Mates|DUPR|UTR|TeamSnap"},
+ "pro_driver_navigation": {"files":["depth_trucking.json","sweep_navigation.json"], "include":"Trucker Path|Hammer|Trucker Guide|Drivewyze|RoadWarrior|Wellsite|Sygic GPS Truck"},
+ "outdoor_hunt_fish": {"files":["depth_outdoor_maps.json","sweep_navigation.json"], "include":"MyOutdoorTV|GPS Tracks|Solunar|Georgia Outdoor|TroutRoutes|Wavve|Backroad"},
+ "heritage_language": {"files":["sweep_education.json"], "include":"HeyRua|Parrot: Learn|Jumpspeak|SuperChinese"}
+}
