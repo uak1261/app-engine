@@ -53,3 +53,13 @@
 | 06:20:37 | get_app_historicals | app-skillcat-epa-608-hvac-more-id1588071312, period all | 1 | hist_skillcat.json | 1c79239dd8dc814a |
 | 06:20:39 | get_app_historicals | app-documented-parenting-record-id6791808503, period all | 1 | hist_documented.json | 2cf27b800a7be6bc |
 | 06:20:40 | get_app_historicals | app-ourfamilywizard-co-parent-app-id497405393, period all | 1 | hist_ourfamilywizard.json | 53cfd8f7f933b09d |
+
+## NichesHunter API (second source, added 2026-11-06)
+The base URL is `https://nicheshunter.app/api/v1`; the documented `nicheshunter.com` returns 502. Auth is a Bearer key, injected by the environment proxy and never stored in the repo. Cost: 1 credit = $0.01.
+
+| UTC | Endpoint | Params | Cost | Raw file |
+|---|---|---|---|---|
+| 16:35 | GET /categories | — | $0.01 | nicheshunter/categories.json |
+| 16:37 | GET /opportunities | country=US, page=1 (50 of 7,510) | $0.20 | nicheshunter/opportunities_us_p1.json |
+
+Balance after calls: **$0.79** (free starter credit). Fields are chart-based: best_rank, avg_rank, days_in_top, country_count, first_seen, total_score. **No revenue estimates.** The scoring method is undocumented.

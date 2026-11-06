@@ -62,6 +62,30 @@ If a limit is reached, the report recommends **what to stop or finish first**. I
    - A 404 on a guessed slug is free. Always take slugs from search results.
    - Pricing: search ~1 credit per app returned; details 1; reviews 1 per review; keyword tools ~10.
 
+## 6a. Second source: NichesHunter (chart-based)
+- **API:**
+  - REST at `https://nicheshunter.app/api/v1`. The docs' `nicheshunter.com` base URL fails.
+  - Bearer key supplied by the runner's environment. **Never commit or print it.**
+  - Each runner (Claude, Codex) needs its own credential configured.
+- **What it adds:**
+  - **Independent App Store chart evidence**: best rank, average rank, days in the top charts, number of countries, first seen.
+  - This corroborates or contradicts AppKittie's *modeled* revenue. It is **not** a revenue source.
+- **Endpoints and costs** (1 credit = $0.01):
+
+  | Endpoint | Credits | Notes |
+  |---|---|---|
+  | `/rankings` | 3 | `country` or `category` required; `search` adds 10 |
+  | `/opportunities` | 20 per page | 50 rows, scraper-scored |
+  | `/niches` | 20 | |
+  | `/niches/:code` | 85 | |
+  | `/categories` | 1 | |
+- **Use:**
+  1. Monday: one `/opportunities?country=US` page as a challenger feed.
+  2. For each finalist: `/rankings` with the app name (13 credits) to confirm chart presence over time. A finalist whose AppKittie revenue rises while it never charts is flagged **ESTIMATE-SUSPECT**.
+- **Budget:** counted inside the $500/month validation cap. About $5/month at this usage.
+- **Labels:** chart rank is OBSERVED (store chart). NichesHunter scores and niche write-ups are VENDOR-OPINION and never count as demand evidence alone.
+- **Save:** every response to `research/<date>/raw/nicheshunter/` with headers (`X-Credits-*`) and a manifest row.
+
 ## 7. Monday discovery (cap 300 credits)
 Common filters: `excludedCategories: ["games"]`, `countries: ["US"]`. Research each store separately; never combine iOS and Android numbers.
 

@@ -1,0 +1,17 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: application/json
+Date: Fri, 06 Nov 2026 16:36:16 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+X-Credits-Remaining: 0.79
+X-Credits-Used: 0.20
+X-Matched-Path: /api/v1/opportunities
+X-Vercel-Cache: BYPASS
+X-Vercel-Id: iad1::iad1::nxvhs-1793982973362-b6fede3be908
+
