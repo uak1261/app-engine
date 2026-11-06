@@ -1,0 +1,3341 @@
+{
+  "data": {
+    "app_slug": "app-mise-meal-planner-id6777471316",
+    "app_id": "com.gregorytaylor.shopping",
+    "store_id": 6777471316,
+    "title": "mise - meal planner",
+    "url": "https://apps.apple.com/us/app/mise-meal-planner/id6777471316?uo=4",
+    "description": "mise \u2013 meal planner\nTake the stress out of deciding what to eat.\n\nmise helps you generate personalised meal plans in seconds based on your dietary preferences, calorie goals, favourite UK supermarkets, budget, and the ingredients you already have at home.\n\nWhether you're meal prepping for the week, trying to eat healthier, save money on groceries, or simply reduce food waste, mise creates practical meal plans and shopping lists tailored to you.\n\nFeatures\n\u2022 Generate personalised weekly meal plans\n\u2022 Build meals around ingredients already in your kitchen\n\u2022 Create automatic shopping lists\n\u2022 Choose from popular UK supermarkets\n\u2022 Filter by dietary requirements and preferences\n\u2022 Discover new recipes and meal ideas\n\u2022 Save time planning meals each week\n\u2022 Reduce food waste and unnecessary spending\n\nSubscription Information\nmise offers premium access through an auto-renewing subscription.\n\n\u2022 3-day free trial for new users\n\u2022 Weekly subscription available\n\u2022 Annual subscription available\n\nPayment will be charged to your Apple ID account upon confirmation of purchase.\n\nSubscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current billing period.\n\nYour account will be charged for renewal within 24 hours prior to the end of the current billing period.\n\nYou can manage and cancel your subscription at any time through your App Store Account Settings.\n\nAny unused portion of a free trial period will be forfeited when you purchase a subscription.\n\nLegal\nPrivacy Policy: https://docs.google.com/document/d/1ZRA3y3z-KXAGgrQln6GI1bg0x41Sl1H000TZSgo-wzg/edit?usp=sharing\n\nTerms of Service: https://docs.google.com/document/d/1EH30wUxhRKCn1UsBrPUTJUbimXE2FRK1dF9wHNPDIXc/edit?usp=sharing",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/b5/0f/c3b50f7d-4cc0-050e-1b93-f2ce8e72fd29/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Food & Drink",
+      "Health & Fitness"
+    ],
+    "genre_ids": [
+      "6023",
+      "6013"
+    ],
+    "primary_genre": "Food & Drink",
+    "primary_genre_id": 6023,
+    "content_rating": "4+",
+    "languages": [
+      "EN"
+    ],
+    "size": 164008960,
+    "required_os_version": "16.4",
+    "version": "1.1.30",
+    "release_notes": "UI/UX-Verbesserungen",
+    "price": 0,
+    "currency": "USD",
+    "free": true,
+    "developer_id": 1859935083,
+    "developer": "TEGS LABS LTD",
+    "developer_url": "https://apps.apple.com/us/developer/tegs-labs-ltd/id1859935083?uo=4",
+    "developer_website": null,
+    "emails": [],
+    "websites": [
+      "https://docs.google.com/document/d/1ZRA3y3z-KXAGgrQln6GI1bg0x41Sl1H000TZSgo-wzg/edit?usp=sharing",
+      "https://docs.google.com/document/d/1EH30wUxhRKCn1UsBrPUTJUbimXE2FRK1dF9wHNPDIXc/edit?usp=sharing"
+    ],
+    "score": 4.72462,
+    "reviews": 4481,
+    "current_version_score": 4.72462,
+    "current_version_reviews": 4481,
+    "downloads": 301678,
+    "revenue": 530850.18,
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/bc/b9/12bcb9de-aa1f-545e-205e-8caca361f30d/1.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/87/37/798737b8-f5da-63f5-c02b-e1ec94bbd3a2/2.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/75/4a/3c754ad9-7a04-4b8e-b986-b0d3d3df12ac/3.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/40/ba/b640ba71-0654-302f-253f-a59fd26d2110/4.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bf/b4/fc/bfb4fc41-efaf-248f-df44-2340fcc2cb38/5.png/320x480bb.jpg"
+    ],
+    "historical_counts": {
+      "reviews_growth_7d": 12.56,
+      "reviews_growth_14d": 26.65,
+      "reviews_growth_30d": 49.82,
+      "reviews_growth_60d": 363.39,
+      "reviews_growth_90d": 1057.88,
+      "current_version_reviews_growth_7d": 12.56,
+      "current_version_reviews_growth_14d": 26.65,
+      "current_version_reviews_growth_30d": 49.82,
+      "current_version_reviews_growth_60d": 363.39,
+      "current_version_reviews_growth_90d": 1057.88,
+      "score_growth_7d": 0.18,
+      "score_growth_14d": 0.41,
+      "score_growth_30d": 0.58,
+      "score_growth_60d": 2.39,
+      "score_growth_90d": 2.61,
+      "current_version_score_growth_7d": 0.18,
+      "current_version_score_growth_14d": 0.41,
+      "current_version_score_growth_30d": 0.58,
+      "current_version_score_growth_60d": 2.39,
+      "current_version_score_growth_90d": 2.61,
+      "price_growth_7d": 0,
+      "price_growth_14d": 0,
+      "price_growth_30d": 0,
+      "price_growth_60d": 0,
+      "price_growth_90d": 0,
+      "downloads_growth_7d": -35.24,
+      "downloads_growth_14d": -27.91,
+      "downloads_growth_30d": -30.68,
+      "downloads_growth_60d": -16.6,
+      "downloads_growth_90d": 136.46,
+      "revenue_growth_7d": 12.64,
+      "revenue_growth_14d": 26.75,
+      "revenue_growth_30d": 21.62,
+      "revenue_growth_60d": 44.2,
+      "revenue_growth_90d": 316.08,
+      "mau_growth_7d": 12.64,
+      "mau_growth_14d": 26.75,
+      "mau_growth_30d": 24.05,
+      "mau_growth_60d": 183.36,
+      "mau_growth_90d": 735.3,
+      "dau_growth_7d": 12.64,
+      "dau_growth_14d": 26.75,
+      "dau_growth_30d": 24.05,
+      "dau_growth_60d": 183.36,
+      "dau_growth_90d": 735.24
+    },
+    "decision_makers": [],
+    "socials": null,
+    "hiring": null,
+    "in_app_purchases": [
+      {
+        "iap_id": 6799124688,
+        "name": "Yearly Subscription",
+        "price": "$39.99",
+        "duration": "P1Y"
+      },
+      {
+        "iap_id": 6790347337,
+        "name": "Yearly Membership",
+        "price": "$49.99",
+        "duration": "P1Y"
+      },
+      {
+        "iap_id": 6799123872,
+        "name": "Yearly Subscription",
+        "price": "$29.99",
+        "duration": "P1Y"
+      },
+      {
+        "iap_id": 6777696783,
+        "name": "Monthly Membership",
+        "price": "$9.99",
+        "duration": "P1M"
+      },
+      {
+        "iap_id": 6785401332,
+        "name": "Yearly Membership",
+        "price": "$39.99",
+        "duration": "P1Y"
+      },
+      {
+        "iap_id": 6777471549,
+        "name": "Yearly Membership",
+        "price": "$59.99",
+        "duration": "P1Y"
+      },
+      {
+        "iap_id": 6791068621,
+        "name": "Yearly Membership",
+        "price": "$39.99",
+        "duration": "P1Y"
+      },
+      {
+        "iap_id": 6797917830,
+        "name": "Yearly Subscription",
+        "price": "$39.99",
+        "duration": "P1Y"
+      },
+      {
+        "iap_id": 6802579870,
+        "name": "Yearly Subscription",
+        "price": "$39.99",
+        "duration": "P1Y"
+      },
+      {
+        "iap_id": 6802560254,
+        "name": "Yearly Subscription",
+        "price": "$19.99",
+        "duration": "P1Y"
+      }
+    ],
+    "meta_ads_transparency": null,
+    "date_created_timestamp": 1781087782.606,
+    "date_updated_timestamp": 1793810530.926,
+    "app_released_date_timestamp": 1781074800,
+    "app_updated_date_timestamp": 1793572373,
+    "organic_sources": [],
+    "in_app_purchase_prices": [
+      39.99,
+      49.99,
+      29.99,
+      9.99,
+      59.99,
+      19.99
+    ],
+    "in_app_purchase_count": 10,
+    "has_in_app_purchases": true,
+    "source": "apple_mobile",
+    "tiktok_ads_total_count": 417,
+    "tiktok_ads_transparency": {
+      "countries": [
+        {
+          "country": "DE",
+          "reach": 1216000,
+          "spend": {
+            "cpm_usd": 6,
+            "spend_usd": 7296
+          },
+          "is_estimated": false,
+          "gender_breakdown": {
+            "male": 346198,
+            "female": 812347,
+            "unknown": 57455
+          },
+          "age_breakdown": [
+            {
+              "age_range": "13-17",
+              "reach": 30195
+            },
+            {
+              "age_range": "18-24",
+              "reach": 470364
+            },
+            {
+              "age_range": "25-34",
+              "reach": 521539
+            },
+            {
+              "age_range": "35-44",
+              "reach": 101986
+            },
+            {
+              "age_range": "45-54",
+              "reach": 55567
+            },
+            {
+              "age_range": "55+",
+              "reach": 36349
+            }
+          ],
+          "age_gender_breakdown": [
+            {
+              "age_range": "13-17",
+              "male": 9582,
+              "female": 11032,
+              "unknown": 9581,
+              "reach": 30195
+            },
+            {
+              "age_range": "18-24",
+              "male": 118402,
+              "female": 342382,
+              "unknown": 9580,
+              "reach": 470364
+            },
+            {
+              "age_range": "25-34",
+              "male": 161140,
+              "female": 350821,
+              "unknown": 9578,
+              "reach": 521539
+            },
+            {
+              "age_range": "35-44",
+              "male": 30289,
+              "female": 62121,
+              "unknown": 9576,
+              "reach": 101986
+            },
+            {
+              "age_range": "45-54",
+              "male": 15769,
+              "female": 30224,
+              "unknown": 9574,
+              "reach": 55567
+            },
+            {
+              "age_range": "55+",
+              "male": 11016,
+              "female": 15767,
+              "unknown": 9566,
+              "reach": 36349
+            }
+          ],
+          "periods": {
+            "last_7d": {
+              "reach": 1127607,
+              "spend_usd": 6765.64,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 321031,
+                  "spend_usd": 1926.19
+                },
+                "female": {
+                  "reach": 753296,
+                  "spend_usd": 4519.77
+                },
+                "unknown": {
+                  "reach": 53280,
+                  "spend_usd": 319.68
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 28000,
+                  "spend_usd": 168
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 436173,
+                  "spend_usd": 2617.03
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 483627,
+                  "spend_usd": 2901.76
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 94572,
+                  "spend_usd": 567.43
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 51528,
+                  "spend_usd": 309.17
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 33707,
+                  "spend_usd": 202.25
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 28000,
+                  "spend_usd": 168,
+                  "male": {
+                    "reach": 8885,
+                    "spend_usd": 53.31
+                  },
+                  "female": {
+                    "reach": 10230,
+                    "spend_usd": 61.38
+                  },
+                  "unknown": {
+                    "reach": 8885,
+                    "spend_usd": 53.31
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 436173,
+                  "spend_usd": 2617.03,
+                  "male": {
+                    "reach": 109795,
+                    "spend_usd": 658.77
+                  },
+                  "female": {
+                    "reach": 317494,
+                    "spend_usd": 1904.96
+                  },
+                  "unknown": {
+                    "reach": 8884,
+                    "spend_usd": 53.3
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 483627,
+                  "spend_usd": 2901.76,
+                  "male": {
+                    "reach": 149426,
+                    "spend_usd": 896.56
+                  },
+                  "female": {
+                    "reach": 325319,
+                    "spend_usd": 1951.91
+                  },
+                  "unknown": {
+                    "reach": 8882,
+                    "spend_usd": 53.29
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 94572,
+                  "spend_usd": 567.43,
+                  "male": {
+                    "reach": 28087,
+                    "spend_usd": 168.52
+                  },
+                  "female": {
+                    "reach": 57605,
+                    "spend_usd": 345.63
+                  },
+                  "unknown": {
+                    "reach": 8880,
+                    "spend_usd": 53.28
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 51528,
+                  "spend_usd": 309.17,
+                  "male": {
+                    "reach": 14623,
+                    "spend_usd": 87.74
+                  },
+                  "female": {
+                    "reach": 28027,
+                    "spend_usd": 168.16
+                  },
+                  "unknown": {
+                    "reach": 8878,
+                    "spend_usd": 53.27
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 33707,
+                  "spend_usd": 202.25,
+                  "male": {
+                    "reach": 10215,
+                    "spend_usd": 61.29
+                  },
+                  "female": {
+                    "reach": 14621,
+                    "spend_usd": 87.73
+                  },
+                  "unknown": {
+                    "reach": 8871,
+                    "spend_usd": 53.23
+                  }
+                }
+              ]
+            },
+            "last_30d": {
+              "reach": 1201000,
+              "spend_usd": 7206,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 341926,
+                  "spend_usd": 2051.55
+                },
+                "female": {
+                  "reach": 802327,
+                  "spend_usd": 4813.97
+                },
+                "unknown": {
+                  "reach": 56747,
+                  "spend_usd": 340.49
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 29823,
+                  "spend_usd": 178.94
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 464562,
+                  "spend_usd": 2787.37
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 515105,
+                  "spend_usd": 3090.63
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 100728,
+                  "spend_usd": 604.37
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 54881,
+                  "spend_usd": 329.29
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 35901,
+                  "spend_usd": 215.41
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 29823,
+                  "spend_usd": 178.94,
+                  "male": {
+                    "reach": 9464,
+                    "spend_usd": 56.78
+                  },
+                  "female": {
+                    "reach": 10896,
+                    "spend_usd": 65.38
+                  },
+                  "unknown": {
+                    "reach": 9463,
+                    "spend_usd": 56.78
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 464562,
+                  "spend_usd": 2787.37,
+                  "male": {
+                    "reach": 116941,
+                    "spend_usd": 701.65
+                  },
+                  "female": {
+                    "reach": 338159,
+                    "spend_usd": 2028.95
+                  },
+                  "unknown": {
+                    "reach": 9462,
+                    "spend_usd": 56.77
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 515105,
+                  "spend_usd": 3090.63,
+                  "male": {
+                    "reach": 159152,
+                    "spend_usd": 954.91
+                  },
+                  "female": {
+                    "reach": 346493,
+                    "spend_usd": 2078.96
+                  },
+                  "unknown": {
+                    "reach": 9460,
+                    "spend_usd": 56.76
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 100728,
+                  "spend_usd": 604.37,
+                  "male": {
+                    "reach": 29915,
+                    "spend_usd": 179.49
+                  },
+                  "female": {
+                    "reach": 61355,
+                    "spend_usd": 368.13
+                  },
+                  "unknown": {
+                    "reach": 9458,
+                    "spend_usd": 56.75
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 54881,
+                  "spend_usd": 329.29,
+                  "male": {
+                    "reach": 15574,
+                    "spend_usd": 93.44
+                  },
+                  "female": {
+                    "reach": 29851,
+                    "spend_usd": 179.11
+                  },
+                  "unknown": {
+                    "reach": 9456,
+                    "spend_usd": 56.74
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 35901,
+                  "spend_usd": 215.41,
+                  "male": {
+                    "reach": 10880,
+                    "spend_usd": 65.28
+                  },
+                  "female": {
+                    "reach": 15573,
+                    "spend_usd": 93.44
+                  },
+                  "unknown": {
+                    "reach": 9448,
+                    "spend_usd": 56.69
+                  }
+                }
+              ]
+            },
+            "last_90d": {
+              "reach": 1216000,
+              "spend_usd": 7296,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 346198,
+                  "spend_usd": 2077.18
+                },
+                "female": {
+                  "reach": 812347,
+                  "spend_usd": 4874.08
+                },
+                "unknown": {
+                  "reach": 57455,
+                  "spend_usd": 344.74
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 30195,
+                  "spend_usd": 181.17
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 470364,
+                  "spend_usd": 2822.18
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 521539,
+                  "spend_usd": 3129.24
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 101986,
+                  "spend_usd": 611.92
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 55567,
+                  "spend_usd": 333.39
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 36349,
+                  "spend_usd": 218.1
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 30195,
+                  "spend_usd": 181.17,
+                  "male": {
+                    "reach": 9582,
+                    "spend_usd": 57.49
+                  },
+                  "female": {
+                    "reach": 11032,
+                    "spend_usd": 66.19
+                  },
+                  "unknown": {
+                    "reach": 9581,
+                    "spend_usd": 57.49
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 470364,
+                  "spend_usd": 2822.18,
+                  "male": {
+                    "reach": 118402,
+                    "spend_usd": 710.41
+                  },
+                  "female": {
+                    "reach": 342382,
+                    "spend_usd": 2054.29
+                  },
+                  "unknown": {
+                    "reach": 9580,
+                    "spend_usd": 57.48
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 521539,
+                  "spend_usd": 3129.24,
+                  "male": {
+                    "reach": 161140,
+                    "spend_usd": 966.84
+                  },
+                  "female": {
+                    "reach": 350821,
+                    "spend_usd": 2104.93
+                  },
+                  "unknown": {
+                    "reach": 9578,
+                    "spend_usd": 57.47
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 101986,
+                  "spend_usd": 611.92,
+                  "male": {
+                    "reach": 30289,
+                    "spend_usd": 181.73
+                  },
+                  "female": {
+                    "reach": 62121,
+                    "spend_usd": 372.73
+                  },
+                  "unknown": {
+                    "reach": 9576,
+                    "spend_usd": 57.46
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 55567,
+                  "spend_usd": 333.39,
+                  "male": {
+                    "reach": 15769,
+                    "spend_usd": 94.61
+                  },
+                  "female": {
+                    "reach": 30224,
+                    "spend_usd": 181.34
+                  },
+                  "unknown": {
+                    "reach": 9574,
+                    "spend_usd": 57.44
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 36349,
+                  "spend_usd": 218.1,
+                  "male": {
+                    "reach": 11016,
+                    "spend_usd": 66.1
+                  },
+                  "female": {
+                    "reach": 15767,
+                    "spend_usd": 94.6
+                  },
+                  "unknown": {
+                    "reach": 9566,
+                    "spend_usd": 57.4
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "country": "UK",
+          "reach": 2350000,
+          "spend": {
+            "cpm_usd": 7.5,
+            "spend_usd": 17625
+          },
+          "is_estimated": false,
+          "gender_breakdown": {
+            "male": 0,
+            "female": 0,
+            "unknown": 2350000
+          },
+          "age_breakdown": [
+            {
+              "age_range": "unknown",
+              "reach": 2350000
+            }
+          ],
+          "age_gender_breakdown": [
+            {
+              "age_range": "unknown",
+              "male": 0,
+              "female": 0,
+              "unknown": 2350000,
+              "reach": 2350000
+            }
+          ],
+          "periods": {
+            "last_7d": {
+              "reach": 2305321,
+              "spend_usd": 17289.91,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2305321,
+                  "spend_usd": 17289.91
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2305321,
+                  "spend_usd": 17289.91
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2305321,
+                  "spend_usd": 17289.91,
+                  "male": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "female": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "unknown": {
+                    "reach": 2305321,
+                    "spend_usd": 17289.91
+                  }
+                }
+              ]
+            },
+            "last_30d": {
+              "reach": 2331000,
+              "spend_usd": 17482.5,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2331000,
+                  "spend_usd": 17482.5
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2331000,
+                  "spend_usd": 17482.5
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2331000,
+                  "spend_usd": 17482.5,
+                  "male": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "female": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "unknown": {
+                    "reach": 2331000,
+                    "spend_usd": 17482.5
+                  }
+                }
+              ]
+            },
+            "last_90d": {
+              "reach": 2350000,
+              "spend_usd": 17625,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2350000,
+                  "spend_usd": 17625
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2350000,
+                  "spend_usd": 17625
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2350000,
+                  "spend_usd": 17625,
+                  "male": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "female": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "unknown": {
+                    "reach": 2350000,
+                    "spend_usd": 17625
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "country": "US",
+          "reach": 4895584,
+          "spend": {
+            "cpm_usd": 9,
+            "spend_usd": 44060.26
+          },
+          "is_estimated": true,
+          "gender_breakdown": {
+            "male": 1393780,
+            "female": 3270494,
+            "unknown": 231310
+          },
+          "age_breakdown": [
+            {
+              "age_range": "13-17",
+              "reach": 121561
+            },
+            {
+              "age_range": "18-24",
+              "reach": 1893679
+            },
+            {
+              "age_range": "25-34",
+              "reach": 2099705
+            },
+            {
+              "age_range": "35-44",
+              "reach": 410586
+            },
+            {
+              "age_range": "45-54",
+              "reach": 223708
+            },
+            {
+              "age_range": "55+",
+              "reach": 146345
+            }
+          ],
+          "age_gender_breakdown": [
+            {
+              "age_range": "13-17",
+              "male": 38577,
+              "female": 44415,
+              "unknown": 38569,
+              "reach": 121561
+            },
+            {
+              "age_range": "18-24",
+              "male": 476685,
+              "female": 1378425,
+              "unknown": 38569,
+              "reach": 1893679
+            },
+            {
+              "age_range": "25-34",
+              "male": 648747,
+              "female": 1412397,
+              "unknown": 38561,
+              "reach": 2099705
+            },
+            {
+              "age_range": "35-44",
+              "male": 121939,
+              "female": 250094,
+              "unknown": 38553,
+              "reach": 410586
+            },
+            {
+              "age_range": "45-54",
+              "male": 63482,
+              "female": 121681,
+              "unknown": 38545,
+              "reach": 223708
+            },
+            {
+              "age_range": "55+",
+              "male": 44350,
+              "female": 63482,
+              "unknown": 38513,
+              "reach": 146345
+            }
+          ],
+          "periods": {
+            "last_7d": {
+              "reach": 4712897,
+              "spend_usd": 42416.07,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 1341769,
+                  "spend_usd": 12075.91
+                },
+                "female": {
+                  "reach": 3148449,
+                  "spend_usd": 28336.04
+                },
+                "unknown": {
+                  "reach": 222679,
+                  "spend_usd": 2004.11
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 117024,
+                  "spend_usd": 1053.21
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1823014,
+                  "spend_usd": 16407.12
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2021351,
+                  "spend_usd": 18192.16
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 395264,
+                  "spend_usd": 3557.38
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 215360,
+                  "spend_usd": 1938.24
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 140884,
+                  "spend_usd": 1267.95
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 117024,
+                  "spend_usd": 1053.21,
+                  "male": {
+                    "reach": 37137,
+                    "spend_usd": 334.23
+                  },
+                  "female": {
+                    "reach": 42757,
+                    "spend_usd": 384.81
+                  },
+                  "unknown": {
+                    "reach": 37130,
+                    "spend_usd": 334.17
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1823014,
+                  "spend_usd": 16407.12,
+                  "male": {
+                    "reach": 458897,
+                    "spend_usd": 4130.07
+                  },
+                  "female": {
+                    "reach": 1326987,
+                    "spend_usd": 11942.88
+                  },
+                  "unknown": {
+                    "reach": 37130,
+                    "spend_usd": 334.17
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2021351,
+                  "spend_usd": 18192.16,
+                  "male": {
+                    "reach": 624538,
+                    "spend_usd": 5620.84
+                  },
+                  "female": {
+                    "reach": 1359691,
+                    "spend_usd": 12237.22
+                  },
+                  "unknown": {
+                    "reach": 37122,
+                    "spend_usd": 334.1
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 395264,
+                  "spend_usd": 3557.38,
+                  "male": {
+                    "reach": 117389,
+                    "spend_usd": 1056.5
+                  },
+                  "female": {
+                    "reach": 240761,
+                    "spend_usd": 2166.85
+                  },
+                  "unknown": {
+                    "reach": 37114,
+                    "spend_usd": 334.03
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 215360,
+                  "spend_usd": 1938.24,
+                  "male": {
+                    "reach": 61113,
+                    "spend_usd": 550.02
+                  },
+                  "female": {
+                    "reach": 117140,
+                    "spend_usd": 1054.26
+                  },
+                  "unknown": {
+                    "reach": 37107,
+                    "spend_usd": 333.96
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 140884,
+                  "spend_usd": 1267.95,
+                  "male": {
+                    "reach": 42695,
+                    "spend_usd": 384.25
+                  },
+                  "female": {
+                    "reach": 61113,
+                    "spend_usd": 550.02
+                  },
+                  "unknown": {
+                    "reach": 37076,
+                    "spend_usd": 333.68
+                  }
+                }
+              ]
+            },
+            "last_30d": {
+              "reach": 4848907,
+              "spend_usd": 43640.16,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 1380491,
+                  "spend_usd": 12424.41
+                },
+                "female": {
+                  "reach": 3239312,
+                  "spend_usd": 29153.81
+                },
+                "unknown": {
+                  "reach": 229104,
+                  "spend_usd": 2061.93
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 120402,
+                  "spend_usd": 1083.62
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1875623,
+                  "spend_usd": 16880.61
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2079686,
+                  "spend_usd": 18717.18
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 406670,
+                  "spend_usd": 3660.02
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 221576,
+                  "spend_usd": 1994.18
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 144950,
+                  "spend_usd": 1304.54
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 120402,
+                  "spend_usd": 1083.62,
+                  "male": {
+                    "reach": 38209,
+                    "spend_usd": 343.88
+                  },
+                  "female": {
+                    "reach": 43992,
+                    "spend_usd": 395.93
+                  },
+                  "unknown": {
+                    "reach": 38201,
+                    "spend_usd": 343.81
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1875623,
+                  "spend_usd": 16880.61,
+                  "male": {
+                    "reach": 472140,
+                    "spend_usd": 4249.26
+                  },
+                  "female": {
+                    "reach": 1365282,
+                    "spend_usd": 12287.54
+                  },
+                  "unknown": {
+                    "reach": 38201,
+                    "spend_usd": 343.81
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2079686,
+                  "spend_usd": 18717.18,
+                  "male": {
+                    "reach": 642562,
+                    "spend_usd": 5783.06
+                  },
+                  "female": {
+                    "reach": 1398931,
+                    "spend_usd": 12590.38
+                  },
+                  "unknown": {
+                    "reach": 38193,
+                    "spend_usd": 343.74
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 406670,
+                  "spend_usd": 3660.02,
+                  "male": {
+                    "reach": 120776,
+                    "spend_usd": 1086.98
+                  },
+                  "female": {
+                    "reach": 247709,
+                    "spend_usd": 2229.38
+                  },
+                  "unknown": {
+                    "reach": 38185,
+                    "spend_usd": 343.66
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 221576,
+                  "spend_usd": 1994.18,
+                  "male": {
+                    "reach": 62877,
+                    "spend_usd": 565.89
+                  },
+                  "female": {
+                    "reach": 120521,
+                    "spend_usd": 1084.69
+                  },
+                  "unknown": {
+                    "reach": 38178,
+                    "spend_usd": 343.6
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 144950,
+                  "spend_usd": 1304.54,
+                  "male": {
+                    "reach": 43927,
+                    "spend_usd": 395.34
+                  },
+                  "female": {
+                    "reach": 62877,
+                    "spend_usd": 565.89
+                  },
+                  "unknown": {
+                    "reach": 38146,
+                    "spend_usd": 343.31
+                  }
+                }
+              ]
+            },
+            "last_90d": {
+              "reach": 4895584,
+              "spend_usd": 44060.26,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 1393780,
+                  "spend_usd": 12544.02
+                },
+                "female": {
+                  "reach": 3270494,
+                  "spend_usd": 29434.46
+                },
+                "unknown": {
+                  "reach": 231310,
+                  "spend_usd": 2081.8
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 121561,
+                  "spend_usd": 1094.05
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1893679,
+                  "spend_usd": 17043.12
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2099705,
+                  "spend_usd": 18897.34
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 410586,
+                  "spend_usd": 3695.28
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 223708,
+                  "spend_usd": 2013.38
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 146345,
+                  "spend_usd": 1317.11
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 121561,
+                  "spend_usd": 1094.05,
+                  "male": {
+                    "reach": 38577,
+                    "spend_usd": 347.19
+                  },
+                  "female": {
+                    "reach": 44415,
+                    "spend_usd": 399.74
+                  },
+                  "unknown": {
+                    "reach": 38569,
+                    "spend_usd": 347.12
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1893679,
+                  "spend_usd": 17043.12,
+                  "male": {
+                    "reach": 476685,
+                    "spend_usd": 4290.17
+                  },
+                  "female": {
+                    "reach": 1378425,
+                    "spend_usd": 12405.83
+                  },
+                  "unknown": {
+                    "reach": 38569,
+                    "spend_usd": 347.12
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2099705,
+                  "spend_usd": 18897.34,
+                  "male": {
+                    "reach": 648747,
+                    "spend_usd": 5838.72
+                  },
+                  "female": {
+                    "reach": 1412397,
+                    "spend_usd": 12711.57
+                  },
+                  "unknown": {
+                    "reach": 38561,
+                    "spend_usd": 347.05
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 410586,
+                  "spend_usd": 3695.28,
+                  "male": {
+                    "reach": 121939,
+                    "spend_usd": 1097.45
+                  },
+                  "female": {
+                    "reach": 250094,
+                    "spend_usd": 2250.85
+                  },
+                  "unknown": {
+                    "reach": 38553,
+                    "spend_usd": 346.98
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 223708,
+                  "spend_usd": 2013.38,
+                  "male": {
+                    "reach": 63482,
+                    "spend_usd": 571.34
+                  },
+                  "female": {
+                    "reach": 121681,
+                    "spend_usd": 1095.13
+                  },
+                  "unknown": {
+                    "reach": 38545,
+                    "spend_usd": 346.91
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 146345,
+                  "spend_usd": 1317.11,
+                  "male": {
+                    "reach": 44350,
+                    "spend_usd": 399.15
+                  },
+                  "female": {
+                    "reach": 63482,
+                    "spend_usd": 571.34
+                  },
+                  "unknown": {
+                    "reach": 38513,
+                    "spend_usd": 346.62
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "countries_by_code": {
+        "DE": {
+          "reach": 1216000,
+          "spend": {
+            "cpm_usd": 6,
+            "spend_usd": 7296
+          },
+          "is_estimated": false,
+          "gender_breakdown": {
+            "male": 346198,
+            "female": 812347,
+            "unknown": 57455
+          },
+          "age_breakdown": [
+            {
+              "age_range": "13-17",
+              "reach": 30195
+            },
+            {
+              "age_range": "18-24",
+              "reach": 470364
+            },
+            {
+              "age_range": "25-34",
+              "reach": 521539
+            },
+            {
+              "age_range": "35-44",
+              "reach": 101986
+            },
+            {
+              "age_range": "45-54",
+              "reach": 55567
+            },
+            {
+              "age_range": "55+",
+              "reach": 36349
+            }
+          ],
+          "age_gender_breakdown": [
+            {
+              "age_range": "13-17",
+              "male": 9582,
+              "female": 11032,
+              "unknown": 9581,
+              "reach": 30195
+            },
+            {
+              "age_range": "18-24",
+              "male": 118402,
+              "female": 342382,
+              "unknown": 9580,
+              "reach": 470364
+            },
+            {
+              "age_range": "25-34",
+              "male": 161140,
+              "female": 350821,
+              "unknown": 9578,
+              "reach": 521539
+            },
+            {
+              "age_range": "35-44",
+              "male": 30289,
+              "female": 62121,
+              "unknown": 9576,
+              "reach": 101986
+            },
+            {
+              "age_range": "45-54",
+              "male": 15769,
+              "female": 30224,
+              "unknown": 9574,
+              "reach": 55567
+            },
+            {
+              "age_range": "55+",
+              "male": 11016,
+              "female": 15767,
+              "unknown": 9566,
+              "reach": 36349
+            }
+          ],
+          "periods": {
+            "last_7d": {
+              "reach": 1127607,
+              "spend_usd": 6765.64,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 321031,
+                  "spend_usd": 1926.19
+                },
+                "female": {
+                  "reach": 753296,
+                  "spend_usd": 4519.77
+                },
+                "unknown": {
+                  "reach": 53280,
+                  "spend_usd": 319.68
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 28000,
+                  "spend_usd": 168
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 436173,
+                  "spend_usd": 2617.03
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 483627,
+                  "spend_usd": 2901.76
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 94572,
+                  "spend_usd": 567.43
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 51528,
+                  "spend_usd": 309.17
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 33707,
+                  "spend_usd": 202.25
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 28000,
+                  "spend_usd": 168,
+                  "male": {
+                    "reach": 8885,
+                    "spend_usd": 53.31
+                  },
+                  "female": {
+                    "reach": 10230,
+                    "spend_usd": 61.38
+                  },
+                  "unknown": {
+                    "reach": 8885,
+                    "spend_usd": 53.31
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 436173,
+                  "spend_usd": 2617.03,
+                  "male": {
+                    "reach": 109795,
+                    "spend_usd": 658.77
+                  },
+                  "female": {
+                    "reach": 317494,
+                    "spend_usd": 1904.96
+                  },
+                  "unknown": {
+                    "reach": 8884,
+                    "spend_usd": 53.3
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 483627,
+                  "spend_usd": 2901.76,
+                  "male": {
+                    "reach": 149426,
+                    "spend_usd": 896.56
+                  },
+                  "female": {
+                    "reach": 325319,
+                    "spend_usd": 1951.91
+                  },
+                  "unknown": {
+                    "reach": 8882,
+                    "spend_usd": 53.29
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 94572,
+                  "spend_usd": 567.43,
+                  "male": {
+                    "reach": 28087,
+                    "spend_usd": 168.52
+                  },
+                  "female": {
+                    "reach": 57605,
+                    "spend_usd": 345.63
+                  },
+                  "unknown": {
+                    "reach": 8880,
+                    "spend_usd": 53.28
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 51528,
+                  "spend_usd": 309.17,
+                  "male": {
+                    "reach": 14623,
+                    "spend_usd": 87.74
+                  },
+                  "female": {
+                    "reach": 28027,
+                    "spend_usd": 168.16
+                  },
+                  "unknown": {
+                    "reach": 8878,
+                    "spend_usd": 53.27
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 33707,
+                  "spend_usd": 202.25,
+                  "male": {
+                    "reach": 10215,
+                    "spend_usd": 61.29
+                  },
+                  "female": {
+                    "reach": 14621,
+                    "spend_usd": 87.73
+                  },
+                  "unknown": {
+                    "reach": 8871,
+                    "spend_usd": 53.23
+                  }
+                }
+              ]
+            },
+            "last_30d": {
+              "reach": 1201000,
+              "spend_usd": 7206,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 341926,
+                  "spend_usd": 2051.55
+                },
+                "female": {
+                  "reach": 802327,
+                  "spend_usd": 4813.97
+                },
+                "unknown": {
+                  "reach": 56747,
+                  "spend_usd": 340.49
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 29823,
+                  "spend_usd": 178.94
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 464562,
+                  "spend_usd": 2787.37
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 515105,
+                  "spend_usd": 3090.63
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 100728,
+                  "spend_usd": 604.37
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 54881,
+                  "spend_usd": 329.29
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 35901,
+                  "spend_usd": 215.41
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 29823,
+                  "spend_usd": 178.94,
+                  "male": {
+                    "reach": 9464,
+                    "spend_usd": 56.78
+                  },
+                  "female": {
+                    "reach": 10896,
+                    "spend_usd": 65.38
+                  },
+                  "unknown": {
+                    "reach": 9463,
+                    "spend_usd": 56.78
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 464562,
+                  "spend_usd": 2787.37,
+                  "male": {
+                    "reach": 116941,
+                    "spend_usd": 701.65
+                  },
+                  "female": {
+                    "reach": 338159,
+                    "spend_usd": 2028.95
+                  },
+                  "unknown": {
+                    "reach": 9462,
+                    "spend_usd": 56.77
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 515105,
+                  "spend_usd": 3090.63,
+                  "male": {
+                    "reach": 159152,
+                    "spend_usd": 954.91
+                  },
+                  "female": {
+                    "reach": 346493,
+                    "spend_usd": 2078.96
+                  },
+                  "unknown": {
+                    "reach": 9460,
+                    "spend_usd": 56.76
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 100728,
+                  "spend_usd": 604.37,
+                  "male": {
+                    "reach": 29915,
+                    "spend_usd": 179.49
+                  },
+                  "female": {
+                    "reach": 61355,
+                    "spend_usd": 368.13
+                  },
+                  "unknown": {
+                    "reach": 9458,
+                    "spend_usd": 56.75
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 54881,
+                  "spend_usd": 329.29,
+                  "male": {
+                    "reach": 15574,
+                    "spend_usd": 93.44
+                  },
+                  "female": {
+                    "reach": 29851,
+                    "spend_usd": 179.11
+                  },
+                  "unknown": {
+                    "reach": 9456,
+                    "spend_usd": 56.74
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 35901,
+                  "spend_usd": 215.41,
+                  "male": {
+                    "reach": 10880,
+                    "spend_usd": 65.28
+                  },
+                  "female": {
+                    "reach": 15573,
+                    "spend_usd": 93.44
+                  },
+                  "unknown": {
+                    "reach": 9448,
+                    "spend_usd": 56.69
+                  }
+                }
+              ]
+            },
+            "last_90d": {
+              "reach": 1216000,
+              "spend_usd": 7296,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 346198,
+                  "spend_usd": 2077.18
+                },
+                "female": {
+                  "reach": 812347,
+                  "spend_usd": 4874.08
+                },
+                "unknown": {
+                  "reach": 57455,
+                  "spend_usd": 344.74
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 30195,
+                  "spend_usd": 181.17
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 470364,
+                  "spend_usd": 2822.18
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 521539,
+                  "spend_usd": 3129.24
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 101986,
+                  "spend_usd": 611.92
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 55567,
+                  "spend_usd": 333.39
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 36349,
+                  "spend_usd": 218.1
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 30195,
+                  "spend_usd": 181.17,
+                  "male": {
+                    "reach": 9582,
+                    "spend_usd": 57.49
+                  },
+                  "female": {
+                    "reach": 11032,
+                    "spend_usd": 66.19
+                  },
+                  "unknown": {
+                    "reach": 9581,
+                    "spend_usd": 57.49
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 470364,
+                  "spend_usd": 2822.18,
+                  "male": {
+                    "reach": 118402,
+                    "spend_usd": 710.41
+                  },
+                  "female": {
+                    "reach": 342382,
+                    "spend_usd": 2054.29
+                  },
+                  "unknown": {
+                    "reach": 9580,
+                    "spend_usd": 57.48
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 521539,
+                  "spend_usd": 3129.24,
+                  "male": {
+                    "reach": 161140,
+                    "spend_usd": 966.84
+                  },
+                  "female": {
+                    "reach": 350821,
+                    "spend_usd": 2104.93
+                  },
+                  "unknown": {
+                    "reach": 9578,
+                    "spend_usd": 57.47
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 101986,
+                  "spend_usd": 611.92,
+                  "male": {
+                    "reach": 30289,
+                    "spend_usd": 181.73
+                  },
+                  "female": {
+                    "reach": 62121,
+                    "spend_usd": 372.73
+                  },
+                  "unknown": {
+                    "reach": 9576,
+                    "spend_usd": 57.46
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 55567,
+                  "spend_usd": 333.39,
+                  "male": {
+                    "reach": 15769,
+                    "spend_usd": 94.61
+                  },
+                  "female": {
+                    "reach": 30224,
+                    "spend_usd": 181.34
+                  },
+                  "unknown": {
+                    "reach": 9574,
+                    "spend_usd": 57.44
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 36349,
+                  "spend_usd": 218.1,
+                  "male": {
+                    "reach": 11016,
+                    "spend_usd": 66.1
+                  },
+                  "female": {
+                    "reach": 15767,
+                    "spend_usd": 94.6
+                  },
+                  "unknown": {
+                    "reach": 9566,
+                    "spend_usd": 57.4
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "UK": {
+          "reach": 2350000,
+          "spend": {
+            "cpm_usd": 7.5,
+            "spend_usd": 17625
+          },
+          "is_estimated": false,
+          "gender_breakdown": {
+            "male": 0,
+            "female": 0,
+            "unknown": 2350000
+          },
+          "age_breakdown": [
+            {
+              "age_range": "unknown",
+              "reach": 2350000
+            }
+          ],
+          "age_gender_breakdown": [
+            {
+              "age_range": "unknown",
+              "male": 0,
+              "female": 0,
+              "unknown": 2350000,
+              "reach": 2350000
+            }
+          ],
+          "periods": {
+            "last_7d": {
+              "reach": 2305321,
+              "spend_usd": 17289.91,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2305321,
+                  "spend_usd": 17289.91
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2305321,
+                  "spend_usd": 17289.91
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2305321,
+                  "spend_usd": 17289.91,
+                  "male": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "female": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "unknown": {
+                    "reach": 2305321,
+                    "spend_usd": 17289.91
+                  }
+                }
+              ]
+            },
+            "last_30d": {
+              "reach": 2331000,
+              "spend_usd": 17482.5,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2331000,
+                  "spend_usd": 17482.5
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2331000,
+                  "spend_usd": 17482.5
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2331000,
+                  "spend_usd": 17482.5,
+                  "male": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "female": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "unknown": {
+                    "reach": 2331000,
+                    "spend_usd": 17482.5
+                  }
+                }
+              ]
+            },
+            "last_90d": {
+              "reach": 2350000,
+              "spend_usd": 17625,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2350000,
+                  "spend_usd": 17625
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2350000,
+                  "spend_usd": 17625
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "unknown",
+                  "reach": 2350000,
+                  "spend_usd": 17625,
+                  "male": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "female": {
+                    "reach": 0,
+                    "spend_usd": 0
+                  },
+                  "unknown": {
+                    "reach": 2350000,
+                    "spend_usd": 17625
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "US": {
+          "reach": 4895584,
+          "spend": {
+            "cpm_usd": 9,
+            "spend_usd": 44060.26
+          },
+          "is_estimated": true,
+          "gender_breakdown": {
+            "male": 1393780,
+            "female": 3270494,
+            "unknown": 231310
+          },
+          "age_breakdown": [
+            {
+              "age_range": "13-17",
+              "reach": 121561
+            },
+            {
+              "age_range": "18-24",
+              "reach": 1893679
+            },
+            {
+              "age_range": "25-34",
+              "reach": 2099705
+            },
+            {
+              "age_range": "35-44",
+              "reach": 410586
+            },
+            {
+              "age_range": "45-54",
+              "reach": 223708
+            },
+            {
+              "age_range": "55+",
+              "reach": 146345
+            }
+          ],
+          "age_gender_breakdown": [
+            {
+              "age_range": "13-17",
+              "male": 38577,
+              "female": 44415,
+              "unknown": 38569,
+              "reach": 121561
+            },
+            {
+              "age_range": "18-24",
+              "male": 476685,
+              "female": 1378425,
+              "unknown": 38569,
+              "reach": 1893679
+            },
+            {
+              "age_range": "25-34",
+              "male": 648747,
+              "female": 1412397,
+              "unknown": 38561,
+              "reach": 2099705
+            },
+            {
+              "age_range": "35-44",
+              "male": 121939,
+              "female": 250094,
+              "unknown": 38553,
+              "reach": 410586
+            },
+            {
+              "age_range": "45-54",
+              "male": 63482,
+              "female": 121681,
+              "unknown": 38545,
+              "reach": 223708
+            },
+            {
+              "age_range": "55+",
+              "male": 44350,
+              "female": 63482,
+              "unknown": 38513,
+              "reach": 146345
+            }
+          ],
+          "periods": {
+            "last_7d": {
+              "reach": 4712897,
+              "spend_usd": 42416.07,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 1341769,
+                  "spend_usd": 12075.91
+                },
+                "female": {
+                  "reach": 3148449,
+                  "spend_usd": 28336.04
+                },
+                "unknown": {
+                  "reach": 222679,
+                  "spend_usd": 2004.11
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 117024,
+                  "spend_usd": 1053.21
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1823014,
+                  "spend_usd": 16407.12
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2021351,
+                  "spend_usd": 18192.16
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 395264,
+                  "spend_usd": 3557.38
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 215360,
+                  "spend_usd": 1938.24
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 140884,
+                  "spend_usd": 1267.95
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 117024,
+                  "spend_usd": 1053.21,
+                  "male": {
+                    "reach": 37137,
+                    "spend_usd": 334.23
+                  },
+                  "female": {
+                    "reach": 42757,
+                    "spend_usd": 384.81
+                  },
+                  "unknown": {
+                    "reach": 37130,
+                    "spend_usd": 334.17
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1823014,
+                  "spend_usd": 16407.12,
+                  "male": {
+                    "reach": 458897,
+                    "spend_usd": 4130.07
+                  },
+                  "female": {
+                    "reach": 1326987,
+                    "spend_usd": 11942.88
+                  },
+                  "unknown": {
+                    "reach": 37130,
+                    "spend_usd": 334.17
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2021351,
+                  "spend_usd": 18192.16,
+                  "male": {
+                    "reach": 624538,
+                    "spend_usd": 5620.84
+                  },
+                  "female": {
+                    "reach": 1359691,
+                    "spend_usd": 12237.22
+                  },
+                  "unknown": {
+                    "reach": 37122,
+                    "spend_usd": 334.1
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 395264,
+                  "spend_usd": 3557.38,
+                  "male": {
+                    "reach": 117389,
+                    "spend_usd": 1056.5
+                  },
+                  "female": {
+                    "reach": 240761,
+                    "spend_usd": 2166.85
+                  },
+                  "unknown": {
+                    "reach": 37114,
+                    "spend_usd": 334.03
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 215360,
+                  "spend_usd": 1938.24,
+                  "male": {
+                    "reach": 61113,
+                    "spend_usd": 550.02
+                  },
+                  "female": {
+                    "reach": 117140,
+                    "spend_usd": 1054.26
+                  },
+                  "unknown": {
+                    "reach": 37107,
+                    "spend_usd": 333.96
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 140884,
+                  "spend_usd": 1267.95,
+                  "male": {
+                    "reach": 42695,
+                    "spend_usd": 384.25
+                  },
+                  "female": {
+                    "reach": 61113,
+                    "spend_usd": 550.02
+                  },
+                  "unknown": {
+                    "reach": 37076,
+                    "spend_usd": 333.68
+                  }
+                }
+              ]
+            },
+            "last_30d": {
+              "reach": 4848907,
+              "spend_usd": 43640.16,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 1380491,
+                  "spend_usd": 12424.41
+                },
+                "female": {
+                  "reach": 3239312,
+                  "spend_usd": 29153.81
+                },
+                "unknown": {
+                  "reach": 229104,
+                  "spend_usd": 2061.93
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 120402,
+                  "spend_usd": 1083.62
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1875623,
+                  "spend_usd": 16880.61
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2079686,
+                  "spend_usd": 18717.18
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 406670,
+                  "spend_usd": 3660.02
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 221576,
+                  "spend_usd": 1994.18
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 144950,
+                  "spend_usd": 1304.54
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 120402,
+                  "spend_usd": 1083.62,
+                  "male": {
+                    "reach": 38209,
+                    "spend_usd": 343.88
+                  },
+                  "female": {
+                    "reach": 43992,
+                    "spend_usd": 395.93
+                  },
+                  "unknown": {
+                    "reach": 38201,
+                    "spend_usd": 343.81
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1875623,
+                  "spend_usd": 16880.61,
+                  "male": {
+                    "reach": 472140,
+                    "spend_usd": 4249.26
+                  },
+                  "female": {
+                    "reach": 1365282,
+                    "spend_usd": 12287.54
+                  },
+                  "unknown": {
+                    "reach": 38201,
+                    "spend_usd": 343.81
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2079686,
+                  "spend_usd": 18717.18,
+                  "male": {
+                    "reach": 642562,
+                    "spend_usd": 5783.06
+                  },
+                  "female": {
+                    "reach": 1398931,
+                    "spend_usd": 12590.38
+                  },
+                  "unknown": {
+                    "reach": 38193,
+                    "spend_usd": 343.74
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 406670,
+                  "spend_usd": 3660.02,
+                  "male": {
+                    "reach": 120776,
+                    "spend_usd": 1086.98
+                  },
+                  "female": {
+                    "reach": 247709,
+                    "spend_usd": 2229.38
+                  },
+                  "unknown": {
+                    "reach": 38185,
+                    "spend_usd": 343.66
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 221576,
+                  "spend_usd": 1994.18,
+                  "male": {
+                    "reach": 62877,
+                    "spend_usd": 565.89
+                  },
+                  "female": {
+                    "reach": 120521,
+                    "spend_usd": 1084.69
+                  },
+                  "unknown": {
+                    "reach": 38178,
+                    "spend_usd": 343.6
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 144950,
+                  "spend_usd": 1304.54,
+                  "male": {
+                    "reach": 43927,
+                    "spend_usd": 395.34
+                  },
+                  "female": {
+                    "reach": 62877,
+                    "spend_usd": 565.89
+                  },
+                  "unknown": {
+                    "reach": 38146,
+                    "spend_usd": 343.31
+                  }
+                }
+              ]
+            },
+            "last_90d": {
+              "reach": 4895584,
+              "spend_usd": 44060.26,
+              "gender_breakdown": {
+                "male": {
+                  "reach": 1393780,
+                  "spend_usd": 12544.02
+                },
+                "female": {
+                  "reach": 3270494,
+                  "spend_usd": 29434.46
+                },
+                "unknown": {
+                  "reach": 231310,
+                  "spend_usd": 2081.8
+                }
+              },
+              "age_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 121561,
+                  "spend_usd": 1094.05
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1893679,
+                  "spend_usd": 17043.12
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2099705,
+                  "spend_usd": 18897.34
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 410586,
+                  "spend_usd": 3695.28
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 223708,
+                  "spend_usd": 2013.38
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 146345,
+                  "spend_usd": 1317.11
+                }
+              ],
+              "age_gender_breakdown": [
+                {
+                  "age_range": "13-17",
+                  "reach": 121561,
+                  "spend_usd": 1094.05,
+                  "male": {
+                    "reach": 38577,
+                    "spend_usd": 347.19
+                  },
+                  "female": {
+                    "reach": 44415,
+                    "spend_usd": 399.74
+                  },
+                  "unknown": {
+                    "reach": 38569,
+                    "spend_usd": 347.12
+                  }
+                },
+                {
+                  "age_range": "18-24",
+                  "reach": 1893679,
+                  "spend_usd": 17043.12,
+                  "male": {
+                    "reach": 476685,
+                    "spend_usd": 4290.17
+                  },
+                  "female": {
+                    "reach": 1378425,
+                    "spend_usd": 12405.83
+                  },
+                  "unknown": {
+                    "reach": 38569,
+                    "spend_usd": 347.12
+                  }
+                },
+                {
+                  "age_range": "25-34",
+                  "reach": 2099705,
+                  "spend_usd": 18897.34,
+                  "male": {
+                    "reach": 648747,
+                    "spend_usd": 5838.72
+                  },
+                  "female": {
+                    "reach": 1412397,
+                    "spend_usd": 12711.57
+                  },
+                  "unknown": {
+                    "reach": 38561,
+                    "spend_usd": 347.05
+                  }
+                },
+                {
+                  "age_range": "35-44",
+                  "reach": 410586,
+                  "spend_usd": 3695.28,
+                  "male": {
+                    "reach": 121939,
+                    "spend_usd": 1097.45
+                  },
+                  "female": {
+                    "reach": 250094,
+                    "spend_usd": 2250.85
+                  },
+                  "unknown": {
+                    "reach": 38553,
+                    "spend_usd": 346.98
+                  }
+                },
+                {
+                  "age_range": "45-54",
+                  "reach": 223708,
+                  "spend_usd": 2013.38,
+                  "male": {
+                    "reach": 63482,
+                    "spend_usd": 571.34
+                  },
+                  "female": {
+                    "reach": 121681,
+                    "spend_usd": 1095.13
+                  },
+                  "unknown": {
+                    "reach": 38545,
+                    "spend_usd": 346.91
+                  }
+                },
+                {
+                  "age_range": "55+",
+                  "reach": 146345,
+                  "spend_usd": 1317.11,
+                  "male": {
+                    "reach": 44350,
+                    "spend_usd": 399.15
+                  },
+                  "female": {
+                    "reach": 63482,
+                    "spend_usd": 571.34
+                  },
+                  "unknown": {
+                    "reach": 38513,
+                    "spend_usd": 346.62
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "summary": {
+        "ads_count": 73,
+        "us_ads_count": null,
+        "source_ads_count": null,
+        "estimated_us_ad_count_multiplier": null,
+        "countries_count": 3,
+        "observed_reach": 3566000,
+        "eu_reach": 1216000,
+        "uk_reach": 2350000,
+        "estimated_us_reach": 4895584,
+        "all_reach": 8461584,
+        "summed_reach": 8461584,
+        "observed_spend_usd": 24921,
+        "eu_spend_usd": 7296,
+        "uk_spend_usd": 17625,
+        "estimated_us_spend_usd": 44060.26,
+        "all_spend_usd": 68981.26,
+        "summed_spend_usd": 68981.26,
+        "observed_share": 0.3613,
+        "gender_breakdown": {
+          "male": 1739978,
+          "female": 4082841,
+          "unknown": 2638765
+        },
+        "age_breakdown": [
+          {
+            "age_range": "13-17",
+            "reach": 151756
+          },
+          {
+            "age_range": "18-24",
+            "reach": 2364043
+          },
+          {
+            "age_range": "25-34",
+            "reach": 2621244
+          },
+          {
+            "age_range": "35-44",
+            "reach": 512572
+          },
+          {
+            "age_range": "45-54",
+            "reach": 279275
+          },
+          {
+            "age_range": "55+",
+            "reach": 182694
+          },
+          {
+            "age_range": "unknown",
+            "reach": 2350000
+          }
+        ],
+        "age_gender_breakdown": [
+          {
+            "age_range": "13-17",
+            "male": 48159,
+            "female": 55447,
+            "unknown": 48150,
+            "reach": 151756
+          },
+          {
+            "age_range": "18-24",
+            "male": 595087,
+            "female": 1720807,
+            "unknown": 48149,
+            "reach": 2364043
+          },
+          {
+            "age_range": "25-34",
+            "male": 809887,
+            "female": 1763218,
+            "unknown": 48139,
+            "reach": 2621244
+          },
+          {
+            "age_range": "35-44",
+            "male": 152228,
+            "female": 312215,
+            "unknown": 48129,
+            "reach": 512572
+          },
+          {
+            "age_range": "45-54",
+            "male": 79251,
+            "female": 151905,
+            "unknown": 48119,
+            "reach": 279275
+          },
+          {
+            "age_range": "55+",
+            "male": 55366,
+            "female": 79249,
+            "unknown": 48079,
+            "reach": 182694
+          },
+          {
+            "age_range": "unknown",
+            "male": 0,
+            "female": 0,
+            "unknown": 2350000,
+            "reach": 2350000
+          }
+        ],
+        "periods": {
+          "last_7d": {
+            "reach": 8145825,
+            "spend_usd": 66471.62,
+            "gender_breakdown": {
+              "male": {
+                "reach": 1662800,
+                "spend_usd": 14002.1
+              },
+              "female": {
+                "reach": 3901745,
+                "spend_usd": 32855.81
+              },
+              "unknown": {
+                "reach": 2581280,
+                "spend_usd": 19613.7
+              }
+            },
+            "age_breakdown": [
+              {
+                "age_range": "13-17",
+                "reach": 145024,
+                "spend_usd": 1221.21
+              },
+              {
+                "age_range": "18-24",
+                "reach": 2259187,
+                "spend_usd": 19024.15
+              },
+              {
+                "age_range": "25-34",
+                "reach": 2504978,
+                "spend_usd": 21093.92
+              },
+              {
+                "age_range": "35-44",
+                "reach": 489836,
+                "spend_usd": 4124.81
+              },
+              {
+                "age_range": "45-54",
+                "reach": 266888,
+                "spend_usd": 2247.41
+              },
+              {
+                "age_range": "55+",
+                "reach": 174591,
+                "spend_usd": 1470.2
+              },
+              {
+                "age_range": "unknown",
+                "reach": 2305321,
+                "spend_usd": 17289.91
+              }
+            ],
+            "age_gender_breakdown": [
+              {
+                "age_range": "13-17",
+                "reach": 145024,
+                "spend_usd": 1221.21,
+                "male": {
+                  "reach": 46022,
+                  "spend_usd": 387.54
+                },
+                "female": {
+                  "reach": 52987,
+                  "spend_usd": 446.19
+                },
+                "unknown": {
+                  "reach": 46015,
+                  "spend_usd": 387.48
+                }
+              },
+              {
+                "age_range": "18-24",
+                "reach": 2259187,
+                "spend_usd": 19024.15,
+                "male": {
+                  "reach": 568692,
+                  "spend_usd": 4788.84
+                },
+                "female": {
+                  "reach": 1644481,
+                  "spend_usd": 13847.84
+                },
+                "unknown": {
+                  "reach": 46014,
+                  "spend_usd": 387.47
+                }
+              },
+              {
+                "age_range": "25-34",
+                "reach": 2504978,
+                "spend_usd": 21093.92,
+                "male": {
+                  "reach": 773964,
+                  "spend_usd": 6517.4
+                },
+                "female": {
+                  "reach": 1685010,
+                  "spend_usd": 14189.13
+                },
+                "unknown": {
+                  "reach": 46004,
+                  "spend_usd": 387.39
+                }
+              },
+              {
+                "age_range": "35-44",
+                "reach": 489836,
+                "spend_usd": 4124.81,
+                "male": {
+                  "reach": 145476,
+                  "spend_usd": 1225.02
+                },
+                "female": {
+                  "reach": 298366,
+                  "spend_usd": 2512.48
+                },
+                "unknown": {
+                  "reach": 45994,
+                  "spend_usd": 387.31
+                }
+              },
+              {
+                "age_range": "45-54",
+                "reach": 266888,
+                "spend_usd": 2247.41,
+                "male": {
+                  "reach": 75736,
+                  "spend_usd": 637.76
+                },
+                "female": {
+                  "reach": 145167,
+                  "spend_usd": 1222.42
+                },
+                "unknown": {
+                  "reach": 45985,
+                  "spend_usd": 387.23
+                }
+              },
+              {
+                "age_range": "55+",
+                "reach": 174591,
+                "spend_usd": 1470.2,
+                "male": {
+                  "reach": 52910,
+                  "spend_usd": 445.54
+                },
+                "female": {
+                  "reach": 75734,
+                  "spend_usd": 637.75
+                },
+                "unknown": {
+                  "reach": 45947,
+                  "spend_usd": 386.91
+                }
+              },
+              {
+                "age_range": "unknown",
+                "reach": 2305321,
+                "spend_usd": 17289.91,
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2305321,
+                  "spend_usd": 17289.91
+                }
+              }
+            ]
+          },
+          "last_30d": {
+            "reach": 8380907,
+            "spend_usd": 68328.66,
+            "gender_breakdown": {
+              "male": {
+                "reach": 1722417,
+                "spend_usd": 14475.96
+              },
+              "female": {
+                "reach": 4041639,
+                "spend_usd": 33967.78
+              },
+              "unknown": {
+                "reach": 2616851,
+                "spend_usd": 19884.92
+              }
+            },
+            "age_breakdown": [
+              {
+                "age_range": "13-17",
+                "reach": 150225,
+                "spend_usd": 1262.56
+              },
+              {
+                "age_range": "18-24",
+                "reach": 2340185,
+                "spend_usd": 19667.98
+              },
+              {
+                "age_range": "25-34",
+                "reach": 2594791,
+                "spend_usd": 21807.81
+              },
+              {
+                "age_range": "35-44",
+                "reach": 507398,
+                "spend_usd": 4264.39
+              },
+              {
+                "age_range": "45-54",
+                "reach": 276457,
+                "spend_usd": 2323.47
+              },
+              {
+                "age_range": "55+",
+                "reach": 180851,
+                "spend_usd": 1519.95
+              },
+              {
+                "age_range": "unknown",
+                "reach": 2331000,
+                "spend_usd": 17482.5
+              }
+            ],
+            "age_gender_breakdown": [
+              {
+                "age_range": "13-17",
+                "reach": 150225,
+                "spend_usd": 1262.56,
+                "male": {
+                  "reach": 47673,
+                  "spend_usd": 400.66
+                },
+                "female": {
+                  "reach": 54888,
+                  "spend_usd": 461.31
+                },
+                "unknown": {
+                  "reach": 47664,
+                  "spend_usd": 400.59
+                }
+              },
+              {
+                "age_range": "18-24",
+                "reach": 2340185,
+                "spend_usd": 19667.98,
+                "male": {
+                  "reach": 589081,
+                  "spend_usd": 4950.91
+                },
+                "female": {
+                  "reach": 1703441,
+                  "spend_usd": 14316.49
+                },
+                "unknown": {
+                  "reach": 47663,
+                  "spend_usd": 400.58
+                }
+              },
+              {
+                "age_range": "25-34",
+                "reach": 2594791,
+                "spend_usd": 21807.81,
+                "male": {
+                  "reach": 801714,
+                  "spend_usd": 6737.97
+                },
+                "female": {
+                  "reach": 1745424,
+                  "spend_usd": 14669.34
+                },
+                "unknown": {
+                  "reach": 47653,
+                  "spend_usd": 400.5
+                }
+              },
+              {
+                "age_range": "35-44",
+                "reach": 507398,
+                "spend_usd": 4264.39,
+                "male": {
+                  "reach": 150691,
+                  "spend_usd": 1266.47
+                },
+                "female": {
+                  "reach": 309064,
+                  "spend_usd": 2597.51
+                },
+                "unknown": {
+                  "reach": 47643,
+                  "spend_usd": 400.41
+                }
+              },
+              {
+                "age_range": "45-54",
+                "reach": 276457,
+                "spend_usd": 2323.47,
+                "male": {
+                  "reach": 78451,
+                  "spend_usd": 659.33
+                },
+                "female": {
+                  "reach": 150372,
+                  "spend_usd": 1263.8
+                },
+                "unknown": {
+                  "reach": 47634,
+                  "spend_usd": 400.34
+                }
+              },
+              {
+                "age_range": "55+",
+                "reach": 180851,
+                "spend_usd": 1519.95,
+                "male": {
+                  "reach": 54807,
+                  "spend_usd": 460.62
+                },
+                "female": {
+                  "reach": 78450,
+                  "spend_usd": 659.33
+                },
+                "unknown": {
+                  "reach": 47594,
+                  "spend_usd": 400
+                }
+              },
+              {
+                "age_range": "unknown",
+                "reach": 2331000,
+                "spend_usd": 17482.5,
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2331000,
+                  "spend_usd": 17482.5
+                }
+              }
+            ]
+          },
+          "last_90d": {
+            "reach": 8461584,
+            "spend_usd": 68981.26,
+            "gender_breakdown": {
+              "male": {
+                "reach": 1739978,
+                "spend_usd": 14621.2
+              },
+              "female": {
+                "reach": 4082841,
+                "spend_usd": 34308.54
+              },
+              "unknown": {
+                "reach": 2638765,
+                "spend_usd": 20051.54
+              }
+            },
+            "age_breakdown": [
+              {
+                "age_range": "13-17",
+                "reach": 151756,
+                "spend_usd": 1275.22
+              },
+              {
+                "age_range": "18-24",
+                "reach": 2364043,
+                "spend_usd": 19865.3
+              },
+              {
+                "age_range": "25-34",
+                "reach": 2621244,
+                "spend_usd": 22026.58
+              },
+              {
+                "age_range": "35-44",
+                "reach": 512572,
+                "spend_usd": 4307.2
+              },
+              {
+                "age_range": "45-54",
+                "reach": 279275,
+                "spend_usd": 2346.77
+              },
+              {
+                "age_range": "55+",
+                "reach": 182694,
+                "spend_usd": 1535.21
+              },
+              {
+                "age_range": "unknown",
+                "reach": 2350000,
+                "spend_usd": 17625
+              }
+            ],
+            "age_gender_breakdown": [
+              {
+                "age_range": "13-17",
+                "reach": 151756,
+                "spend_usd": 1275.22,
+                "male": {
+                  "reach": 48159,
+                  "spend_usd": 404.68
+                },
+                "female": {
+                  "reach": 55447,
+                  "spend_usd": 465.93
+                },
+                "unknown": {
+                  "reach": 48150,
+                  "spend_usd": 404.61
+                }
+              },
+              {
+                "age_range": "18-24",
+                "reach": 2364043,
+                "spend_usd": 19865.3,
+                "male": {
+                  "reach": 595087,
+                  "spend_usd": 5000.58
+                },
+                "female": {
+                  "reach": 1720807,
+                  "spend_usd": 14460.12
+                },
+                "unknown": {
+                  "reach": 48149,
+                  "spend_usd": 404.6
+                }
+              },
+              {
+                "age_range": "25-34",
+                "reach": 2621244,
+                "spend_usd": 22026.58,
+                "male": {
+                  "reach": 809887,
+                  "spend_usd": 6805.56
+                },
+                "female": {
+                  "reach": 1763218,
+                  "spend_usd": 14816.5
+                },
+                "unknown": {
+                  "reach": 48139,
+                  "spend_usd": 404.52
+                }
+              },
+              {
+                "age_range": "35-44",
+                "reach": 512572,
+                "spend_usd": 4307.2,
+                "male": {
+                  "reach": 152228,
+                  "spend_usd": 1279.18
+                },
+                "female": {
+                  "reach": 312215,
+                  "spend_usd": 2623.58
+                },
+                "unknown": {
+                  "reach": 48129,
+                  "spend_usd": 404.44
+                }
+              },
+              {
+                "age_range": "45-54",
+                "reach": 279275,
+                "spend_usd": 2346.77,
+                "male": {
+                  "reach": 79251,
+                  "spend_usd": 665.95
+                },
+                "female": {
+                  "reach": 151905,
+                  "spend_usd": 1276.47
+                },
+                "unknown": {
+                  "reach": 48119,
+                  "spend_usd": 404.35
+                }
+              },
+              {
+                "age_range": "55+",
+                "reach": 182694,
+                "spend_usd": 1535.21,
+                "male": {
+                  "reach": 55366,
+                  "spend_usd": 465.25
+                },
+                "female": {
+                  "reach": 79249,
+                  "spend_usd": 665.94
+                },
+                "unknown": {
+                  "reach": 48079,
+                  "spend_usd": 404.02
+                }
+              },
+              {
+                "age_range": "unknown",
+                "reach": 2350000,
+                "spend_usd": 17625,
+                "male": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "female": {
+                  "reach": 0,
+                  "spend_usd": 0
+                },
+                "unknown": {
+                  "reach": 2350000,
+                  "spend_usd": 17625
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

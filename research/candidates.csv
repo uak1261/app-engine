@@ -1,0 +1,13 @@
+id,niche,status,status_date,claude_status,codex_status,disagreement,evidence_files,next_action,experiment_id
+C-001,Co-parenting records (Steadline),RESEARCH,2026-11-06,TEST (proposed),PENDING,N/A,research/2026-11-05/raw/run2_detail_documented.json; research/2026-11-05/evidence/transcript_only_extract.csv; research/2026-11-05/evidence/review_quotes.md,Codex audit; pull TalkingParents pricing and OFW 300d historicals; desk research on court-mandated apps; pre-register EXP if audit clears,
+C-002,GLP-1 companion,RESEARCH,2026-11-06,RESEARCH,PENDING,N/A,research/2026-11-05/raw/run1_detail_peptidepal.json; research/2026-11-05/raw/run1_sweepA_search_apps.json,Re-verify MeAgain/Shotsy as RAW; check whether leaders already offer photo logging; assess Apple health-app review risk,
+C-003,Crochet with checked patterns,RESEARCH,2026-11-06,RESEARCH,PENDING,N/A,research/2026-11-05/raw/run1_detail_loopsy.json,Re-pull YarnPal as RAW; size designer supply; estimate content-ops hours,
+C-004,Restricted-diet meal planner,RESEARCH,2026-11-06,RESEARCH,PENDING,N/A,research/2026-11-05/raw/run2_detail_mise.json,Find a second US publisher with category-filtered depth check; check mise ad spend from other sources,
+C-005,AI sermon notes,RESEARCH,2026-11-06,RESEARCH,PENDING,N/A,research/2026-11-05/raw/run1_detail_holynote.json,Pull Bible Note 90d trend; evaluate under current gates,
+C-006,Trading-card scanners,HOLD,2026-11-06,HOLD,PENDING,N/A,research/2026-11-05/raw/run2_detail_holodex.json,Reopen only with a neglected sub-niche (One Piece/Lorcana or sport-specific grading),
+C-007,Car widgets (myCar),STOP,2026-11-06,STOP,PENDING,N/A,research/2026-11-05/raw/run2_detail_mycar.json,None (sustained decline on revenue/downloads/MAU),
+C-008,AI music video,STOP,2026-11-06,STOP (UNVERIFIED data),PENDING,N/A,research/2026-11-05/evidence/transcript_only_extract.csv,Re-verify Sondo trend before treating as final,
+C-009,Healthy eating out (MenuFit),HOLD,2026-11-06,HOLD,PENDING,N/A,research/2026-11-05/evidence/transcript_only_extract.csv,Category-filtered depth check for a second publisher,
+C-010,Chronic illness support (Juno),HOLD,2026-11-06,HOLD,PENDING,N/A,research/2026-11-05/raw/run1_sweepA_search_apps.json,Single publisher; reopen if a second appears,
+C-011,AR drawing / screen-time blockers / AI calorie (ARtie Lab; SocialLite; Calife),HOLD,2026-11-06,HOLD (rejected under superseded rule),PENDING,N/A,research/2026-11-05/raw/run1_sweepA_search_apps.json,Re-evaluate under current gates if lanes resurface them,
+C-012,Speaker cleaners,HOLD,2026-11-06,HOLD (rejected under superseded rule),PENDING,N/A,research/2026-11-05/raw/run1_sweepD_search_apps.json,Low differentiation; reopen only with a distinct angle,

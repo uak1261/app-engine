@@ -1,11 +1,17 @@
-# AppKittie Idea Incubation Brief
+# AppKittie research engine
 
-A recurring brief that finds the top 5 app opportunities with potential to reach $30-50K/month, using live AppKittie data. No backend and no stored data: each run calls the AppKittie MCP server, reasons over the results, and writes the brief.
+Shared research pipeline. It finds app opportunities worth a bounded demand test, using live AppKittie data. **Claude** leads discovery and the final report; **Codex** audits independently. App code lives in separate repos, one per app.
 
-- `.mcp.json`: connects to `https://mcp.appkittie.com` and reads the API key from the `APPKITTIE_API_KEY` environment variable.
-- `.claude/skills/appkittie-brief/SKILL.md`: the brief method, credit cap, screen, scoring and output format.
+- `docs/RESEARCH_PROTOCOL.md`: the portable protocol: cadence, gates, economics, statuses, report format. **Start here.**
+- `research/<date>/`: dated evidence packs:
+  - `raw/`: saved AppKittie responses, plus SHA256SUMS.
+  - `evidence/`: extracts and review quotes.
+  - `MANIFEST.md`: every call made.
+  - `audit/codex.md`: Codex's audit.
+  - `report/final.md`: the weekly report.
+- `research/candidates.csv`: the candidate registry and statuses (RESEARCH / TEST / BUILD / HOLD-STOP).
+- `experiments/`: pre-registered demand tests (`TEMPLATE.md`) and their results.
+- `.claude/skills/appkittie-brief/`: Claude's entry point into the protocol.
+- `.mcp.json`: the AppKittie MCP connection, which reads `APPKITTIE_API_KEY` from the environment.
 
-## Setup (once)
-1. Cloud environment settings: add `APPKITTIE_API_KEY` (your AppKittie API key).
-2. Network access: allow `mcp.appkittie.com`.
-3. Start a new session and run `/appkittie-brief` to test.
+The current handoff is `research/2026-11-05/HANDOFF_FOR_CODEX.md`.
