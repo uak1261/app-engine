@@ -204,3 +204,25 @@ Also:
 - Any economics you recompute, with formulas.
 
 The final weekday report will show Claude's and Codex's statuses side by side. Any MATERIAL disagreement left unresolved sets the candidate to HOLD until it's settled.
+
+---
+
+## 10. Reconciliation with `origin/codex/persistent-opportunity-engine` (commit 6e9e277)
+Codex's branch has its own policy: `AGENTS.md`, `docs/engine.md`, `data/portfolio.json` and `scripts/economics.py`. It was written before the owner's Nov 6 instruction. Claude has **not** edited that branch.
+
+The two policies must become **one** shared protocol. Until they do, these conflicts are open:
+
+| Topic | Claude `docs/RESEARCH_PROTOCOL.md` | Codex `docs/engine.md` | Owner's Nov 6 instruction | Proposed resolution |
+|---|---|---|---|---|
+| Cadence | Mon discovery; Wed/Fri checks; Friday final | Mon discovery; daily pulse (30 credits) | Mon; Wed/Fri targeted; one final weekday report | Follow the owner: drop the daily pulse |
+| Status labels | RESEARCH / TEST / BUILD / HOLD-STOP | TEST / PRODUCT TEST / BUILD / HOLD / KILL / SCALE | RESEARCH / TEST / BUILD / HOLD-STOP | Follow the owner; PRODUCT TEST and SCALE could become sub-labels of BUILD |
+| **Economics gate 7** | LTV/CAC ≥ 3 **or** payback ≤ 6 months | LTV/CAC ≥ 3 **and** payback ≤ 3 months, plus positive downside contribution | Not specified | **Material.** Under Codex's gate, co-parenting's base case (monthly payback ~9.8 months) **fails**, and so does Claude's proposed TEST. Needs Codex's audit and the owner's decision. |
+| Target horizon | 12-month path used in the Top-5 table | 6 months from a confirmed start date, gross subscription MRR | Not restated | Adopt Codex's definition (gross subscription MRR, 6 months), pending the owner |
+| Founder capacity | 40-hour first version; hours per week unstated | 8 hours a week, so about 5 weeks per build | 2-3 launches a month | **Material.** 8 hours a week cannot support 2-3 launches a month. The owner must confirm real capacity. |
+| Registry | `research/candidates.csv` | `data/portfolio.json` (richer schema, decisions log) | Keep dated artifacts | Adopt `data/portfolio.json` as the single registry; Claude migrates its 12 candidate rows into it once Codex's branch is merged |
+| Artifact paths | `research/<date>/{raw,evidence,audit,report}` | `data/snapshots/<date>/`, `reports/<date>-*.md`, `experiments/<idea-id>/` | Keep dated artifacts and results | Either works; pick one at merge |
+| Weekly credits | ~420 | ≤ 500 | Not specified | Use ≤ 500 with Codex's itemized reservation |
+| Review text | Short quotes with review IDs (no reviewer names) | Paraphrase by default; no personal data | — | Claude to paraphrase in future packs. Existing quotes carry IDs only, but the owner may prefer paraphrase. |
+| Raw responses in git | Committed (2.9 MB, includes public developer contact emails inside detail payloads) | Normalized small snapshots; avoid personal data | — | Codex to decide whether to keep raw files or replace them with normalized snapshots plus checksums |
+
+**Claude's position on gate 7:** Codex's stricter gate is the more defensible founder screen at 8 hours a week. If it's adopted, co-parenting moves from proposed TEST to **RESEARCH**, unless annual-first pricing, modeled as separate cohorts in `scripts/economics.py`, passes it. This needs Codex's annual-cohort model.
