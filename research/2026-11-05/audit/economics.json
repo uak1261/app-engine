@@ -1,0 +1,182 @@
+{
+  "basis": "Hypothetical inputs reconstructed from Claude table; not measured cohorts. Monthly and annual cases separate; no blend asserted.",
+  "fee_assumption": 0.15,
+  "refund_assumption": 0.03,
+  "results": [
+    {
+      "idea": "Co-parenting",
+      "monthly_price_assumption": 14.99,
+      "annual_price_assumption": 149,
+      "monthly_variable_cost_assumption": 0.5,
+      "monthly_contribution": 11.859255,
+      "base_cac": 116.66666666666667,
+      "base_ltv": 118.59254999999999,
+      "base_ltv_cac": 1.0165075714285714,
+      "base_payback_months": 9.837605032244157,
+      "maximum_cac_for_six_month_payback": 71.15553,
+      "annual_first_year_contribution_before_acquisition": 116.85049999999998,
+      "annual_first_year_contribution_after_base_cac": 0.1838333333333111,
+      "payers_for_40000_gross_monthly_only": 2669,
+      "scenarios": [
+        {
+          "name": "conservative",
+          "cac": 250.0,
+          "ltv": 79.0617,
+          "payback_months": 21.080582211951764
+        },
+        {
+          "name": "base",
+          "cac": 116.66666666666667,
+          "ltv": 118.59254999999999,
+          "payback_months": 9.837605032244157
+        },
+        {
+          "name": "upside",
+          "cac": 40.0,
+          "ltv": 197.65425,
+          "payback_months": 3.3728931539122824
+        }
+      ]
+    },
+    {
+      "idea": "GLP-1",
+      "monthly_price_assumption": 12.99,
+      "annual_price_assumption": 49.99,
+      "monthly_variable_cost_assumption": 0.8,
+      "monthly_contribution": 9.910254999999998,
+      "base_cac": 116.66666666666667,
+      "base_ltv": 99.10254999999997,
+      "base_ltv_cac": 0.8494504285714283,
+      "base_payback_months": 11.772317328531576,
+      "maximum_cac_for_six_month_payback": 59.46152999999998,
+      "annual_first_year_contribution_before_acquisition": 31.616754999999998,
+      "annual_first_year_contribution_after_base_cac": -85.04991166666667,
+      "payers_for_40000_gross_monthly_only": 3080,
+      "scenarios": [
+        {
+          "name": "conservative",
+          "cac": 250.0,
+          "ltv": 66.06836666666665,
+          "payback_months": 25.226394275424806
+        },
+        {
+          "name": "base",
+          "cac": 116.66666666666667,
+          "ltv": 99.10254999999997,
+          "payback_months": 11.772317328531576
+        },
+        {
+          "name": "upside",
+          "cac": 40.0,
+          "ltv": 165.17091666666664,
+          "payback_months": 4.036223084067969
+        }
+      ]
+    },
+    {
+      "idea": "Crochet",
+      "monthly_price_assumption": 7.99,
+      "annual_price_assumption": 39.99,
+      "monthly_variable_cost_assumption": 0.2,
+      "monthly_contribution": 6.387754999999999,
+      "base_cac": 116.66666666666667,
+      "base_ltv": 63.87754999999999,
+      "base_ltv_cac": 0.5475218571428571,
+      "base_payback_months": 18.2641110478825,
+      "maximum_cac_for_six_month_payback": 38.32653,
+      "annual_first_year_contribution_before_acquisition": 30.571755000000003,
+      "annual_first_year_contribution_after_base_cac": -86.09491166666666,
+      "payers_for_40000_gross_monthly_only": 5007,
+      "scenarios": [
+        {
+          "name": "conservative",
+          "cac": 250.0,
+          "ltv": 42.58503333333333,
+          "payback_months": 39.137380816891074
+        },
+        {
+          "name": "base",
+          "cac": 116.66666666666667,
+          "ltv": 63.87754999999999,
+          "payback_months": 18.2641110478825
+        },
+        {
+          "name": "upside",
+          "cac": 40.0,
+          "ltv": 106.46258333333333,
+          "payback_months": 6.261980930702571
+        }
+      ]
+    },
+    {
+      "idea": "Meal planner",
+      "monthly_price_assumption": 9.99,
+      "annual_price_assumption": 49.99,
+      "monthly_variable_cost_assumption": 0.3,
+      "monthly_contribution": 7.936755000000001,
+      "base_cac": 116.66666666666667,
+      "base_ltv": 79.36755000000001,
+      "base_ltv_cac": 0.6802932857142857,
+      "base_payback_months": 14.699542403244987,
+      "maximum_cac_for_six_month_payback": 47.62053,
+      "annual_first_year_contribution_before_acquisition": 37.616755,
+      "annual_first_year_contribution_after_base_cac": -79.04991166666667,
+      "payers_for_40000_gross_monthly_only": 4005,
+      "scenarios": [
+        {
+          "name": "conservative",
+          "cac": 250.0,
+          "ltv": 52.9117,
+          "payback_months": 31.499019435524968
+        },
+        {
+          "name": "base",
+          "cac": 116.66666666666667,
+          "ltv": 79.36755000000001,
+          "payback_months": 14.699542403244987
+        },
+        {
+          "name": "upside",
+          "cac": 40.0,
+          "ltv": 132.27925000000002,
+          "payback_months": 5.0398431096839955
+        }
+      ]
+    },
+    {
+      "idea": "Sermon notes",
+      "monthly_price_assumption": 7.99,
+      "annual_price_assumption": 49.99,
+      "monthly_variable_cost_assumption": 0.4,
+      "monthly_contribution": 6.187754999999999,
+      "base_cac": 116.66666666666667,
+      "base_ltv": 61.87754999999999,
+      "base_ltv_cac": 0.5303789999999999,
+      "base_payback_months": 18.854441823677035,
+      "maximum_cac_for_six_month_payback": 37.126529999999995,
+      "annual_first_year_contribution_before_acquisition": 36.416754999999995,
+      "annual_first_year_contribution_after_base_cac": -80.24991166666668,
+      "payers_for_40000_gross_monthly_only": 5007,
+      "scenarios": [
+        {
+          "name": "conservative",
+          "cac": 250.0,
+          "ltv": 41.2517,
+          "payback_months": 40.40237533645079
+        },
+        {
+          "name": "base",
+          "cac": 116.66666666666667,
+          "ltv": 61.87754999999999,
+          "payback_months": 18.854441823677035
+        },
+        {
+          "name": "upside",
+          "cac": 40.0,
+          "ltv": 103.12924999999998,
+          "payback_months": 6.464380053832126
+        }
+      ]
+    }
+  ]
+}
