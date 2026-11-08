@@ -1,0 +1,1430 @@
+[
+ {
+  "file": "hist_bakesy.json",
+  "slug": "app-bakesy-home-bakery-biz-app-id1515139393",
+  "title": "Bakesy: Home Bakery Biz App",
+  "rev_by_month_k": [
+   98.6,
+   100.0,
+   102.7
+  ],
+  "avg_k": 100.4,
+  "min_k": 98.6,
+  "max_over_min": 1.04,
+  "cv": 0.017,
+  "reviews_start": 6588,
+  "reviews_end": 7257,
+  "new_reviews_window": 669
+ },
+ {
+  "file": "hist_biblescroll.json",
+  "slug": "app-biblescroll-screen-time-faith-id6755406222",
+  "title": "BibleScroll: Christian Focus",
+  "rev_by_month_k": [
+   23.5,
+   70.3,
+   113.3
+  ],
+  "avg_k": 69.0,
+  "min_k": 23.5,
+  "max_over_min": 4.83,
+  "cv": 0.531,
+  "reviews_start": 2186,
+  "reviews_end": 8553,
+  "new_reviews_window": 6367
+ },
+ {
+  "file": "hist_bibleshorts.json",
+  "slug": "app-bible-shorts-daily-devotion-id6795921981",
+  "title": "Bible Shorts: Watch & Study",
+  "rev_by_month_k": [
+   1.2,
+   7.1,
+   44.8
+  ],
+  "avg_k": 17.7,
+  "min_k": 1.2,
+  "max_over_min": 37.96,
+  "cv": 1.091,
+  "reviews_start": 0,
+  "reviews_end": 3671,
+  "new_reviews_window": 3671
+ },
+ {
+  "file": "hist_brickify.json",
+  "slug": "app-brickify-id6758356210",
+  "title": "Brickify: Collection Tracker",
+  "rev_by_month_k": [
+   81.8,
+   99.1,
+   104.6
+  ],
+  "avg_k": 95.2,
+  "min_k": 81.8,
+  "max_over_min": 1.28,
+  "cv": 0.102,
+  "reviews_start": 3548,
+  "reviews_end": 6124,
+  "new_reviews_window": 2576
+ },
+ {
+  "file": "hist_cardora.json",
+  "slug": "app-cardora-sports-card-scanner-id6762001564",
+  "title": "Sports Card Scanner - Cardora",
+  "rev_by_month_k": [
+   16.6,
+   42.7,
+   86.8
+  ],
+  "avg_k": 48.7,
+  "min_k": 16.6,
+  "max_over_min": 5.22,
+  "cv": 0.595,
+  "reviews_start": 226,
+  "reviews_end": 853,
+  "new_reviews_window": 627
+ },
+ {
+  "file": "hist_claimhunt.json",
+  "slug": "app-claimhunt-claim-settlement-id6755202426",
+  "title": "ClaimHunt \u2013 Claim Settlement",
+  "rev_by_month_k": [
+   44.0,
+   45.1,
+   45.9
+  ],
+  "avg_k": 45.0,
+  "min_k": 44.0,
+  "max_over_min": 1.04,
+  "cv": 0.017,
+  "reviews_start": 2067,
+  "reviews_end": 3126,
+  "new_reviews_window": 1059
+ },
+ {
+  "file": "hist_coldread.json",
+  "slug": "app-coldread-id1264354117",
+  "title": "coldRead",
+  "rev_by_month_k": [
+   69.5,
+   75.7,
+   73.1
+  ],
+  "avg_k": 72.8,
+  "min_k": 69.5,
+  "max_over_min": 1.09,
+  "cv": 0.035,
+  "reviews_start": 3827,
+  "reviews_end": 3974,
+  "new_reviews_window": 147
+ },
+ {
+  "file": "hist_collect.json",
+  "slug": "app-collect-settlement-finder-id6752740187",
+  "title": "Collect - Settlement Finder",
+  "rev_by_month_k": [
+   55.5,
+   78.8,
+   75.8
+  ],
+  "avg_k": 70.0,
+  "min_k": 55.5,
+  "max_over_min": 1.42,
+  "cv": 0.148,
+  "reviews_start": 2462,
+  "reviews_end": 5590,
+  "new_reviews_window": 3128
+ },
+ {
+  "file": "hist_coreheart.json",
+  "slug": "app-core-of-the-heart-daily-id6757750161",
+  "title": "Core of the Heart Daily",
+  "rev_by_month_k": [
+   101.3,
+   105.7,
+   106.5
+  ],
+  "avg_k": 104.5,
+  "min_k": 101.3,
+  "max_over_min": 1.05,
+  "cv": 0.022,
+  "reviews_start": 12385,
+  "reviews_end": 14052,
+  "new_reviews_window": 1667
+ },
+ {
+  "file": "hist_creed.json",
+  "slug": "app-creed-bible-chat-companion-id6747326744",
+  "title": "Creed: Bible Chat & Companion",
+  "rev_by_month_k": [
+   204.9,
+   214.1,
+   160.0
+  ],
+  "avg_k": 193.0,
+  "min_k": 160.0,
+  "max_over_min": 1.34,
+  "cv": 0.123,
+  "reviews_start": 50895,
+  "reviews_end": 73680,
+  "new_reviews_window": 22785
+ },
+ {
+  "file": "hist_curio.json",
+  "slug": "app-curio-antique-identifier-id6520380757",
+  "title": "Curio - Antique Identifier",
+  "rev_by_month_k": [
+   100.9,
+   103.5,
+   104.2
+  ],
+  "avg_k": 102.9,
+  "min_k": 100.9,
+  "max_over_min": 1.03,
+  "cv": 0.014,
+  "reviews_start": 14303,
+  "reviews_end": 17067,
+  "new_reviews_window": 2764
+ },
+ {
+  "file": "hist_documented.json",
+  "slug": "app-documented-parenting-record-id6791808503",
+  "title": "Documented: Custody Logs",
+  "rev_by_month_k": [
+   0.0,
+   2.2,
+   32.7
+  ],
+  "avg_k": 11.6,
+  "min_k": 0.0,
+  "max_over_min": 1657.15,
+  "cv": 1.284,
+  "reviews_start": 1,
+  "reviews_end": 272,
+  "new_reviews_window": 271
+ },
+ {
+  "file": "hist_everlance.json",
+  "slug": "app-everlance-mileage-tracker-id985378916",
+  "title": "Mileage Tracker by Everlance",
+  "rev_by_month_k": [
+   103.1,
+   102.4,
+   106.5
+  ],
+  "avg_k": 104.0,
+  "min_k": 102.4,
+  "max_over_min": 1.04,
+  "cv": 0.017,
+  "reviews_start": 51014,
+  "reviews_end": 53221,
+  "new_reviews_window": 2207
+ },
+ {
+  "file": "hist_faithe.json",
+  "slug": "app-faithe-bible-study-videos-id6736618823",
+  "title": "Faithe: Bible Videos & Stories",
+  "rev_by_month_k": [
+   101.0,
+   104.8,
+   102.6
+  ],
+  "avg_k": 102.8,
+  "min_k": 101.0,
+  "max_over_min": 1.04,
+  "cv": 0.015,
+  "reviews_start": 8007,
+  "reviews_end": 9754,
+  "new_reviews_window": 1747
+ },
+ {
+  "file": "hist_getpaid.json",
+  "slug": "app-getpaid-find-claim-money-id6770756969",
+  "title": "GetPaid: Find & Claim Money",
+  "rev_by_month_k": [
+   29.6,
+   31.8,
+   34.9
+  ],
+  "avg_k": 32.1,
+  "min_k": 29.6,
+  "max_over_min": 1.18,
+  "cv": 0.068,
+  "reviews_start": 721,
+  "reviews_end": 920,
+  "new_reviews_window": 199
+ },
+ {
+  "file": "hist_heyrua.json",
+  "slug": "app-heyrua-irish-learning-app-id6796777994",
+  "title": "HeyRua - Irish Learning App",
+  "rev_by_month_k": [
+   0.0,
+   0.0,
+   125.5
+  ],
+  "avg_k": 41.8,
+  "min_k": 0.0,
+  "max_over_min": null,
+  "cv": 1.414,
+  "reviews_start": 0,
+  "reviews_end": 805,
+  "new_reviews_window": 805
+ },
+ {
+  "file": "hist_hurdlr.json",
+  "slug": "app-hurdlr-mileage-expenses-tax-id951737201",
+  "title": "Hurdlr Mileage, Expenses & Tax",
+  "rev_by_month_k": [
+   40.0,
+   35.9,
+   30.0
+  ],
+  "avg_k": 35.3,
+  "min_k": 30.0,
+  "max_over_min": 1.33,
+  "cv": 0.116,
+  "reviews_start": 20955,
+  "reviews_end": 21115,
+  "new_reviews_window": 160
+ },
+ {
+  "file": "hist_linus.json",
+  "slug": "app-linus-learn-lines-self-tape-id6742599484",
+  "title": "Linus: Learn Lines & Self Tape",
+  "rev_by_month_k": [
+   4.6,
+   5.4,
+   15.4
+  ],
+  "avg_k": 8.5,
+  "min_k": 4.6,
+  "max_over_min": 3.33,
+  "cv": 0.577,
+  "reviews_start": 95,
+  "reviews_end": 182,
+  "new_reviews_window": 87
+ },
+ {
+  "file": "hist_ourfamilywizard.json",
+  "slug": "app-ourfamilywizard-co-parent-app-id497405393",
+  "title": "OurFamilyWizard Co-Parent App",
+  "rev_by_month_k": [
+   506.1,
+   411.9,
+   504.0
+  ],
+  "avg_k": 474.0,
+  "min_k": 411.9,
+  "max_over_min": 1.23,
+  "cv": 0.093,
+  "reviews_start": 51244,
+  "reviews_end": 56609,
+  "new_reviews_window": 5365
+ },
+ {
+  "file": "hist_parrot.json",
+  "slug": "app-parrot-learn-spanish-fast-id6736955121",
+  "title": "Parrot: Learn Spanish Language",
+  "rev_by_month_k": [
+   332.7,
+   221.6,
+   107.3
+  ],
+  "avg_k": 220.5,
+  "min_k": 107.3,
+  "max_over_min": 3.1,
+  "cv": 0.417,
+  "reviews_start": 10790,
+  "reviews_end": 17720,
+  "new_reviews_window": 6930
+ },
+ {
+  "file": "hist_payout.json",
+  "slug": "app-payout-claim-class-actions-id6748968935",
+  "title": "Payout: Claim Class Actions",
+  "rev_by_month_k": [
+   41.3,
+   30.9,
+   31.4
+  ],
+  "avg_k": 34.5,
+  "min_k": 30.9,
+  "max_over_min": 1.34,
+  "cv": 0.138,
+  "reviews_start": 10632,
+  "reviews_end": 11624,
+  "new_reviews_window": 992
+ },
+ {
+  "file": "hist_settlemate.json",
+  "slug": "app-settlemate-class-actions-id6737785495",
+  "title": "Settlemate: Claim Savings",
+  "rev_by_month_k": [
+   102.7,
+   87.2,
+   90.2
+  ],
+  "avg_k": 93.4,
+  "min_k": 87.2,
+  "max_over_min": 1.18,
+  "cv": 0.072,
+  "reviews_start": 72143,
+  "reviews_end": 76076,
+  "new_reviews_window": 3933
+ },
+ {
+  "file": "hist_simplywise.json",
+  "slug": "app-simplywise-receipts-expenses-id1538521095",
+  "title": "SimplyWise: Receipts, Expenses",
+  "rev_by_month_k": [
+   59.9,
+   50.7,
+   50.0
+  ],
+  "avg_k": 53.5,
+  "min_k": 50.0,
+  "max_over_min": 1.2,
+  "cv": 0.084,
+  "reviews_start": 36559,
+  "reviews_end": 38299,
+  "new_reviews_window": 1740
+ },
+ {
+  "file": "hist_skillcat.json",
+  "slug": "app-skillcat-epa-608-hvac-more-id1588071312",
+  "title": "SkillCat: EPA 608 & HVAC",
+  "rev_by_month_k": [
+   206.1,
+   205.4,
+   152.3
+  ],
+  "avg_k": 187.9,
+  "min_k": 152.3,
+  "max_over_min": 1.35,
+  "cv": 0.134,
+  "reviews_start": 8895,
+  "reviews_end": 10341,
+  "new_reviews_window": 1446
+ },
+ {
+  "file": "hist_solo.json",
+  "slug": "app-solo-your-gig-business-app-id1586902173",
+  "title": "Solo: Your Gig Business App",
+  "rev_by_month_k": [
+   61.6,
+   50.9,
+   50.1
+  ],
+  "avg_k": 54.2,
+  "min_k": 50.1,
+  "max_over_min": 1.23,
+  "cv": 0.097,
+  "reviews_start": 13052,
+  "reviews_end": 13353,
+  "new_reviews_window": 301
+ },
+ {
+  "file": "hist_1-second-everyday-video-diary-id587823548.json",
+  "slug": "app-1-second-everyday-video-diary-id587823548",
+  "title": "1 Second Everyday: Video Diary",
+  "rev_by_month_k": [
+   200.2,
+   200.6,
+   196.8
+  ],
+  "avg_k": 199.2,
+  "min_k": 196.8,
+  "max_over_min": 1.02,
+  "cv": 0.009,
+  "reviews_start": 47764,
+  "reviews_end": 48374,
+  "new_reviews_window": 610
+ },
+ {
+  "file": "hist_antistress-trivia-zen-quiz-id6469104372.json",
+  "slug": "app-antistress-trivia-zen-quiz-id6469104372",
+  "title": "Antistress trivia - Zen Quiz",
+  "rev_by_month_k": [
+   126.0,
+   126.2,
+   132.8
+  ],
+  "avg_k": 128.3,
+  "min_k": 126.0,
+  "max_over_min": 1.05,
+  "cv": 0.025,
+  "reviews_start": 33095,
+  "reviews_end": 33332,
+  "new_reviews_window": 237
+ },
+ {
+  "file": "hist_asana-rebel-get-in-shape-id1067860796.json",
+  "slug": "app-asana-rebel-get-in-shape-id1067860796",
+  "title": "Asana Rebel: Get in Shape",
+  "rev_by_month_k": [
+   299.9,
+   250.0,
+   196.1
+  ],
+  "avg_k": 248.7,
+  "min_k": 196.1,
+  "max_over_min": 1.53,
+  "cv": 0.17,
+  "reviews_start": 74862,
+  "reviews_end": 74929,
+  "new_reviews_window": 67
+ },
+ {
+  "file": "hist_car-out-id1601158907.json",
+  "slug": "app-car-out-id1601158907",
+  "title": "Car Out \u2122",
+  "rev_by_month_k": [
+   249.7,
+   236.5,
+   180.4
+  ],
+  "avg_k": 222.2,
+  "min_k": 180.4,
+  "max_over_min": 1.38,
+  "cv": 0.135,
+  "reviews_start": 45952,
+  "reviews_end": 48157,
+  "new_reviews_window": 2205
+ },
+ {
+  "file": "hist_carb-manager-keto-diet-tracker-id410089731.json",
+  "slug": "app-carb-manager-keto-diet-tracker-id410089731",
+  "title": "Carb Manager \u2014 Keto Diet App",
+  "rev_by_month_k": [
+   200.7,
+   150.6,
+   103.3
+  ],
+  "avg_k": 151.5,
+  "min_k": 103.3,
+  "max_over_min": 1.94,
+  "cv": 0.263,
+  "reviews_start": 732350,
+  "reviews_end": 736472,
+  "new_reviews_window": 4122
+ },
+ {
+  "file": "hist_carista-obd2-id954363569.json",
+  "slug": "app-carista-obd2-id954363569",
+  "title": "Carista OBD2",
+  "rev_by_month_k": [
+   188.6,
+   212.1,
+   201.2
+  ],
+  "avg_k": 200.7,
+  "min_k": 188.6,
+  "max_over_min": 1.12,
+  "cv": 0.048,
+  "reviews_start": 4081,
+  "reviews_end": 4260,
+  "new_reviews_window": 179
+ },
+ {
+  "file": "hist_cocobi-life-world-city-town-id6468973417.json",
+  "slug": "app-cocobi-life-world-city-town-id6468973417",
+  "title": "Cocobi Life World - city, town",
+  "rev_by_month_k": [
+   6.1,
+   6.2,
+   15.4
+  ],
+  "avg_k": 9.2,
+  "min_k": 6.1,
+  "max_over_min": 2.54,
+  "cv": 0.474,
+  "reviews_start": 370,
+  "reviews_end": 408,
+  "new_reviews_window": 38
+ },
+ {
+  "file": "hist_drivewyze-id555769428.json",
+  "slug": "app-drivewyze-id555769428",
+  "title": "Drivewyze",
+  "rev_by_month_k": [
+   79.8,
+   85.0,
+   86.8
+  ],
+  "avg_k": 83.9,
+  "min_k": 79.8,
+  "max_over_min": 1.09,
+  "cv": 0.035,
+  "reviews_start": 164,
+  "reviews_end": 187,
+  "new_reviews_window": 23
+ },
+ {
+  "file": "hist_dupr-id1567932355.json",
+  "slug": "app-dupr-id1567932355",
+  "title": "DUPR",
+  "rev_by_month_k": [
+   104.5,
+   148.9,
+   203.1
+  ],
+  "avg_k": 152.1,
+  "min_k": 104.5,
+  "max_over_min": 1.94,
+  "cv": 0.265,
+  "reviews_start": 3613,
+  "reviews_end": 4019,
+  "new_reviews_window": 406
+ },
+ {
+  "file": "hist_fantastical-calendar-id718043190.json",
+  "slug": "app-fantastical-calendar-id718043190",
+  "title": "Fantastical Calendar",
+  "rev_by_month_k": [
+   100.1,
+   100.6,
+   101.8
+  ],
+  "avg_k": 100.8,
+  "min_k": 100.1,
+  "max_over_min": 1.02,
+  "cv": 0.007,
+  "reviews_start": 23818,
+  "reviews_end": 24796,
+  "new_reviews_window": 978
+ },
+ {
+  "file": "hist_fantasy-footballers-id1108082123.json",
+  "slug": "app-fantasy-footballers-id1108082123",
+  "title": "Fantasy Footballers",
+  "rev_by_month_k": [
+   20.0,
+   43.3,
+   200.6
+  ],
+  "avg_k": 88.0,
+  "min_k": 20.0,
+  "max_over_min": 10.04,
+  "cv": 0.912,
+  "reviews_start": 8836,
+  "reviews_end": 10174,
+  "new_reviews_window": 1338
+ },
+ {
+  "file": "hist_filmit-ai-ai-video-generator-id6755591057.json",
+  "slug": "app-filmit-ai-ai-video-generator-id6755591057",
+  "title": "Filmit : AI Cinematic Video",
+  "rev_by_month_k": [
+   19.9,
+   28.3,
+   110.8
+  ],
+  "avg_k": 53.0,
+  "min_k": 19.9,
+  "max_over_min": 5.56,
+  "cv": 0.774,
+  "reviews_start": 159,
+  "reviews_end": 684,
+  "new_reviews_window": 525
+ },
+ {
+  "file": "hist_fiton-workouts-fitness-plans-id1442473191.json",
+  "slug": "app-fiton-workouts-fitness-plans-id1442473191",
+  "title": "FitOn Workouts & Fitness Plans",
+  "rev_by_month_k": [
+   200.4,
+   200.2,
+   101.3
+  ],
+  "avg_k": 167.3,
+  "min_k": 101.3,
+  "max_over_min": 1.98,
+  "cv": 0.279,
+  "reviews_start": 282722,
+  "reviews_end": 282687,
+  "new_reviews_window": -35
+ },
+ {
+  "file": "hist_focus-friend-by-hank-green-id6742278016.json",
+  "slug": "app-focus-friend-by-hank-green-id6742278016",
+  "title": "Focus Friend, by Hank Green",
+  "rev_by_month_k": [
+   82.0,
+   100.8,
+   110.1
+  ],
+  "avg_k": 97.6,
+  "min_k": 82.0,
+  "max_over_min": 1.34,
+  "cv": 0.12,
+  "reviews_start": 4166,
+  "reviews_end": 9734,
+  "new_reviews_window": 5568
+ },
+ {
+  "file": "hist_form-for-google-forms-id1544827472.json",
+  "slug": "app-form-for-google-forms-id1544827472",
+  "title": "Form+ for Google Forms",
+  "rev_by_month_k": [
+   200.3,
+   201.2,
+   101.1
+  ],
+  "avg_k": 167.5,
+  "min_k": 101.1,
+  "max_over_min": 1.99,
+  "cv": 0.28,
+  "reviews_start": 44092,
+  "reviews_end": 44932,
+  "new_reviews_window": 840
+ },
+ {
+  "file": "hist_glam-up-perfect-your-look-id6480331890.json",
+  "slug": "app-glam-up-perfect-your-look-id6480331890",
+  "title": "Glam Up - Perfect Your Look",
+  "rev_by_month_k": [
+   131.0,
+   132.0,
+   131.5
+  ],
+  "avg_k": 131.5,
+  "min_k": 131.0,
+  "max_over_min": 1.01,
+  "cv": 0.003,
+  "reviews_start": 32895,
+  "reviews_end": 33374,
+  "new_reviews_window": 479
+ },
+ {
+  "file": "hist_halide-mark-ii-pro-camera-id885697368.json",
+  "slug": "app-halide-mark-ii-pro-camera-id885697368",
+  "title": "Halide Mark III - Pro Camera",
+  "rev_by_month_k": [
+   200.3,
+   201.0,
+   100.5
+  ],
+  "avg_k": 167.3,
+  "min_k": 100.5,
+  "max_over_min": 2.0,
+  "cv": 0.282,
+  "reviews_start": 13294,
+  "reviews_end": 13652,
+  "new_reviews_window": 358
+ },
+ {
+  "file": "hist_hammer-truck-gps-maps-id1478863996.json",
+  "slug": "app-hammer-truck-gps-maps-id1478863996",
+  "title": "Hammer: Truck GPS & Maps",
+  "rev_by_month_k": [
+   103.5,
+   104.5,
+   105.6
+  ],
+  "avg_k": 104.5,
+  "min_k": 103.5,
+  "max_over_min": 1.02,
+  "cv": 0.008,
+  "reviews_start": 35797,
+  "reviews_end": 36766,
+  "new_reviews_window": 969
+ },
+ {
+  "file": "hist_imemories-id528388477.json",
+  "slug": "app-imemories-id528388477",
+  "title": "iMemories",
+  "rev_by_month_k": [
+   199.1,
+   200.0,
+   200.0
+  ],
+  "avg_k": 199.7,
+  "min_k": 199.1,
+  "max_over_min": 1.0,
+  "cv": 0.002,
+  "reviews_start": 7723,
+  "reviews_end": 9189,
+  "new_reviews_window": 1466
+ },
+ {
+  "file": "hist_itrainer-dog-whistle-clicker-id1147215836.json",
+  "slug": "app-itrainer-dog-whistle-clicker-id1147215836",
+  "title": "iTrainer Dog Whistle & Clicker",
+  "rev_by_month_k": [
+   131.4,
+   131.9,
+   135.3
+  ],
+  "avg_k": 132.8,
+  "min_k": 131.4,
+  "max_over_min": 1.03,
+  "cv": 0.013,
+  "reviews_start": 33332,
+  "reviews_end": 33533,
+  "new_reviews_window": 201
+ },
+ {
+  "file": "hist_jumpspeak-language-learning-id1514709368.json",
+  "slug": "app-jumpspeak-language-learning-id1514709368",
+  "title": "Jumpspeak | Language Learning",
+  "rev_by_month_k": [
+   414.5,
+   205.0,
+   105.2
+  ],
+  "avg_k": 241.6,
+  "min_k": 105.2,
+  "max_over_min": 3.94,
+  "cv": 0.534,
+  "reviews_start": 14377,
+  "reviews_end": 16499,
+  "new_reviews_window": 2122
+ },
+ {
+  "file": "hist_lake-coloring-book-for-adults-id1183717726.json",
+  "slug": "app-lake-coloring-book-for-adults-id1183717726",
+  "title": "Lake: Coloring Book for Adults",
+  "rev_by_month_k": [
+   100.3,
+   100.3,
+   100.3
+  ],
+  "avg_k": 100.3,
+  "min_k": 100.3,
+  "max_over_min": 1.0,
+  "cv": 0.0,
+  "reviews_start": 80793,
+  "reviews_end": 82314,
+  "new_reviews_window": 1521
+ },
+ {
+  "file": "hist_logo-maker-ai-creator-conic-id1190077343.json",
+  "slug": "app-logo-maker-ai-creator-conic-id1190077343",
+  "title": "Boon: AI Logo Maker & Design",
+  "rev_by_month_k": [
+   100.0,
+   90.0,
+   85.5
+  ],
+  "avg_k": 91.9,
+  "min_k": 85.5,
+  "max_over_min": 1.17,
+  "cv": 0.066,
+  "reviews_start": 81980,
+  "reviews_end": 81990,
+  "new_reviews_window": 10
+ },
+ {
+  "file": "hist_loopsy-crochet-knitting-id6745416564.json",
+  "slug": "app-loopsy-crochet-knitting-id6745416564",
+  "title": "Loopsy - Crochet & Knitting",
+  "rev_by_month_k": [
+   96.8,
+   103.7,
+   103.1
+  ],
+  "avg_k": 101.2,
+  "min_k": 96.8,
+  "max_over_min": 1.07,
+  "cv": 0.031,
+  "reviews_start": 13822,
+  "reviews_end": 16984,
+  "new_reviews_window": 3162
+ },
+ {
+  "file": "hist_magnifying-glass-id1190017609.json",
+  "slug": "app-magnifying-glass-id1190017609",
+  "title": "Magnifying glass ++",
+  "rev_by_month_k": [
+   141.8,
+   140.6,
+   141.5
+  ],
+  "avg_k": 141.3,
+  "min_k": 140.6,
+  "max_over_min": 1.01,
+  "cv": 0.004,
+  "reviews_start": 26113,
+  "reviews_end": 26293,
+  "new_reviews_window": 180
+ },
+ {
+  "file": "hist_male-hair-photo-editor-macho-id1185551281.json",
+  "slug": "app-male-hair-photo-editor-macho-id1185551281",
+  "title": "Male Hair Photo Editor - Macho",
+  "rev_by_month_k": [
+   141.3,
+   141.3,
+   141.3
+  ],
+  "avg_k": 141.3,
+  "min_k": 141.3,
+  "max_over_min": 1.0,
+  "cv": 0.0,
+  "reviews_start": 26822,
+  "reviews_end": 26838,
+  "new_reviews_window": 16
+ },
+ {
+  "file": "hist_maliboomake-id1533410127.json",
+  "slug": "app-maliboomake-id1533410127",
+  "title": "MalibooMake",
+  "rev_by_month_k": [
+   81.4,
+   92.1,
+   82.6
+  ],
+  "avg_k": 85.4,
+  "min_k": 81.4,
+  "max_over_min": 1.13,
+  "cv": 0.056,
+  "reviews_start": 3105,
+  "reviews_end": 3559,
+  "new_reviews_window": 454
+ },
+ {
+  "file": "hist_mimi-hearing-test-id932496645.json",
+  "slug": "app-mimi-hearing-test-id932496645",
+  "title": "Mimi Hearing Test",
+  "rev_by_month_k": [
+   127.4,
+   127.4,
+   50.8
+  ],
+  "avg_k": 101.9,
+  "min_k": 50.8,
+  "max_over_min": 2.51,
+  "cv": 0.355,
+  "reviews_start": 43196,
+  "reviews_end": 43620,
+  "new_reviews_window": 424
+ },
+ {
+  "file": "hist_moonly-moon-phases-calendar-id1489889871.json",
+  "slug": "app-moonly-moon-phases-calendar-id1489889871",
+  "title": "Moonly: Your Spiritual Guide",
+  "rev_by_month_k": [
+   100.0,
+   100.1,
+   100.0
+  ],
+  "avg_k": 100.0,
+  "min_k": 100.0,
+  "max_over_min": 1.0,
+  "cv": 0.0,
+  "reviews_start": 31379,
+  "reviews_end": 31410,
+  "new_reviews_window": 31
+ },
+ {
+  "file": "hist_motivation-daily-peptalk-id976885594.json",
+  "slug": "app-motivation-daily-peptalk-id976885594",
+  "title": "Peptalk: Daily Motivation",
+  "rev_by_month_k": [
+   100.4,
+   100.3,
+   100.0
+  ],
+  "avg_k": 100.2,
+  "min_k": 100.0,
+  "max_over_min": 1.0,
+  "cv": 0.002,
+  "reviews_start": 44005,
+  "reviews_end": 44752,
+  "new_reviews_window": 747
+ },
+ {
+  "file": "hist_music-recognition-song-finder-id6599842047.json",
+  "slug": "app-music-recognition-song-finder-id6599842047",
+  "title": "Music Recognition- Song Finder",
+  "rev_by_month_k": [
+   107.0,
+   101.1,
+   100.7
+  ],
+  "avg_k": 103.0,
+  "min_k": 100.7,
+  "max_over_min": 1.06,
+  "cv": 0.028,
+  "reviews_start": 7909,
+  "reviews_end": 8336,
+  "new_reviews_window": 427
+ },
+ {
+  "file": "hist_nibble-your-bite-of-knowledge-id6444046612.json",
+  "slug": "app-nibble-your-bite-of-knowledge-id6444046612",
+  "title": "Nibble: Daily Learning & Quiz",
+  "rev_by_month_k": [
+   302.5,
+   200.6,
+   103.6
+  ],
+  "avg_k": 202.2,
+  "min_k": 103.6,
+  "max_over_min": 2.92,
+  "cv": 0.402,
+  "reviews_start": 45759,
+  "reviews_end": 46917,
+  "new_reviews_window": 1158
+ },
+ {
+  "file": "hist_oak-meditation-breathing-id1210209691.json",
+  "slug": "app-oak-meditation-breathing-id1210209691",
+  "title": "Oak - Meditation & Breathing",
+  "rev_by_month_k": [
+   139.5,
+   136.3,
+   138.5
+  ],
+  "avg_k": 138.1,
+  "min_k": 136.3,
+  "max_over_min": 1.02,
+  "cv": 0.01,
+  "reviews_start": 31626,
+  "reviews_end": 31671,
+  "new_reviews_window": 45
+ },
+ {
+  "file": "hist_osta-save-share-recipes-id6739286231.json",
+  "slug": "app-osta-save-share-recipes-id6739286231",
+  "title": "Osta: Save & Share Recipes",
+  "rev_by_month_k": [
+   20.1,
+   68.6,
+   79.9
+  ],
+  "avg_k": 56.2,
+  "min_k": 20.1,
+  "max_over_min": 3.97,
+  "cv": 0.461,
+  "reviews_start": 6617,
+  "reviews_end": 6802,
+  "new_reviews_window": 185
+ },
+ {
+  "file": "hist_popmaker-creator-ai-tool-id6761884631.json",
+  "slug": "app-popmaker-creator-ai-tool-id6761884631",
+  "title": "PopMaker - Creator AI Tool",
+  "rev_by_month_k": [
+   1.8,
+   64.2,
+   117.4
+  ],
+  "avg_k": 61.1,
+  "min_k": 1.8,
+  "max_over_min": 66.27,
+  "cv": 0.773,
+  "reviews_start": 13,
+  "reviews_end": 2400,
+  "new_reviews_window": 2387
+ },
+ {
+  "file": "hist_ratepunk-find-flight-deals-id1607823726.json",
+  "slug": "app-ratepunk-find-flight-deals-id1607823726",
+  "title": "RatePunk: Cheap Plane Tickets",
+  "rev_by_month_k": [
+   96.0,
+   102.6,
+   105.9
+  ],
+  "avg_k": 101.5,
+  "min_k": 96.0,
+  "max_over_min": 1.1,
+  "cv": 0.041,
+  "reviews_start": 5464,
+  "reviews_end": 6758,
+  "new_reviews_window": 1294
+ },
+ {
+  "file": "hist_remodel-ai-home-design-id6446040791.json",
+  "slug": "app-remodel-ai-home-design-id6446040791",
+  "title": "Remodel AI - Home Design",
+  "rev_by_month_k": [
+   101.1,
+   103.3,
+   100.5
+  ],
+  "avg_k": 101.7,
+  "min_k": 100.5,
+  "max_over_min": 1.03,
+  "cv": 0.012,
+  "reviews_start": 14234,
+  "reviews_end": 15093,
+  "new_reviews_window": 859
+ },
+ {
+  "file": "hist_roamy-save-spot-plan-trips-id6748781672.json",
+  "slug": "app-roamy-save-spot-plan-trips-id6748781672",
+  "title": "Rhyme - Itinerary Planner",
+  "rev_by_month_k": [
+   108.6,
+   109.4,
+   100.2
+  ],
+  "avg_k": 106.1,
+  "min_k": 100.2,
+  "max_over_min": 1.09,
+  "cv": 0.039,
+  "reviews_start": 5129,
+  "reviews_end": 5194,
+  "new_reviews_window": 65
+ },
+ {
+  "file": "hist_ruler-id623207505.json",
+  "slug": "app-ruler-id623207505",
+  "title": "Ruler\u00ae",
+  "rev_by_month_k": [
+   135.8,
+   135.8,
+   135.8
+  ],
+  "avg_k": 135.8,
+  "min_k": 135.8,
+  "max_over_min": 1.0,
+  "cv": 0.0,
+  "reviews_start": 35089,
+  "reviews_end": 35110,
+  "new_reviews_window": 21
+ },
+ {
+  "file": "hist_scoreholio-id1370777926.json",
+  "slug": "app-scoreholio-id1370777926",
+  "title": "Scoreholio",
+  "rev_by_month_k": [
+   100.9,
+   102.0,
+   107.0
+  ],
+  "avg_k": 103.3,
+  "min_k": 100.9,
+  "max_over_min": 1.06,
+  "cv": 0.026,
+  "reviews_start": 4220,
+  "reviews_end": 6072,
+  "new_reviews_window": 1852
+ },
+ {
+  "file": "hist_scout-find-healthy-food-id6755553298.json",
+  "slug": "app-scout-find-healthy-food-id6755553298",
+  "title": "Scout - Health Analysis",
+  "rev_by_month_k": [
+   105.9,
+   108.6,
+   106.7
+  ],
+  "avg_k": 107.1,
+  "min_k": 105.9,
+  "max_over_min": 1.03,
+  "cv": 0.011,
+  "reviews_start": 2221,
+  "reviews_end": 3997,
+  "new_reviews_window": 1776
+ },
+ {
+  "file": "hist_setty-photo-filters-presets-id1578325069.json",
+  "slug": "app-setty-photo-filters-presets-id1578325069",
+  "title": "Setty: Photo Editor & Filters",
+  "rev_by_month_k": [
+   200.3,
+   200.3,
+   106.9
+  ],
+  "avg_k": 169.2,
+  "min_k": 106.9,
+  "max_over_min": 1.87,
+  "cv": 0.26,
+  "reviews_start": 4495,
+  "reviews_end": 4527,
+  "new_reviews_window": 32
+ },
+ {
+  "file": "hist_smart-noter-ai-note-taker-id6739575916.json",
+  "slug": "app-smart-noter-ai-note-taker-id6739575916",
+  "title": "Smart Noter - AI Note Taker",
+  "rev_by_month_k": [
+   203.2,
+   201.5,
+   106.8
+  ],
+  "avg_k": 170.5,
+  "min_k": 106.8,
+  "max_over_min": 1.9,
+  "cv": 0.264,
+  "reviews_start": 2239,
+  "reviews_end": 2417,
+  "new_reviews_window": 178
+ },
+ {
+  "file": "hist_smartist-art-preview-on-wall-id1505234753.json",
+  "slug": "app-smartist-art-preview-on-wall-id1505234753",
+  "title": "Smartist: Art Preview on Wall",
+  "rev_by_month_k": [
+   100.0,
+   100.0,
+   100.0
+  ],
+  "avg_k": 100.0,
+  "min_k": 100.0,
+  "max_over_min": 1.0,
+  "cv": 0.0,
+  "reviews_start": 8503,
+  "reviews_end": 8541,
+  "new_reviews_window": 38
+ },
+ {
+  "file": "hist_speaker-headphones-connect-id1612024321.json",
+  "slug": "app-speaker-headphones-connect-id1612024321",
+  "title": "Speaker & Headphones Connect",
+  "rev_by_month_k": [
+   103.2,
+   100.7,
+   100.3
+  ],
+  "avg_k": 101.4,
+  "min_k": 100.3,
+  "max_over_min": 1.03,
+  "cv": 0.013,
+  "reviews_start": 30120,
+  "reviews_end": 31335,
+  "new_reviews_window": 1215
+ },
+ {
+  "file": "hist_superchinese-learn-chinese-id1462500984.json",
+  "slug": "app-superchinese-learn-chinese-id1462500984",
+  "title": "SuperChinese - Learn Chinese",
+  "rev_by_month_k": [
+   203.3,
+   213.0,
+   203.0
+  ],
+  "avg_k": 206.4,
+  "min_k": 203.0,
+  "max_over_min": 1.05,
+  "cv": 0.023,
+  "reviews_start": 3557,
+  "reviews_end": 3878,
+  "new_reviews_window": 321
+ },
+ {
+  "file": "hist_swingvision-tennis-pickleball-id989461317.json",
+  "slug": "app-swingvision-tennis-pickleball-id989461317",
+  "title": "SwingVision: Tennis Pickleball",
+  "rev_by_month_k": [
+   100.8,
+   194.5,
+   106.6
+  ],
+  "avg_k": 134.0,
+  "min_k": 100.8,
+  "max_over_min": 1.93,
+  "cv": 0.32,
+  "reviews_start": 4742,
+  "reviews_end": 4982,
+  "new_reviews_window": 240
+ },
+ {
+  "file": "hist_teamreach-your-team-app-id1101253705.json",
+  "slug": "app-teamreach-your-team-app-id1101253705",
+  "title": "TeamReach \u2013 Your Team App",
+  "rev_by_month_k": [
+   134.9,
+   177.2,
+   143.0
+  ],
+  "avg_k": 151.7,
+  "min_k": 134.9,
+  "max_over_min": 1.31,
+  "cv": 0.121,
+  "reviews_start": 6984,
+  "reviews_end": 7074,
+  "new_reviews_window": 90
+ },
+ {
+  "file": "hist_the-way-guided-meditation-id6459996442.json",
+  "slug": "app-the-way-guided-meditation-id6459996442",
+  "title": "The Way: Meditation & Zen",
+  "rev_by_month_k": [
+   99.3,
+   193.3,
+   200.0
+  ],
+  "avg_k": 164.2,
+  "min_k": 99.3,
+  "max_over_min": 2.02,
+  "cv": 0.28,
+  "reviews_start": 2763,
+  "reviews_end": 3296,
+  "new_reviews_window": 533
+ },
+ {
+  "file": "hist_toddler-games-baby-balloon-pop-id1448010566.json",
+  "slug": "app-toddler-games-baby-balloon-pop-id1448010566",
+  "title": "Toddler Games Baby Balloon Pop",
+  "rev_by_month_k": [
+   107.9,
+   106.5,
+   103.6
+  ],
+  "avg_k": 106.0,
+  "min_k": 103.6,
+  "max_over_min": 1.04,
+  "cv": 0.017,
+  "reviews_start": 41129,
+  "reviews_end": 45679,
+  "new_reviews_window": 4550
+ },
+ {
+  "file": "hist_troutroutes-fly-fishing-app-id1423989574.json",
+  "slug": "app-troutroutes-fly-fishing-app-id1423989574",
+  "title": "TroutRoutes: Fly Fishing App",
+  "rev_by_month_k": [
+   70.2,
+   79.5,
+   61.4
+  ],
+  "avg_k": 70.4,
+  "min_k": 61.4,
+  "max_over_min": 1.29,
+  "cv": 0.105,
+  "reviews_start": 3853,
+  "reviews_end": 3904,
+  "new_reviews_window": 51
+ },
+ {
+  "file": "hist_video-crop-resize-video-id1155649867.json",
+  "slug": "app-video-crop-resize-video-id1155649867",
+  "title": "Video Crop - Resize Video",
+  "rev_by_month_k": [
+   133.6,
+   136.4,
+   136.7
+  ],
+  "avg_k": 135.6,
+  "min_k": 133.6,
+  "max_over_min": 1.02,
+  "cv": 0.01,
+  "reviews_start": 31115,
+  "reviews_end": 31109,
+  "new_reviews_window": -6
+ },
+ {
+  "file": "hist_vincen-ai-ai-agents-tasks-id6761168714.json",
+  "slug": "app-vincen-ai-ai-agents-tasks-id6761168714",
+  "title": "Vincen - Your Super AI Agent",
+  "rev_by_month_k": [
+   90.0,
+   127.2,
+   213.4
+  ],
+  "avg_k": 143.5,
+  "min_k": 90.0,
+  "max_over_min": 2.37,
+  "cv": 0.36,
+  "reviews_start": 205,
+  "reviews_end": 1958,
+  "new_reviews_window": 1753
+ },
+ {
+  "file": "hist_voices-ai-change-your-voice-id6461268224.json",
+  "slug": "app-voices-ai-change-your-voice-id6461268224",
+  "title": "Voices AI: Change Your Voice",
+  "rev_by_month_k": [
+   110.0,
+   197.2,
+   108.3
+  ],
+  "avg_k": 138.5,
+  "min_k": 108.3,
+  "max_over_min": 1.82,
+  "cv": 0.3,
+  "reviews_start": 25114,
+  "reviews_end": 27484,
+  "new_reviews_window": 2370
+ },
+ {
+  "file": "hist_wave-small-business-software-id881629660.json",
+  "slug": "app-wave-small-business-software-id881629660",
+  "title": "Wave: Small Business Software",
+  "rev_by_month_k": [
+   200.4,
+   107.1,
+   100.0
+  ],
+  "avg_k": 135.8,
+  "min_k": 100.0,
+  "max_over_min": 2.0,
+  "cv": 0.337,
+  "reviews_start": 6604,
+  "reviews_end": 6670,
+  "new_reviews_window": 66
+ },
+ {
+  "file": "hist_wavve-boating-marine-boat-gps-id1241140495.json",
+  "slug": "app-wavve-boating-marine-boat-gps-id1241140495",
+  "title": "Wavve Boating: GPS, Map, Chart",
+  "rev_by_month_k": [
+   205.5,
+   203.8,
+   107.8
+  ],
+  "avg_k": 172.3,
+  "min_k": 107.8,
+  "max_over_min": 1.91,
+  "cv": 0.265,
+  "reviews_start": 5952,
+  "reviews_end": 6645,
+  "new_reviews_window": 693
+ },
+ {
+  "file": "hist_wayk-wake-up-early-id6758021281.json",
+  "slug": "app-wayk-wake-up-early-id6758021281",
+  "title": "Wayk: Alarm Clock to Wake Up",
+  "rev_by_month_k": [
+   80.9,
+   84.3,
+   100.8
+  ],
+  "avg_k": 88.7,
+  "min_k": 80.9,
+  "max_over_min": 1.25,
+  "cv": 0.098,
+  "reviews_start": 18187,
+  "reviews_end": 20466,
+  "new_reviews_window": 2279
+ },
+ {
+  "file": "hist_wbuilds-for-building-guide-id6755657280.json",
+  "slug": "app-wbuilds-for-building-guide-id6755657280",
+  "title": "WBuilds for Building Guide",
+  "rev_by_month_k": [
+   49.5,
+   72.3,
+   96.3
+  ],
+  "avg_k": 72.7,
+  "min_k": 49.5,
+  "max_over_min": 1.95,
+  "cv": 0.263,
+  "reviews_start": 2605,
+  "reviews_end": 4662,
+  "new_reviews_window": 2057
+ },
+ {
+  "file": "hist_wellsite-navigator-id594298510.json",
+  "slug": "app-wellsite-navigator-id594298510",
+  "title": "Wellsite Navigator",
+  "rev_by_month_k": [
+   69.9,
+   70.0,
+   60.7
+  ],
+  "avg_k": 66.9,
+  "min_k": 60.7,
+  "max_over_min": 1.15,
+  "cv": 0.066,
+  "reviews_start": 453,
+  "reviews_end": 459,
+  "new_reviews_window": 6
+ }
+]
